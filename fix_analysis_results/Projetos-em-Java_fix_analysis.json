@@ -1,0 +1,464 @@
+[
+  {
+    "method_info": {
+      "name": "run",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 56,
+      "end_line": 72,
+      "size_lines": 17,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "getTime",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 76,
+      "end_line": 78,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getTimeFormatted",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 82,
+      "end_line": 85,
+      "size_lines": 4,
+      "repository": "Projetos-em-Java",
+      "commit_count": 4,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 4
+  },
+  {
+    "method_info": {
+      "name": "stopCounter",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 89,
+      "end_line": 91,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "isRunning",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 95,
+      "end_line": 97,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetInfo",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 82,
+      "end_line": 109,
+      "size_lines": 28,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "checkURLDomain",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 113,
+      "end_line": 135,
+      "size_lines": 23,
+      "repository": "Projetos-em-Java",
+      "commit_count": 4,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 4
+  },
+  {
+    "method_info": {
+      "name": "pGetAlbumLanguage",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 136,
+      "end_line": 169,
+      "size_lines": 34,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetUploader",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 173,
+      "end_line": 180,
+      "size_lines": 8,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetUploadDate",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 184,
+      "end_line": 205,
+      "size_lines": 22,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetFileSize",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 209,
+      "end_line": 230,
+      "size_lines": 22,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetAlbumPages",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 234,
+      "end_line": 244,
+      "size_lines": 11,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetImagePages",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 248,
+      "end_line": 272,
+      "size_lines": 25,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetImageLinks",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 276,
+      "end_line": 290,
+      "size_lines": 15,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getInfo",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 298,
+      "end_line": 300,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "isSuccessful",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 304,
+      "end_line": 306,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getImages",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 310,
+      "end_line": 312,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "getAlbumSize",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 316,
+      "end_line": 318,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getAlbumName",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 322,
+      "end_line": 324,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getAlbumLanguage",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 328,
+      "end_line": 330,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "isTranslated",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 334,
+      "end_line": 336,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getUploader",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 340,
+      "end_line": 342,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getUploadDate",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 346,
+      "end_line": 348,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getFileSize",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 352,
+      "end_line": 354,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getError",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 358,
+      "end_line": 360,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getJSON",
+      "file_path": "Classes de Ajuda/GetJSON/GetJSON.java",
+      "start_line": 52,
+      "end_line": 73,
+      "size_lines": 22,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "get",
+      "file_path": "Classes de Ajuda/GetJSON/GetJSON.java",
+      "start_line": 77,
+      "end_line": 80,
+      "size_lines": 4,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "initLog",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 53,
+      "end_line": 61,
+      "size_lines": 9,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 69,
+      "end_line": 82,
+      "size_lines": 14,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 84,
+      "end_line": 86,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeDatedLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 90,
+      "end_line": 106,
+      "size_lines": 17,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeDatedLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 108,
+      "end_line": 110,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "setDateFormat",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 114,
+      "end_line": 126,
+      "size_lines": 13,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_ratio": 0.0
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  }
+]
