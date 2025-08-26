@@ -1,0 +1,11 @@
+https://github.com/spring-projects/spring-boot.git
+https://github.com/elastic/elasticsearch.git
+https://github.com/Stirling-Tools/Stirling-PDF.git
+https://github.com/NationalSecurityAgency/ghidra.git
+https://github.com/spring-projects/spring-framework.git
+https://github.com/google/guava.git
+https://github.com/ReactiveX/RxJava.git
+https://github.com/skylot/jadx.git
+https://github.com/dbeaver/dbeaver.git
+https://github.com/termux/termux-app.git
+https://github.com/jeecgboot/JeecgBoot.git
