@@ -272,7 +272,7 @@ class CodeShovelAnalyzer:
         
         analyses = []
         
-        for java_file in java_files[:50]:  # Limitar para não sobrecarregar
+        for java_file in java_files:
             try:
                 # Extrair métodos do arquivo
                 methods = self.extract_methods_from_file(java_file)
