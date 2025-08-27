@@ -1,3 +1,6 @@
+repos/*
+!repos/top_repos_java.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
