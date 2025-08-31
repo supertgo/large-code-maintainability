@@ -2,37 +2,37 @@
 # Relatório de Análise de Fix vs Tamanho de Métodos
 
 ## Resumo Executivo
-- **Total de métodos analisados**: 33
+- **Total de métodos analisados**: 15
 - **Total de repositórios**: 1
-- **Métodos com commits de fix**: 0
-- **Tamanho médio dos métodos**: 10.2 linhas
-- **Proporção média de fix**: 0.00%
+- **Métodos com commits de fix**: 9
+- **Tamanho médio dos métodos**: 6.1 linhas
+- **Proporção média de fix**: 30.00%
 
 ## Análise por Categoria de Tamanho
 
 ### Métodos Pequenos (≤10 linhas)
-- **Quantidade**: 20
-- **Fix ratio médio**: 0.00%
+- **Quantidade**: 12
+- **Fix ratio médio**: 29.17%
 
 ### Métodos Médios (11-50 linhas)
-- **Quantidade**: 13
-- **Fix ratio médio**: 0.00%
+- **Quantidade**: 3
+- **Fix ratio médio**: 33.33%
 
 ### Métodos Grandes (>50 linhas)
 - **Quantidade**: 0
 - **Fix ratio médio**: 0.00%
 
 ## Top 10 Métodos com Maior Fix Ratio
-- **run** (Projetos-em-Java): 0.00% (0 fixes, 17 linhas)
-- **getTime** (Projetos-em-Java): 0.00% (0 fixes, 3 linhas)
-- **getTimeFormatted** (Projetos-em-Java): 0.00% (0 fixes, 4 linhas)
-- **stopCounter** (Projetos-em-Java): 0.00% (0 fixes, 3 linhas)
-- **isRunning** (Projetos-em-Java): 0.00% (0 fixes, 3 linhas)
-- **pGetInfo** (Projetos-em-Java): 0.00% (0 fixes, 28 linhas)
-- **checkURLDomain** (Projetos-em-Java): 0.00% (0 fixes, 23 linhas)
-- **pGetAlbumLanguage** (Projetos-em-Java): 0.00% (0 fixes, 34 linhas)
-- **pGetUploader** (Projetos-em-Java): 0.00% (0 fixes, 8 linhas)
-- **pGetUploadDate** (Projetos-em-Java): 0.00% (0 fixes, 22 linhas)
+- **estaVazia** (estruturas-de-dados): 50.00% (1 fixes, 3 linhas)
+- **adiciona** (estruturas-de-dados): 50.00% (1 fixes, 6 linhas)
+- **adiciona** (estruturas-de-dados): 50.00% (1 fixes, 11 linhas)
+- **remover** (estruturas-de-dados): 50.00% (1 fixes, 11 linhas)
+- **tamanho** (estruturas-de-dados): 50.00% (1 fixes, 3 linhas)
+- **verificaPosi** (estruturas-de-dados): 50.00% (1 fixes, 8 linhas)
+- **updateTam** (estruturas-de-dados): 50.00% (1 fixes, 3 linhas)
+- **getTamanho** (estruturas-de-dados): 50.00% (1 fixes, 3 linhas)
+- **setTamanho** (estruturas-de-dados): 50.00% (1 fixes, 3 linhas)
+- **enfileira** (estruturas-de-dados): 0.00% (0 fixes, 5 linhas)
 
 
 ## Conclusões
