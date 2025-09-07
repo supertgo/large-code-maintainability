@@ -375,6 +375,14 @@ class CodeShovelAnalyzer:
 
         for repo in repos:
             try:
+                file_path = Path(self.results_dir / f"{repo.name}_fix_analysis.json")
+
+                if file_path.is_file():
+                    with file_path.open("r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        all_analyses.extend(data)
+                    continue
+
                 analyses = self.analyze_repository(repo.name)
                 all_analyses.extend(analyses)
 
@@ -541,31 +549,31 @@ class CodeShovelAnalyzer:
 
         # Criar relatório
         report = f"""
-# Relatório de Análise de Fix vs Tamanho de Métodos
+        # Relatório de Análise de Fix vs Tamanho de Métodos
 
-## Resumo Executivo
-- **Total de métodos analisados**: {stats.get("total_methods", 0)}
-- **Total de repositórios**: {stats.get("total_repositories", 0)}
-- **Métodos com commits de fix**: {stats.get("methods_with_fixes", 0)}
-- **Tamanho médio dos métodos**: {stats.get("avg_method_size", 0):.1f} linhas
-- **Proporção média de fix**: {stats.get("avg_fix_ratio", 0):.2%}
+        ## Resumo Executivo
+        - **Total de métodos analisados**: {stats.get("total_methods", 0)}
+        - **Total de repositórios**: {stats.get("total_repositories", 0)}
+        - **Métodos com commits de fix**: {stats.get("methods_with_fixes", 0)}
+        - **Tamanho médio dos métodos**: {stats.get("avg_method_size", 0):.1f} linhas
+        - **Proporção média de fix**: {stats.get("avg_fix_ratio", 0):.2%}
 
-## Análise por Categoria de Tamanho
+        ## Análise por Categoria de Tamanho
 
-### Métodos Pequenos (≤10 linhas)
-- **Quantidade**: {stats.get("size_categories", {}).get("small", 0)}
-- **Fix ratio médio**: {stats.get("small_avg_fix_ratio", 0):.2%}
+        ### Métodos Pequenos (≤10 linhas)
+        - **Quantidade**: {stats.get("size_categories", {}).get("small", 0)}
+        - **Fix ratio médio**: {stats.get("small_avg_fix_ratio", 0):.2%}
 
-### Métodos Médios (11-50 linhas)
-- **Quantidade**: {stats.get("size_categories", {}).get("medium", 0)}
-- **Fix ratio médio**: {stats.get("medium_avg_fix_ratio", 0):.2%}
+        ### Métodos Médios (11-50 linhas)
+        - **Quantidade**: {stats.get("size_categories", {}).get("medium", 0)}
+        - **Fix ratio médio**: {stats.get("medium_avg_fix_ratio", 0):.2%}
 
-### Métodos Grandes (>50 linhas)
-- **Quantidade**: {stats.get("size_categories", {}).get("large", 0)}
-- **Fix ratio médio**: {stats.get("large_avg_fix_ratio", 0):.2%}
+        ### Métodos Grandes (>50 linhas)
+        - **Quantidade**: {stats.get("size_categories", {}).get("large", 0)}
+        - **Fix ratio médio**: {stats.get("large_avg_fix_ratio", 0):.2%}
 
-## Top 10 Métodos com Maior Fix Ratio
-"""
+        ## Top 10 Métodos com Maior Fix Ratio
+        """
 
         data = []
         for analysis in analyses:
@@ -586,21 +594,20 @@ class CodeShovelAnalyzer:
             report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
 
         report += f"""
+        ## Conclusões
+        Esta análise revela a relação entre o tamanho dos métodos e a frequência de commits de fix.
+        Os resultados podem ajudar a entender se métodos maiores tendem a ter mais bugs ou se
+        métodos menores são mais propensos a mudanças.
 
-## Conclusões
-Esta análise revela a relação entre o tamanho dos métodos e a frequência de commits de fix.
-Os resultados podem ajudar a entender se métodos maiores tendem a ter mais bugs ou se
-métodos menores são mais propensos a mudanças.
+        ## Metodologia
+        - Utilizou-se o CodeShovel para análise de histórico de métodos
+        - Commits de fix foram identificados por palavras-chave: fix, bug, issue, problem, error
+        - Métodos foram categorizados por tamanho: pequeno (≤10), médio (11-50), grande (>50)
+        - Análise focou em repositórios Java de código aberto
 
-## Metodologia
-- Utilizou-se o CodeShovel para análise de histórico de métodos
-- Commits de fix foram identificados por palavras-chave: fix, bug, issue, problem, error
-- Métodos foram categorizados por tamanho: pequeno (≤10), médio (11-50), grande (>50)
-- Análise focou em repositórios Java de código aberto
-
----
-*Relatório gerado automaticamente pelo CodeShovel Fix Analysis Tool*
-"""
+        ---
+        *Relatório gerado automaticamente pelo CodeShovel Fix Analysis Tool*
+        """
 
         # Salvar relatório
         report_file = self.results_dir / "fix_analysis_report.md"
@@ -610,6 +617,196 @@ métodos menores são mais propensos a mudanças.
         logger.info(f"Relatório salvo em: {report_file}")
 
         return report
+
+    def create_visualizations_from_df(self, df: pd.DataFrame):
+        """Cria visualizações dos resultados"""
+        if df.empty:
+            logger.warning("DataFrame vazio")
+            return
+
+        # Configurar estilo
+        plt.style.use("seaborn-v0_8")
+        fig, axes = plt.subplots(2, 2, figsize=(15, 12))
+        fig.suptitle(
+            "Análise de Relação entre Tamanho de Métodos e Commits de Fix", fontsize=16
+        )
+
+        axes[0, 0].scatter(df["size_lines"], df["fix_ratio"], alpha=0.6)
+        axes[0, 0].set_xlabel("Tamanho do Método (linhas)")
+        axes[0, 0].set_ylabel("Proporção de Commits de Fix")
+        axes[0, 0].set_title("Tamanho vs Fix Ratio")
+        axes[0, 0].grid(True, alpha=0.3)
+
+        size_categories = pd.cut(
+            df["size_lines"],
+            bins=[0, 10, 50, float("inf")],
+            labels=["Pequeno (≤10)", "Médio (11-50)", "Grande (>50)"],
+        )
+        df["size_category"] = size_categories
+
+        df.boxplot(column="fix_ratio", by="size_category", ax=axes[0, 1])
+        axes[0, 1].set_title("Fix Ratio por Categoria de Tamanho")
+        axes[0, 1].set_xlabel("Categoria de Tamanho")
+        axes[0, 1].set_ylabel("Fix Ratio")
+
+        axes[1, 0].hist(df["size_lines"], bins=30, alpha=0.7, edgecolor="black")
+        axes[1, 0].set_xlabel("Tamanho do Método (linhas)")
+        axes[1, 0].set_ylabel("Frequência")
+        axes[1, 0].set_title("Distribuição de Tamanhos de Métodos")
+        axes[1, 0].grid(True, alpha=0.3)
+
+        repo_stats = (
+            df.groupby("repository")["fix_ratio"].mean().sort_values(ascending=False)
+        )
+        repo_stats.plot(kind="bar", ax=axes[1, 1])
+        axes[1, 1].set_title("Fix Ratio Médio por Repositório")
+        axes[1, 1].set_xlabel("Repositório")
+        axes[1, 1].set_ylabel("Fix Ratio Médio")
+        axes[1, 1].tick_params(axis="x", rotation=45)
+
+        plt.tight_layout()
+
+        output_file = self.results_dir / "fix_analysis_visualization.png"
+        plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        logger.info(f"Visualização salva em: {output_file}")
+
+        plt.show()
+
+    def generate_statistics_from_df(self, df: pd.DataFrame) -> Dict:
+        """Gera estatísticas gerais da análise"""
+        if df.empty:
+            logger.warning("DataFrame vazio")
+            return {}
+
+        stats = {
+            "total_methods": len(df),
+            "total_repositories": df["repository"].nunique(),
+            "avg_method_size": df["size_lines"].mean(),
+            "median_method_size": df["size_lines"].median(),
+            "avg_fix_ratio": df["fix_ratio"].mean(),
+            "methods_with_fixes": len(df[df["fix_commit_count"] > 0]),
+            "size_categories": {
+                "small": len(df[df["size_lines"] <= 10]),
+                "medium": len(df[(df["size_lines"] > 10) & (df["size_lines"] <= 50)]),
+                "large": len(df[df["size_lines"] > 50]),
+            },
+        }
+
+        # Análise por categoria de tamanho
+        for category, mask in [
+            ("small", df["size_lines"] <= 10),
+            ("medium", (df["size_lines"] > 10) & (df["size_lines"] <= 50)),
+            ("large", df["size_lines"] > 50),
+        ]:
+            if mask.sum() > 0:
+                category_df = df[mask]
+                stats[f"{category}_avg_fix_ratio"] = category_df["fix_ratio"].mean()
+                stats[f"{category}_methods_count"] = len(category_df)
+
+        return stats
+
+    def generate_report_from_df(self, df: pd.DataFrame):
+        """Gera relatório completo da análise"""
+        if df.empty:
+            logger.warning("DataFrame vazio")
+            return
+
+        # Gerar estatísticas
+        stats = self.generate_statistics_from_df(df)
+
+        # Criar relatório
+        report = f"""
+        # Relatório de Análise de Fix vs Tamanho de Métodos
+
+        ## Resumo Executivo
+        - **Total de métodos analisados**: {stats.get("total_methods", 0)}
+        - **Total de repositórios**: {stats.get("total_repositories", 0)}
+        - **Métodos com commits de fix**: {stats.get("methods_with_fixes", 0)}
+        - **Tamanho médio dos métodos**: {stats.get("avg_method_size", 0):.1f} linhas
+        - **Proporção média de fix**: {stats.get("avg_fix_ratio", 0):.2%}
+
+        ## Análise por Categoria de Tamanho
+
+        ### Métodos Pequenos (≤10 linhas)
+        - **Quantidade**: {stats.get("size_categories", {}).get("small", 0)}
+        - **Fix ratio médio**: {stats.get("small_avg_fix_ratio", 0):.2%}
+
+        ### Métodos Médios (11-50 linhas)
+        - **Quantidade**: {stats.get("size_categories", {}).get("medium", 0)}
+        - **Fix ratio médio**: {stats.get("medium_avg_fix_ratio", 0):.2%}
+
+        ### Métodos Grandes (>50 linhas)
+        - **Quantidade**: {stats.get("size_categories", {}).get("large", 0)}
+        - **Fix ratio médio**: {stats.get("large_avg_fix_ratio", 0):.2%}
+
+        ## Top 10 Métodos com Maior Fix Ratio
+        """
+
+        top_fix_methods = df.nlargest(10, "fix_ratio")
+
+        for _, row in top_fix_methods.iterrows():
+            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
+
+        report += f"""
+        ## Conclusões
+        Esta análise revela a relação entre o tamanho dos métodos e a frequência de commits de fix.
+        Os resultados podem ajudar a entender se métodos maiores tendem a ter mais bugs ou se
+        métodos menores são mais propensos a mudanças.
+
+        ## Metodologia
+        - Utilizou-se o CodeShovel para análise de histórico de métodos
+        - Commits de fix foram identificados por palavras-chave: fix, bug, issue, problem, error
+        - Métodos foram categorizados por tamanho: pequeno (≤10), médio (11-50), grande (>50)
+        - Análise focou em repositórios Java de código aberto
+
+        ---
+        *Relatório gerado automaticamente pelo CodeShovel Fix Analysis Tool*
+        """
+
+        # Salvar relatório
+        report_file = self.results_dir / "fix_analysis_report.md"
+        with open(report_file, "w", encoding="utf-8") as f:
+            f.write(report)
+
+        logger.info(f"Relatório salvo em: {report_file}")
+
+        return report
+
+    def load_results(self) -> List[Dict]:
+        all_results = []
+        for file in self.results_dir.glob("*_fix_analysis.json"):
+            try:
+                with open(file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    all_results.extend(data)
+                logger.info(f"Carregado: {file}")
+            except Exception as e:
+                logger.warning(f"Erro ao carregar {file}: {e}")
+        return all_results
+
+    def generate_from_saved_results(self):
+        analyses = self.load_results()
+
+        if not analyses:
+            logger.warning("Nenhum resultado encontrado na pasta")
+            return
+
+        df = pd.DataFrame([
+            {
+                "method_name": item["method_info"]["name"],
+                "repository": item["method_info"]["repository"],
+                "size_lines": item["method_info"]["size_lines"],
+                "commit_count": item["method_info"]["commit_count"],
+                "fix_commit_count": item["fix_commit_count"],
+                "fix_ratio": item["method_info"]["fix_ratio"],
+            }
+            for item in analyses
+        ])
+
+        self.create_visualizations_from_df(df)
+        self.generate_report_from_df(df)
+        stats = self.generate_statistics_from_df(df)
+        logger.info(f"Estatísticas: {stats}")
 
 
 def main():
