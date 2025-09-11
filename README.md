@@ -1,10 +1,11 @@
 # Análise de Commits de Bug/Fix em Métodos Java
 
 ## Membros do Grupo
-  -Arthur Araujo Rabelo
-  -Bruna Saturnino de Carvalho
-  -Rafael Araujo Magesty
-  -Thiago Roberto Magalhaes
+
+ - Arthur Araujo Rabelo
+ - Bruna Saturnino de Carvalho
+ - Rafael Araujo Magesty
+ - Thiago Roberto Magalhaes
 
 ## Explicação do Sistema
 
