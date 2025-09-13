@@ -80,6 +80,8 @@ class CodeShovelAnalyzer:
                 part in str(java_file) for part in ["test", "Test", "target", "build"]
             ):
                 java_files.append(java_file)
+
+        java_files.sort(key=lambda f: str(f).lower())
         return java_files
 
     def extract_methods_from_file(self, java_file: Path) -> List[Tuple[str, int, int]]:
@@ -128,6 +130,7 @@ class CodeShovelAnalyzer:
         except Exception as e:
             logger.warning(f"Erro ao processar {java_file}: {e}")
 
+        methods = sorted(methods, key=lambda x: (x[0], x[1]))
         return methods
 
     def run_codeshovel(
@@ -370,6 +373,8 @@ class CodeShovelAnalyzer:
             for d in self.repositories_dir.iterdir()
             if d.is_dir() and (d / ".git").exists()
         ]
+
+        repos.sort(key=lambda r: str(r).lower())
 
         logger.info(f"Encontrados {len(repos)} repositórios para análise")
 
