@@ -15,7 +15,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Any, Dict, List, Tuple, Optional
 import logging
 from dataclasses import dataclass
 from collections import defaultdict
@@ -40,6 +40,7 @@ class MethodInfo:
     commit_count: int
     fix_commit_count: int
     fix_ratio: float
+    codeshovel_data: Any
 
 
 @dataclass
@@ -325,6 +326,7 @@ class CodeShovelAnalyzer:
                                     commit_count=total_commits,
                                     fix_commit_count=len(fix_commits),
                                     fix_ratio=len(fix_commits) / total_commits,
+                                    codeshovel_data=codeshovel_data,
                                 )
 
                                 all_changes = []
@@ -415,6 +417,7 @@ class CodeShovelAnalyzer:
                     "repository": analysis.method_info.repository,
                     "commit_count": analysis.method_info.commit_count,
                     "fix_ratio": analysis.method_info.fix_ratio,
+                    "codeshovel_data": analysis.method_info.codeshovel_data,
                 },
                 "fix_commit_count": len(analysis.fix_commits),
                 "total_changes_count": len(analysis.total_changes),
@@ -796,17 +799,19 @@ class CodeShovelAnalyzer:
             logger.warning("Nenhum resultado encontrado na pasta")
             return
 
-        df = pd.DataFrame([
-            {
-                "method_name": item["method_info"]["name"],
-                "repository": item["method_info"]["repository"],
-                "size_lines": item["method_info"]["size_lines"],
-                "commit_count": item["method_info"]["commit_count"],
-                "fix_commit_count": item["fix_commit_count"],
-                "fix_ratio": item["method_info"]["fix_ratio"],
-            }
-            for item in analyses
-        ])
+        df = pd.DataFrame(
+            [
+                {
+                    "method_name": item["method_info"]["name"],
+                    "repository": item["method_info"]["repository"],
+                    "size_lines": item["method_info"]["size_lines"],
+                    "commit_count": item["method_info"]["commit_count"],
+                    "fix_commit_count": item["fix_commit_count"],
+                    "fix_ratio": item["method_info"]["fix_ratio"],
+                }
+                for item in analyses
+            ]
+        )
 
         self.create_visualizations_from_df(df)
         self.generate_report_from_df(df)
