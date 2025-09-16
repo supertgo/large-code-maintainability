@@ -20,7 +20,12 @@ import logging
 from dataclasses import dataclass
 from collections import defaultdict
 import argparse
-from quality_metrics_extension import CodeQualityAnalyzer, enhance_method_info, EnhancedMethodInfo, serialize_enhanced_method_info
+from quality_metrics_extension import (
+    CodeQualityAnalyzer,
+    enhance_method_info,
+    EnhancedMethodInfo,
+    serialize_enhanced_method_info,
+)
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -47,6 +52,7 @@ class MethodInfo:
 @dataclass
 class FixAnalysis:
     """Resultado da análise de fix"""
+
     method_info: EnhancedMethodInfo  # ← CORREÇÃO: usar EnhancedMethodInfo
     fix_commits: List[Dict]
     total_changes: List[Dict]
@@ -65,7 +71,7 @@ class CodeShovelAnalyzer:
         """
         self.codeshovel_jar_path = codeshovel_jar_path
         self.repositories_dir = Path(repositories_dir)
-        self.results_dir = Path("fix_analysis_results_ed")
+        self.results_dir = Path("fix_analysis_results")
         self.results_dir.mkdir(exist_ok=True)
 
         if not os.path.exists(codeshovel_jar_path):
@@ -241,7 +247,9 @@ class CodeShovelAnalyzer:
 
         if not isinstance(codeshovel_data, dict):
             logger.warning(
-                f"Dados do CodeShovel não são um dicionário válido: {type(codeshovel_data)}"
+                f"Dados do CodeShovel não são um dicionário válido: {
+                    type(codeshovel_data)
+                }"
             )
             return 0, []
 
@@ -262,7 +270,9 @@ class CodeShovelAnalyzer:
         for commit_sha, commit_data in change_details.items():
             if not isinstance(commit_data, dict):
                 logger.warning(
-                    f"Detalhes do commit {commit_sha} não são um dicionário: {type(commit_data)}"
+                    f"Detalhes do commit {commit_sha} não são um dicionário: {
+                        type(commit_data)
+                    }"
                 )
                 continue
 
@@ -305,10 +315,16 @@ class CodeShovelAnalyzer:
                     )
 
                     if codeshovel_data:
-                        total_commits, fix_commits = self.analyze_fix_commits(codeshovel_data)
+                        total_commits, fix_commits = self.analyze_fix_commits(
+                            codeshovel_data
+                        )
 
+
+                            # NOVA FUNCIONALIDADE: Análise de qualidade
+                        quality_metrics = self.quality_analyzer.analyze_method_quality(
+                            repo_path, str(relative_path), start_line, end_line)
+                            
                         if total_commits > 0:
-                            # Criar MethodInfo original (não EnhancedMethodInfo)
                             method_info = MethodInfo(
                                 name=method_name,
                                 file_path=str(relative_path),
@@ -319,75 +335,67 @@ class CodeShovelAnalyzer:
                                 commit_count=total_commits,
                                 fix_commit_count=len(fix_commits),
                                 fix_ratio=len(fix_commits) / total_commits,
+                                codeshovel_data=codeshovel_data,
                             )
 
-                            # NOVA FUNCIONALIDADE: Análise de qualidade
-                            quality_metrics = self.quality_analyzer.analyze_method_quality(
-                                repo_path, str(relative_path), start_line, end_line)
-                                
-                            if total_commits > 0:
-                                method_info = MethodInfo(
-                                    name=method_name,
-                                    file_path=str(relative_path),
-                                    start_line=start_line,
-                                    end_line=end_line,
-                                    size_lines=size_lines,
-                                    repository=repo_name,
-                                    commit_count=total_commits,
-                                    fix_commit_count=len(fix_commits),
-                                    fix_ratio=len(fix_commits) / total_commits,
-                                    codeshovel_data=codeshovel_data,
-                                )
-
-                                all_changes = []
-                                if (
-                                    isinstance(codeshovel_data, dict)
-                                    and "changeHistoryDetails" in codeshovel_data
-                                ):
-                                    all_changes = list(
-                                        codeshovel_data["changeHistoryDetails"].values()
-                                    )
-
-                                analysis = FixAnalysis(
-                                    method_info=method_info,
-                                    fix_commits=fix_commits,
-                                    total_changes=all_changes,
-                                )
-
-                                analyses.append(analysis)
-
-                                logger.info(
-                                    f"Método {method_name} ({size_lines} linhas): "
-                                    f"{len(fix_commits)}/{total_commits} commits de fix"
-                                )
-                            else:
-                                logger.info(
-                                    f"Método {method_name} ({size_lines} linhas): sem commits de fix"
-                                )
-                        except Exception as e:
-                            logger.error(
-                                f"Erro ao processar dados do CodeShovel para {method_name}: {e}"
-                            )
-
-                            # Criar versão expandida com métricas de qualidade
-                            enhanced_method_info = enhance_method_info(method_info, quality_metrics)
-
-                            # Criar análise com informações expandidas
                             all_changes = []
-                            if isinstance(codeshovel_data, dict) and "changeHistoryDetails" in codeshovel_data:
-                                all_changes = list(codeshovel_data["changeHistoryDetails"].values())
+                            if (
+                                isinstance(codeshovel_data, dict)
+                                and "changeHistoryDetails" in codeshovel_data
+                            ):
+                                all_changes = list(
+                                    codeshovel_data["changeHistoryDetails"].values()
+                                )
 
                             analysis = FixAnalysis(
-                                method_info=enhanced_method_info,  # Usar versão expandida
+                                method_info=method_info,
                                 fix_commits=fix_commits,
                                 total_changes=all_changes,
                             )
 
                             analyses.append(analysis)
-                            logger.info(f"Método analisado: {method_name} "
-                                      f"(Linhas sem comentário: {quality_metrics.code_lines_no_comments}, "
-                                      f"Complexidade: {quality_metrics.cyclomatic_complexity})")
 
+                            logger.info(
+                                f"Método {method_name} ({size_lines} linhas): "
+                                f"{len(fix_commits)}/{total_commits} commits de fix"
+                            )
+                        else:
+                            logger.info(
+                                f"Método {method_name} ({size_lines} linhas): sem commits de fix"
+                            )
+
+                        
+
+                        # Criar versão expandida com métricas de qualidade
+                        enhanced_method_info = enhance_method_info(
+                            method_info, quality_metrics
+                        )
+
+                        # Criar análise com informações expandidas
+                        all_changes = []
+                        if (
+                            isinstance(codeshovel_data, dict)
+                            and "changeHistoryDetails" in codeshovel_data
+                        ):
+                            all_changes = list(
+                                codeshovel_data["changeHistoryDetails"].values()
+                            )
+
+                        analysis = FixAnalysis(
+                            method_info=enhanced_method_info,  # Usar versão expandida
+                            fix_commits=fix_commits,
+                            total_changes=all_changes,
+                        )
+
+                        analyses.append(analysis)
+                        logger.info(
+                            f"Método analisado: {method_name} "
+                            f"(Linhas sem comentário: {
+                                quality_metrics.code_lines_no_comments
+                            }, "
+                            f"Complexidade: {quality_metrics.cyclomatic_complexity})"
+                        ) 
+                        
             except Exception as e:
                 logger.error(f"Erro ao processar {java_file}: {e}")
 
@@ -459,24 +467,28 @@ class CodeShovelAnalyzer:
             # Verificar se é um objeto FixAnalysis ou um dicionário
             if isinstance(analysis, dict):
                 # Se for dicionário, acessar diretamente
-                data.append({
-                    "method_name": analysis["method_info"]["name"],
-                    "repository": analysis["method_info"]["repository"],
-                    "size_lines": analysis["method_info"]["size_lines"],
-                    "commit_count": analysis["method_info"]["commit_count"],
-                    "fix_commit_count": analysis["method_info"]["fix_commit_count"],
-                    "fix_ratio": analysis["method_info"]["fix_ratio"],
-                })
+                data.append(
+                    {
+                        "method_name": analysis["method_info"]["name"],
+                        "repository": analysis["method_info"]["repository"],
+                        "size_lines": analysis["method_info"]["size_lines"],
+                        "commit_count": analysis["method_info"]["commit_count"],
+                        "fix_commit_count": analysis["method_info"]["fix_commit_count"],
+                        "fix_ratio": analysis["method_info"]["fix_ratio"],
+                    }
+                )
             else:
                 # Se for objeto FixAnalysis, acessar normalmente
-                data.append({
-                    "method_name": analysis.method_info.name,
-                    "repository": analysis.method_info.repository,
-                    "size_lines": analysis.method_info.size_lines,
-                    "commit_count": analysis.method_info.commit_count,
-                    "fix_commit_count": analysis.method_info.fix_commit_count,
-                    "fix_ratio": analysis.method_info.fix_ratio,
-                })
+                data.append(
+                    {
+                        "method_name": analysis.method_info.name,
+                        "repository": analysis.method_info.repository,
+                        "size_lines": analysis.method_info.size_lines,
+                        "commit_count": analysis.method_info.commit_count,
+                        "fix_commit_count": analysis.method_info.fix_commit_count,
+                        "fix_ratio": analysis.method_info.fix_ratio,
+                    }
+                )
 
         df = pd.DataFrame(data)
 
@@ -630,7 +642,10 @@ class CodeShovelAnalyzer:
         top_fix_methods = df.nlargest(10, "fix_ratio")
 
         for _, row in top_fix_methods.iterrows():
-            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
+            report += f"- **{row['method_name']}** ({row['repository']}): {
+                row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {
+                row['size_lines']
+            } linhas)\n"
 
         report += f"""
         ## Conclusões
@@ -784,7 +799,10 @@ class CodeShovelAnalyzer:
         top_fix_methods = df.nlargest(10, "fix_ratio")
 
         for _, row in top_fix_methods.iterrows():
-            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
+            report += f"- **{row['method_name']}** ({row['repository']}): {
+                row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {
+                row['size_lines']
+            } linhas)\n"
 
         report += f"""
         ## Conclusões
@@ -854,7 +872,7 @@ class CodeShovelAnalyzer:
         return {
             "method_info": serialize_enhanced_method_info(analysis.method_info),
             "fix_commit_count": len(analysis.fix_commits),
-            "total_changes_count": len(analysis.total_changes)
+            "total_changes_count": len(analysis.total_changes),
         }
 
 
