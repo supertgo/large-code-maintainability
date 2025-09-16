@@ -15,7 +15,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Any, Dict, List, Tuple, Optional
 import logging
 from dataclasses import dataclass
 from collections import defaultdict
@@ -41,6 +41,7 @@ class MethodInfo:
     commit_count: int
     fix_commit_count: int
     fix_ratio: float
+    codeshovel_data: Any
 
 
 @dataclass
@@ -83,6 +84,8 @@ class CodeShovelAnalyzer:
                 part in str(java_file) for part in ["test", "Test", "target", "build"]
             ):
                 java_files.append(java_file)
+
+        java_files.sort(key=lambda f: str(f).lower())
         return java_files
 
     def extract_methods_from_file(self, java_file: Path) -> List[Tuple[str, int, int]]:
@@ -131,6 +134,7 @@ class CodeShovelAnalyzer:
         except Exception as e:
             logger.warning(f"Erro ao processar {java_file}: {e}")
 
+        methods = sorted(methods, key=lambda x: (x[0], x[1]))
         return methods
 
     def run_codeshovel(
@@ -319,7 +323,50 @@ class CodeShovelAnalyzer:
 
                             # NOVA FUNCIONALIDADE: Análise de qualidade
                             quality_metrics = self.quality_analyzer.analyze_method_quality(
-                                repo_path, str(relative_path), start_line, end_line
+                                repo_path, str(relative_path), start_line, end_line)
+                                
+                            if total_commits > 0:
+                                method_info = MethodInfo(
+                                    name=method_name,
+                                    file_path=str(relative_path),
+                                    start_line=start_line,
+                                    end_line=end_line,
+                                    size_lines=size_lines,
+                                    repository=repo_name,
+                                    commit_count=total_commits,
+                                    fix_commit_count=len(fix_commits),
+                                    fix_ratio=len(fix_commits) / total_commits,
+                                    codeshovel_data=codeshovel_data,
+                                )
+
+                                all_changes = []
+                                if (
+                                    isinstance(codeshovel_data, dict)
+                                    and "changeHistoryDetails" in codeshovel_data
+                                ):
+                                    all_changes = list(
+                                        codeshovel_data["changeHistoryDetails"].values()
+                                    )
+
+                                analysis = FixAnalysis(
+                                    method_info=method_info,
+                                    fix_commits=fix_commits,
+                                    total_changes=all_changes,
+                                )
+
+                                analyses.append(analysis)
+
+                                logger.info(
+                                    f"Método {method_name} ({size_lines} linhas): "
+                                    f"{len(fix_commits)}/{total_commits} commits de fix"
+                                )
+                            else:
+                                logger.info(
+                                    f"Método {method_name} ({size_lines} linhas): sem commits de fix"
+                                )
+                        except Exception as e:
+                            logger.error(
+                                f"Erro ao processar dados do CodeShovel para {method_name}: {e}"
                             )
 
                             # Criar versão expandida com métricas de qualidade
@@ -356,6 +403,8 @@ class CodeShovelAnalyzer:
             if d.is_dir() and (d / ".git").exists()
         ]
 
+        repos.sort(key=lambda r: str(r).lower())
+
         logger.info(f"Encontrados {len(repos)} repositórios para análise")
 
         for repo in repos:
@@ -376,8 +425,24 @@ class CodeShovelAnalyzer:
         """Salva resultados da análise com métricas de qualidade"""
         results_file = self.results_dir / f"{repo_name}_fix_analysis.json"
 
-        # Usar a nova serialização que inclui métricas de qualidade
-        serializable_analyses = [self.serialize_fix_analysis(analysis) for analysis in analyses]
+        serializable_analyses = []
+        for analysis in analyses:
+            serializable_analysis = {
+                "method_info": {
+                    "name": analysis.method_info.name,
+                    "file_path": analysis.method_info.file_path,
+                    "start_line": analysis.method_info.start_line,
+                    "end_line": analysis.method_info.end_line,
+                    "size_lines": analysis.method_info.size_lines,
+                    "repository": analysis.method_info.repository,
+                    "commit_count": analysis.method_info.commit_count,
+                    "fix_ratio": analysis.method_info.fix_ratio,
+                    "codeshovel_data": analysis.method_info.codeshovel_data,
+                },
+                "fix_commit_count": len(analysis.fix_commits),
+                "total_changes_count": len(analysis.total_changes),
+            }
+            serializable_analyses.append(serializable_analysis)
 
         with open(results_file, "w", encoding="utf-8") as f:
             json.dump(serializable_analyses, f, indent=2, ensure_ascii=False)
@@ -765,17 +830,19 @@ class CodeShovelAnalyzer:
             logger.warning("Nenhum resultado encontrado na pasta")
             return
 
-        df = pd.DataFrame([
-            {
-                "method_name": item["method_info"]["name"],
-                "repository": item["method_info"]["repository"],
-                "size_lines": item["method_info"]["size_lines"],
-                "commit_count": item["method_info"]["commit_count"],
-                "fix_commit_count": item["fix_commit_count"],
-                "fix_ratio": item["method_info"]["fix_ratio"],
-            }
-            for item in analyses
-        ])
+        df = pd.DataFrame(
+            [
+                {
+                    "method_name": item["method_info"]["name"],
+                    "repository": item["method_info"]["repository"],
+                    "size_lines": item["method_info"]["size_lines"],
+                    "commit_count": item["method_info"]["commit_count"],
+                    "fix_commit_count": item["fix_commit_count"],
+                    "fix_ratio": item["method_info"]["fix_ratio"],
+                }
+                for item in analyses
+            ]
+        )
 
         self.create_visualizations_from_df(df)
         self.generate_report_from_df(df)
