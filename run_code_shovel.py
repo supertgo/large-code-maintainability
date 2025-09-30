@@ -12,6 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 def analyze_fix_commits(codeshovel_data) -> Tuple[int, List[Dict]]:
     """
     Analisa commits de fix nos dados do CodeShovel
@@ -63,7 +64,14 @@ def analyze_fix_commits(codeshovel_data) -> Tuple[int, List[Dict]]:
 
     return total_commits, fix_commits
 
-def get_code_shovel_data(repository: Path, result: Path, file_path: Path, method_name: str, start_line: int):
+
+def get_code_shovel_data(
+    repository: Path,
+    result_path: Path,
+    file_path: Path,
+    method_name: str,
+    start_line: int,
+):
     try:
         cmd = [
             "java",
@@ -118,7 +126,7 @@ def get_code_shovel_data(repository: Path, result: Path, file_path: Path, method
                             return None
 
                         os.remove(output_file)
-                        return data;
+                        return data
                 except Exception as e:
                     logger.error(f"Erro ao ler arquivo de saída {output_file}: {e}")
                     if os.path.exists(output_file):
@@ -136,6 +144,7 @@ def get_code_shovel_data(repository: Path, result: Path, file_path: Path, method
 
     return None
 
+
 def run_codeshovel(repository: Path, result_path: Path):
     with open(result_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -150,7 +159,13 @@ def run_codeshovel(repository: Path, result_path: Path):
                 methods_completed += 1
                 continue
 
-            codeshovel_data = get_code_shovel_data(repository, result_path, file["path"], method["name"], method["method_info"]["start_line"])
+            codeshovel_data = get_code_shovel_data(
+                repository,
+                result_path,
+                file["path"],
+                method["name"],
+                method["method_info"]["start_line"],
+            )
             if codeshovel_data is not None:
                 method["complete"] = True
                 methods_completed += 1
@@ -158,16 +173,20 @@ def run_codeshovel(repository: Path, result_path: Path):
                 total_commits, fix_commits = analyze_fix_commits(codeshovel_data)
 
                 all_changes = []
-                if (isinstance(codeshovel_data, dict) and "changeHistoryDetails" in codeshovel_data):
-                    all_changes = list(
-                        codeshovel_data["changeHistoryDetails"].values()
-                    )
+                if (
+                    isinstance(codeshovel_data, dict)
+                    and "changeHistoryDetails" in codeshovel_data
+                ):
+                    all_changes = list(codeshovel_data["changeHistoryDetails"].values())
 
                 codeshovel_info = CodeShovelMethodInfo(
-                    commit_count = total_commits,
-                    fix_commit_count = len(fix_commits),
-                    fix_ratio = len(fix_commits) / total_commits if total_commits > 0 else 0,
-                    total_changes_count = len(all_changes)
+                    commit_count=total_commits,
+                    fix_commit_count=len(fix_commits),
+                    fix_ratio=len(fix_commits) / total_commits
+                    if total_commits > 0
+                    else 0,
+                    fix_commits=fix_commits,
+                    total_changes=all_changes,
                 )
 
                 method["codeshovel_analysis"] = asdict(codeshovel_info)
@@ -175,14 +194,21 @@ def run_codeshovel(repository: Path, result_path: Path):
                 with open(result_path, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
 
-        file["complete"] = (methods_completed == len(file["methods"]))
+        file["complete"] = methods_completed == len(file["methods"])
+
 
 def main():
     # for repository in Path(DEFAULT_REPOSITORIES_DIR).iterdir():
     #     if repository.is_dir() and (repository / ".git").exists():
-    #         result_path = Path(DEFAULT_RESULTS_DIR) / f"{repository.name}_fix_analysis.json"
+    #         result_path = (
+    #             Path(DEFAULT_RESULTS_DIR) / f"{repository.name}_fix_analysis.json"
+    #         )
     #         run_codeshovel(repository, result_path)
-    run_codeshovel((Path(DEFAULT_REPOSITORIES_DIR) / "elasticsearch"), Path(DEFAULT_RESULTS_DIR) / "elasticsearch_fix_analysis.json")
+    run_codeshovel(
+        (Path(DEFAULT_REPOSITORIES_DIR) / "elasticsearch"),
+        Path(DEFAULT_RESULTS_DIR) / "elasticsearch_fix_analysis.json",
+    )
+
 
 if __name__ == "__main__":
     main()
