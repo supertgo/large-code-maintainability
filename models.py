@@ -21,11 +21,10 @@ EXCLUDE_PATTERNS = [
 
 @dataclass
 class CodeShovelMethodInfo:
+    total_changes_count: int
     commit_count: int
     fix_commit_count: int
     fix_ratio: float
-    fix_commits: List[Dict]
-    total_changes: List[Dict]
 
 
 @dataclass

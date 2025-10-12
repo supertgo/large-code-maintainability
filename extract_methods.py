@@ -1,5 +1,5 @@
 from dataclasses import asdict
-from models import CodeShovelMethodInfo, Method, MethodInfo, DEFAULT_REPOSITORIES_DIR, DEFAULT_RESULTS_DIR
+from models import Method, MethodInfo, DEFAULT_REPOSITORIES_DIR, DEFAULT_RESULTS_DIR
 from pathlib import Path
 import json
 import re
@@ -10,9 +10,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def extract_methods_from_file(file_path: str, repo_name: str, repositories_dir: Path):
+def extract_methods_from_file(file_path: str, repo_name: str, repository: Path):
     methods = []
-    java_file = repositories_dir / repo_name / file_path
+    java_file = repository / file_path
     try:
         with open(java_file, "r", encoding="utf-8", errors="ignore") as f:
             lines = f.readlines()
@@ -60,31 +60,49 @@ def extract_methods_from_file(file_path: str, repo_name: str, repositories_dir: 
     methods = sorted(methods, key=lambda x: (x[0], x[1]))
     return methods
 
-def extract_methods(repositories_dir: Path, results_dir: Path):
-    for result in results_dir.iterdir():
-        with open(result, "r", encoding="utf-8") as f:
-            data = json.load(f)
+def extract_methods_from_single_repo(repository: Path, result_path: Path):
+    with open(result_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-        for file in data["files"]:
-            methods = extract_methods_from_file(file["path"], data["name"], Path(DEFAULT_REPOSITORIES_DIR))
-            for method_name, start_line, end_line in methods:
-                method_info_json = MethodInfo(
-                    start_line=start_line,
-                    end_line=end_line,
-                    size_lines=end_line - start_line + 1
-                )
+    new_methods_total = 0        
 
-                method_json = Method(
-                    name=method_name,
-                    complete=False,
-                    method_info=method_info_json,
-                    codeshovel_analysis=None
-                )
+    for file in data["files"]:
+        methods = extract_methods_from_file(file["path"], data["name"], repository)
 
-                file["methods"].append(asdict(method_json))
+        existing_methods = {m["name"] for m in file.get("methods", [])}
+        new_methods = 0
 
-        with open(result, "w", encoding="utf-8") as f:
+        for method_name, start_line, end_line in methods:
+            if method_name in existing_methods:
+                continue 
+
+            method_info_json = MethodInfo(
+                start_line=start_line,
+                end_line=end_line,
+                size_lines=end_line - start_line + 1
+            )
+
+            method_json = Method(
+                name=method_name,
+                complete=False,
+                method_info=method_info_json,
+                codeshovel_analysis=None
+            )
+
+            file["methods"].append(asdict(method_json))
+            new_methods += 1
+
+        new_methods_total += new_methods
+
+    if new_methods_total > 0:
+        with open(result_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
+
+def extract_methods(repositories_dir: Path, results_dir: Path):
+    for repository in repositories_dir.iterdir():
+        if repository.is_dir() and (repository / ".git").exists():
+            result_path = results_dir / f"{repository.name}_fix_analysis.json"
+            extract_methods_from_single_repo(repository, result_path)
 
 def main():
     extract_methods(Path(DEFAULT_REPOSITORIES_DIR), Path(DEFAULT_RESULTS_DIR))

@@ -4,7 +4,22 @@ from dataclasses import asdict
 import json
 
 
-def extract_repos(repositories_dir: Path, results_dir: Path):
+def extract_single_repo(repository: Path, results_dir: Path):
+    results_file = results_dir / f"{repository.name}_fix_analysis.json"
+
+    if results_file.exists():
+        return
+
+    repo_json = Repository(
+        name=repository.name,
+        complete=False,
+        files = []
+    )
+
+    with open(results_file, "w", encoding="utf-8") as f:
+        json.dump(asdict(repo_json), f, indent=2, ensure_ascii=False)
+
+def extract_repos_from_repos_dir(repositories_dir: Path, results_dir: Path):
     results_dir.mkdir(parents=True, exist_ok=True)
 
     repositories = [
@@ -15,14 +30,18 @@ def extract_repos(repositories_dir: Path, results_dir: Path):
 
     for repository in repositories:
         results_file = results_dir / f"{repository.name}_fix_analysis.json"
-        repo_json = Repository(name=repository.name, complete=False, files=[])
+        repo_json = Repository(
+            name=repository.name,
+            complete=False,
+            files = []
+        )
 
         with open(results_file, "w", encoding="utf-8") as f:
             json.dump(asdict(repo_json), f, indent=2, ensure_ascii=False)
 
 
 def main():
-    extract_repos(Path(DEFAULT_REPOSITORIES_DIR), Path(DEFAULT_RESULTS_DIR))
+    extract_repos_from_repos_dir(Path(DEFAULT_REPOSITORIES_DIR), Path(DEFAULT_RESULTS_DIR))
 
 
 if __name__ == "__main__":
