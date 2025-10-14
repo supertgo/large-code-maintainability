@@ -65,7 +65,7 @@ class CodeShovelAnalyzer:
         """
         self.codeshovel_jar_path = codeshovel_jar_path
         self.repositories_dir = Path(repositories_dir)
-        self.results_dir = Path("fix_analysis_results_ed")
+        self.results_dir = Path("fix_analysis_results")
         self.results_dir.mkdir(exist_ok=True)
 
         if not os.path.exists(codeshovel_jar_path):
