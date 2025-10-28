@@ -71,6 +71,10 @@ def main(argv: Optional[list] = None) -> int:
     p_an.add_argument("--workdir", default="./.lcm_work", help="Diretório de trabalho temporário")
     p_an.add_argument("--keep-clone", action="store_true", help="Não apagar clone temporário")
 
+    p_and = sub.add_parser("analyze-dir", help="Analisa todos os repositórios dentro de uma pasta")
+    p_and.add_argument("--repos-dir", required=True, help="Pasta contendo múltiplos repositórios git (subpastas com .git)")
+    p_and.add_argument("--codeshovel-jar", required=True, help="Caminho do codeshovel.jar")
+
     args = parser.parse_args(argv)
 
     if args.command == "analyze":
@@ -99,6 +103,25 @@ def main(argv: Optional[list] = None) -> int:
             if clone_created and not args.keep_clone:
                 # remove apenas o repositório clonado (não o workdir inteiro)
                 safe_rmdir(repo_path)
+
+    if args.command == "analyze-dir":
+        codeshovel_jar = Path(args.codeshovel_jar).resolve()
+        if not codeshovel_jar.exists():
+            print(f"codeshovel.jar não encontrado: {codeshovel_jar}")
+            return 1
+
+        repos_dir = Path(args.repos_dir).resolve()
+        if not repos_dir.exists() or not repos_dir.is_dir():
+            print(f"Pasta inválida: {repos_dir}")
+            return 1
+
+        analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repos_dir))
+        analyses = analyzer.analyze_all_repositories()
+        if analyses:
+            analyzer.create_visualizations(analyses)
+            analyzer.generate_report(analyses)
+            return 0
+        return 2
 
     return 0
 

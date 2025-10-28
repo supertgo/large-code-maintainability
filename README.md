@@ -89,3 +89,13 @@ python large-code-maintainability/lcm_cli.py analyze \
 ```
 
 Saídas são geradas em `fix_analysis_results` (gráficos e relatório). Use `--keep-clone` para manter o clone temporário e `--workdir` para personalizar o diretório temporário.
+
+### Analisar uma pasta com vários repositórios já clonados
+
+Para executar a análise em todos os repositórios dentro de uma pasta (cada subpasta contendo `.git`):
+
+```bash
+python large-code-maintainability/lcm_cli.py analyze-dir --repos-dir /caminho/para/pasta_dos_repos --codeshovel-jar large-code-maintainability/codeshovel.jar
+```
+
+Cada repositório terá resultados em `fix_analysis_results`, além de um relatório e visualizações agregadas.
