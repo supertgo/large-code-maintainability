@@ -119,6 +119,10 @@ def main(argv: Optional[list] = None) -> int:
                 extract_files_from_single_repo(repo_path, result_file)
                 extract_methods_from_single_repo(repo_path, result_file)
                 run_codeshovel(repo_path, result_file)
+                
+                # Gera gráficos e relatório usando o fix_analysis.py
+                analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
+                analyzer.generate_from_saved_results()
                 return 0
             else:
                 code = analyze_single_repo(repo_path, codeshovel_jar, keep_clone=args.keep_clone)
@@ -155,6 +159,10 @@ def main(argv: Optional[list] = None) -> int:
                 extract_files_from_single_repo(repo, result_file)
                 extract_methods_from_single_repo(repo, result_file)
                 run_codeshovel(repo, result_file)
+            
+            # Gera gráficos e relatório agregado usando o fix_analysis.py
+            analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
+            analyzer.generate_from_saved_results()
             return 0
         else:
             analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repos_dir))

@@ -786,7 +786,39 @@ class CodeShovelAnalyzer:
             try:
                 with open(file, "r", encoding="utf-8") as f:
                     data = json.load(f)
+                
+                # Se for formato incremental (com files/methods)
+                if isinstance(data, dict) and "files" in data:
+                    repo_name = file.stem.replace("_fix_analysis", "")
+                    for file_data in data.get("files", []):
+                        for method in file_data.get("methods", []):
+                            if not method.get("complete") or not method.get("codeshovel_analysis"):
+                                continue
+                            
+                            method_info = method.get("method_info", {})
+                            codeshovel_info = method.get("codeshovel_analysis", {})
+                            
+                            result_item = {
+                                "method_info": {
+                                    "name": method.get("name", ""),
+                                    "file_path": file_data.get("path", ""),
+                                    "start_line": method_info.get("start_line", 0),
+                                    "end_line": method_info.get("end_line", 0),
+                                    "size_lines": method_info.get("size_lines", 0),
+                                    "cyclomatic_complexity": method_info.get("cyclomatic_complexity", 1),
+                                    "repository": repo_name,
+                                    "commit_count": codeshovel_info.get("commit_count", 0),
+                                    "fix_commit_count": codeshovel_info.get("fix_commit_count", 0),
+                                    "fix_ratio": codeshovel_info.get("fix_ratio", 0.0),
+                                },
+                                "fix_commit_count": codeshovel_info.get("fix_commit_count", 0),
+                                "total_changes_count": codeshovel_info.get("total_changes_count", 0),
+                            }
+                            all_results.append(result_item)
+                # Se for formato antigo (lista direta)
+                elif isinstance(data, list):
                     all_results.extend(data)
+                
                 logger.info(f"Carregado: {file}")
             except Exception as e:
                 logger.warning(f"Erro ao carregar {file}: {e}")
@@ -805,6 +837,7 @@ class CodeShovelAnalyzer:
                     "method_name": item["method_info"]["name"],
                     "repository": item["method_info"]["repository"],
                     "size_lines": item["method_info"]["size_lines"],
+                    "cyclomatic_complexity": item["method_info"].get("cyclomatic_complexity", 1),
                     "commit_count": item["method_info"]["commit_count"],
                     "fix_commit_count": item["fix_commit_count"],
                     "fix_ratio": item["method_info"]["fix_ratio"],
