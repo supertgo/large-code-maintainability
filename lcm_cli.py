@@ -25,6 +25,10 @@ from pathlib import Path
 from typing import Optional
 
 from fix_analysis import CodeShovelAnalyzer
+from extract_repositories import extract_single_repo
+from extract_files import extract_files_from_single_repo
+from extract_methods import extract_methods_from_single_repo
+from run_code_shovel import run_codeshovel
 
 
 def is_git_url(repo: str) -> bool:
@@ -70,10 +74,14 @@ def main(argv: Optional[list] = None) -> int:
     p_an.add_argument("--codeshovel-jar", required=True, help="Caminho do codeshovel.jar")
     p_an.add_argument("--workdir", default="./.lcm_work", help="Diretório de trabalho temporário")
     p_an.add_argument("--keep-clone", action="store_true", help="Não apagar clone temporário")
+    p_an.add_argument("--incremental", action="store_true", help="Executa em modo incremental, salvando por método")
+    p_an.add_argument("--results-dir", default="./fix_analysis_results", help="Pasta para salvar resultados incrementais")
 
     p_and = sub.add_parser("analyze-dir", help="Analisa todos os repositórios dentro de uma pasta")
     p_and.add_argument("--repos-dir", required=True, help="Pasta contendo múltiplos repositórios git (subpastas com .git)")
     p_and.add_argument("--codeshovel-jar", required=True, help="Caminho do codeshovel.jar")
+    p_and.add_argument("--incremental", action="store_true", help="Executa em modo incremental, salvando por método")
+    p_and.add_argument("--results-dir", default="./fix_analysis_results", help="Pasta para salvar resultados incrementais")
 
     args = parser.parse_args(argv)
 
@@ -97,8 +105,24 @@ def main(argv: Optional[list] = None) -> int:
                     print(f"Caminho não é um repositório git válido: {repo_path}")
                     return 1
 
-            code = analyze_single_repo(repo_path, codeshovel_jar, keep_clone=args.keep_clone)
-            return code
+            if args.incremental:
+                import os as _os
+                results_dir = Path(args.results_dir).resolve()
+                results_dir.mkdir(parents=True, exist_ok=True)
+
+                # disponibiliza o caminho do JAR para o run_code_shovel
+                _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
+
+                # inicializa estrutura e executa pipeline incremental
+                extract_single_repo(repo_path, results_dir)
+                result_file = results_dir / f"{repo_path.name}_fix_analysis.json"
+                extract_files_from_single_repo(repo_path, result_file)
+                extract_methods_from_single_repo(repo_path, result_file)
+                run_codeshovel(repo_path, result_file)
+                return 0
+            else:
+                code = analyze_single_repo(repo_path, codeshovel_jar, keep_clone=args.keep_clone)
+                return code
         finally:
             if clone_created and not args.keep_clone:
                 # remove apenas o repositório clonado (não o workdir inteiro)
@@ -115,13 +139,31 @@ def main(argv: Optional[list] = None) -> int:
             print(f"Pasta inválida: {repos_dir}")
             return 1
 
-        analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repos_dir))
-        analyses = analyzer.analyze_all_repositories()
-        if analyses:
-            analyzer.create_visualizations(analyses)
-            analyzer.generate_report(analyses)
+        if args.incremental:
+            import os as _os
+            results_dir = Path(args.results_dir).resolve()
+            results_dir.mkdir(parents=True, exist_ok=True)
+
+            _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
+
+            repos = [d for d in repos_dir.iterdir() if d.is_dir() and (d / ".git").exists()]
+            repos.sort(key=lambda r: str(r).lower())
+
+            for repo in repos:
+                extract_single_repo(repo, results_dir)
+                result_file = results_dir / f"{repo.name}_fix_analysis.json"
+                extract_files_from_single_repo(repo, result_file)
+                extract_methods_from_single_repo(repo, result_file)
+                run_codeshovel(repo, result_file)
             return 0
-        return 2
+        else:
+            analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repos_dir))
+            analyses = analyzer.analyze_all_repositories()
+            if analyses:
+                analyzer.create_visualizations(analyses)
+                analyzer.generate_report(analyses)
+                return 0
+            return 2
 
     return 0
 

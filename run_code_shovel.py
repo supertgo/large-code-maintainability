@@ -65,10 +65,11 @@ def analyze_fix_commits(codeshovel_data) -> Tuple[int, List[Dict]]:
 
 def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, start_line: int):
     try:
+        jar_path = os.environ.get("CODESHOVEL_JAR", "codeshovel.jar")
         cmd = [
             "java",
             "-jar",
-            "codeshovel.jar",
+            jar_path,
             "-repopath",
             str(repository),
             "-filepath",
