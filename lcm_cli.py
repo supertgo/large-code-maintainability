@@ -32,7 +32,9 @@ from run_code_shovel import run_codeshovel
 
 
 def is_git_url(repo: str) -> bool:
-    return repo.endswith(".git") or repo.startswith("git@") or repo.startswith("https://")
+    return (
+        repo.endswith(".git") or repo.startswith("git@") or repo.startswith("https://")
+    )
 
 
 def safe_rmdir(path: Path):
@@ -57,6 +59,7 @@ def analyze_single_repo(repo_path: Path, codeshovel_jar: Path, keep_clone: bool)
     repos_dir = repo_path.parent
     analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repos_dir))
     analyses = analyzer.analyze_repository(repo_path.name)
+    print(analyses[0].method_info.quality_metrics, "fjaklfjakflaj")
     if analyses:
         analyzer.save_results(repo_path.name, analyses)
         analyzer.create_visualizations(analyses)
@@ -66,22 +69,58 @@ def analyze_single_repo(repo_path: Path, codeshovel_jar: Path, keep_clone: bool)
 
 
 def main(argv: Optional[list] = None) -> int:
-    parser = argparse.ArgumentParser(prog="lcm", description="Large Code Maintainability - CLI")
+    parser = argparse.ArgumentParser(
+        prog="lcm", description="Large Code Maintainability - CLI"
+    )
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p_an = sub.add_parser("analyze", help="Analisa um único repositório (URL ou caminho)")
-    p_an.add_argument("--repo", required=True, help="URL git ou caminho local do repositório")
-    p_an.add_argument("--codeshovel-jar", required=True, help="Caminho do codeshovel.jar")
-    p_an.add_argument("--workdir", default="./.lcm_work", help="Diretório de trabalho temporário")
-    p_an.add_argument("--keep-clone", action="store_true", help="Não apagar clone temporário")
-    p_an.add_argument("--incremental", action="store_true", help="Executa em modo incremental, salvando por método")
-    p_an.add_argument("--results-dir", default="./fix_analysis_results", help="Pasta para salvar resultados incrementais")
+    p_an = sub.add_parser(
+        "analyze", help="Analisa um único repositório (URL ou caminho)"
+    )
+    p_an.add_argument(
+        "--repo", required=True, help="URL git ou caminho local do repositório"
+    )
+    p_an.add_argument(
+        "--codeshovel-jar", required=True, help="Caminho do codeshovel.jar"
+    )
+    p_an.add_argument(
+        "--workdir", default="./.lcm_work", help="Diretório de trabalho temporário"
+    )
+    p_an.add_argument(
+        "--keep-clone", action="store_true", help="Não apagar clone temporário"
+    )
+    p_an.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Executa em modo incremental, salvando por método",
+    )
+    p_an.add_argument(
+        "--results-dir",
+        default="./fix_analysis_results",
+        help="Pasta para salvar resultados incrementais",
+    )
 
-    p_and = sub.add_parser("analyze-dir", help="Analisa todos os repositórios dentro de uma pasta")
-    p_and.add_argument("--repos-dir", required=True, help="Pasta contendo múltiplos repositórios git (subpastas com .git)")
-    p_and.add_argument("--codeshovel-jar", required=True, help="Caminho do codeshovel.jar")
-    p_and.add_argument("--incremental", action="store_true", help="Executa em modo incremental, salvando por método")
-    p_and.add_argument("--results-dir", default="./fix_analysis_results", help="Pasta para salvar resultados incrementais")
+    p_and = sub.add_parser(
+        "analyze-dir", help="Analisa todos os repositórios dentro de uma pasta"
+    )
+    p_and.add_argument(
+        "--repos-dir",
+        required=True,
+        help="Pasta contendo múltiplos repositórios git (subpastas com .git)",
+    )
+    p_and.add_argument(
+        "--codeshovel-jar", required=True, help="Caminho do codeshovel.jar"
+    )
+    p_and.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Executa em modo incremental, salvando por método",
+    )
+    p_and.add_argument(
+        "--results-dir",
+        default="./fix_analysis_results",
+        help="Pasta para salvar resultados incrementais",
+    )
 
     args = parser.parse_args(argv)
 
@@ -107,6 +146,7 @@ def main(argv: Optional[list] = None) -> int:
 
             if args.incremental:
                 import os as _os
+
                 results_dir = Path(args.results_dir).resolve()
                 results_dir.mkdir(parents=True, exist_ok=True)
 
@@ -119,13 +159,15 @@ def main(argv: Optional[list] = None) -> int:
                 extract_files_from_single_repo(repo_path, result_file)
                 extract_methods_from_single_repo(repo_path, result_file)
                 run_codeshovel(repo_path, result_file)
-                
+
                 # Gera gráficos e relatório usando o fix_analysis.py
                 analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
                 analyzer.generate_from_saved_results()
                 return 0
             else:
-                code = analyze_single_repo(repo_path, codeshovel_jar, keep_clone=args.keep_clone)
+                code = analyze_single_repo(
+                    repo_path, codeshovel_jar, keep_clone=args.keep_clone
+                )
                 return code
         finally:
             if clone_created and not args.keep_clone:
@@ -145,12 +187,15 @@ def main(argv: Optional[list] = None) -> int:
 
         if args.incremental:
             import os as _os
+
             results_dir = Path(args.results_dir).resolve()
             results_dir.mkdir(parents=True, exist_ok=True)
 
             _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
 
-            repos = [d for d in repos_dir.iterdir() if d.is_dir() and (d / ".git").exists()]
+            repos = [
+                d for d in repos_dir.iterdir() if d.is_dir() and (d / ".git").exists()
+            ]
             repos.sort(key=lambda r: str(r).lower())
 
             for repo in repos:
@@ -159,7 +204,7 @@ def main(argv: Optional[list] = None) -> int:
                 extract_files_from_single_repo(repo, result_file)
                 extract_methods_from_single_repo(repo, result_file)
                 run_codeshovel(repo, result_file)
-            
+
             # Gera gráficos e relatório agregado usando o fix_analysis.py
             analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
             analyzer.generate_from_saved_results()
@@ -178,5 +223,3 @@ def main(argv: Optional[list] = None) -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
-
