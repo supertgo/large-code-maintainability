@@ -432,7 +432,6 @@ class CodeShovelAnalyzer:
 
         serializable_analyses = []
         for analysis in analyses:
-            print(analysis.method_info.quality_metrics, "qualtiy")
             serializable_analysis = {
                 "method_info": {
                     "name": analysis.method_info.name,
