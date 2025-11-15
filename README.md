@@ -65,3 +65,37 @@ Este projeto tem como objetivo analisar a relação entre o tamanho dos métodos
 - **Visualização de Dados**: Técnicas de visualização para insights
 
 Este projeto contribui para o entendimento da relação entre complexidade de código e manutenibilidade, fornecendo insights valiosos para desenvolvedores e equipes de desenvolvimento de software.
+
+## Uso em uma linha (CLI)
+
+Execute a análise em um repositório (URL git ou caminho local) com:
+
+```bash
+python large-code-maintainability/lcm_cli.py analyze --repo <url-ou-caminho> --codeshovel-jar large-code-maintainability/codeshovel.jar
+```
+
+Exemplos:
+
+```bash
+# Com URL git (clona temporariamente)
+python large-code-maintainability/lcm_cli.py analyze \
+  --repo https://github.com/spring-projects/spring-boot.git \
+  --codeshovel-jar large-code-maintainability/codeshovel.jar
+
+# Com repositório local
+python large-code-maintainability/lcm_cli.py analyze \
+  --repo /caminho/para/repo \
+  --codeshovel-jar large-code-maintainability/codeshovel.jar
+```
+
+Saídas são geradas em `fix_analysis_results` (gráficos e relatório). Use `--keep-clone` para manter o clone temporário e `--workdir` para personalizar o diretório temporário.
+
+### Analisar uma pasta com vários repositórios já clonados
+
+Para executar a análise em todos os repositórios dentro de uma pasta (cada subpasta contendo `.git`):
+
+```bash
+python large-code-maintainability/lcm_cli.py analyze-dir --repos-dir /caminho/para/pasta_dos_repos --codeshovel-jar large-code-maintainability/codeshovel.jar
+```
+
+Cada repositório terá resultados em `fix_analysis_results`, além de um relatório e visualizações agregadas.

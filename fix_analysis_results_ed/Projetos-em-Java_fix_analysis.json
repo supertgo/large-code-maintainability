@@ -1,0 +1,1091 @@
+[
+  {
+    "method_info": {
+      "name": "run",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 56,
+      "end_line": 72,
+      "size_lines": 17,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 15,
+        "total_lines_with_comments": 15,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 5,
+        "identifier_stats": {
+          "avg_length": 6.428571428571429,
+          "min_length": 1.0,
+          "max_length": 20.0,
+          "total_count": 14,
+          "short_names_ratio": 0.21428571428571427
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "getTime",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 76,
+      "end_line": 78,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 5.5,
+          "min_length": 4.0,
+          "max_length": 7.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getTimeFormatted",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 82,
+      "end_line": 85,
+      "size_lines": 4,
+      "repository": "Projetos-em-Java",
+      "commit_count": 4,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.444444444444445,
+          "min_length": 1.0,
+          "max_length": 16.0,
+          "total_count": 9,
+          "short_names_ratio": 0.2222222222222222
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 4
+  },
+  {
+    "method_info": {
+      "name": "stopCounter",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 89,
+      "end_line": 91,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 9.0,
+          "min_length": 7.0,
+          "max_length": 11.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "isRunning",
+      "file_path": "Classes de Ajuda/Contador/Contador.java",
+      "start_line": 95,
+      "end_line": 97,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 8.0,
+          "min_length": 7.0,
+          "max_length": 9.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetInfo",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 82,
+      "end_line": 109,
+      "size_lines": 28,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 24,
+        "total_lines_with_comments": 24,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 3,
+        "identifier_stats": {
+          "avg_length": 8.216216216216216,
+          "min_length": 1.0,
+          "max_length": 24.0,
+          "total_count": 37,
+          "short_names_ratio": 0.21621621621621623
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "checkURLDomain",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 113,
+      "end_line": 135,
+      "size_lines": 23,
+      "repository": "Projetos-em-Java",
+      "commit_count": 4,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 18,
+        "total_lines_with_comments": 22,
+        "comment_ratio": 0.18181818181818182,
+        "cyclomatic_complexity": 4,
+        "identifier_stats": {
+          "avg_length": 6.064516129032258,
+          "min_length": 1.0,
+          "max_length": 21.0,
+          "total_count": 31,
+          "short_names_ratio": 0.45161290322580644
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 4
+  },
+  {
+    "method_info": {
+      "name": "pGetAlbumLanguage",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 136,
+      "end_line": 169,
+      "size_lines": 34,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 28,
+        "total_lines_with_comments": 28,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 7,
+        "identifier_stats": {
+          "avg_length": 5.640625,
+          "min_length": 1.0,
+          "max_length": 18.0,
+          "total_count": 64,
+          "short_names_ratio": 0.375
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetUploader",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 173,
+      "end_line": 180,
+      "size_lines": 8,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 5.631578947368421,
+          "min_length": 1.0,
+          "max_length": 16.0,
+          "total_count": 19,
+          "short_names_ratio": 0.3684210526315789
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetUploadDate",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 184,
+      "end_line": 205,
+      "size_lines": 22,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 18,
+        "total_lines_with_comments": 18,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 5,
+        "identifier_stats": {
+          "avg_length": 5.6,
+          "min_length": 1.0,
+          "max_length": 18.0,
+          "total_count": 40,
+          "short_names_ratio": 0.375
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetFileSize",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 209,
+      "end_line": 230,
+      "size_lines": 22,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 18,
+        "total_lines_with_comments": 18,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 6,
+        "identifier_stats": {
+          "avg_length": 4.92,
+          "min_length": 1.0,
+          "max_length": 18.0,
+          "total_count": 50,
+          "short_names_ratio": 0.46
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetAlbumPages",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 234,
+      "end_line": 244,
+      "size_lines": 11,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 10,
+        "total_lines_with_comments": 10,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 4,
+        "identifier_stats": {
+          "avg_length": 4.958333333333333,
+          "min_length": 1.0,
+          "max_length": 14.0,
+          "total_count": 24,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetImagePages",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 248,
+      "end_line": 272,
+      "size_lines": 25,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 23,
+        "total_lines_with_comments": 23,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 8,
+        "identifier_stats": {
+          "avg_length": 4.666666666666667,
+          "min_length": 1.0,
+          "max_length": 15.0,
+          "total_count": 60,
+          "short_names_ratio": 0.43333333333333335
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "pGetImageLinks",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 276,
+      "end_line": 290,
+      "size_lines": 15,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 14,
+        "total_lines_with_comments": 14,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 4,
+        "identifier_stats": {
+          "avg_length": 4.878787878787879,
+          "min_length": 1.0,
+          "max_length": 15.0,
+          "total_count": 33,
+          "short_names_ratio": 0.5454545454545454
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getInfo",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 298,
+      "end_line": 300,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 6.333333333333333,
+          "min_length": 4.0,
+          "max_length": 8.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "isSuccessful",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 304,
+      "end_line": 306,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 8.0,
+          "min_length": 4.0,
+          "max_length": 12.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getImages",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 310,
+      "end_line": 312,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 8.5,
+          "min_length": 6.0,
+          "max_length": 10.0,
+          "total_count": 4,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "getAlbumSize",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 316,
+      "end_line": 318,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 8.5,
+          "min_length": 5.0,
+          "max_length": 12.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getAlbumName",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 322,
+      "end_line": 324,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 9.0,
+          "min_length": 6.0,
+          "max_length": 12.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getAlbumLanguage",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 328,
+      "end_line": 330,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 11.666666666666666,
+          "min_length": 6.0,
+          "max_length": 16.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "isTranslated",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 334,
+      "end_line": 336,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 12.0,
+          "min_length": 12.0,
+          "max_length": 12.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getUploader",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 340,
+      "end_line": 342,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 8.333333333333334,
+          "min_length": 6.0,
+          "max_length": 11.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getUploadDate",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 346,
+      "end_line": 348,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 9.666666666666666,
+          "min_length": 6.0,
+          "max_length": 13.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getFileSize",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 352,
+      "end_line": 354,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 8.333333333333334,
+          "min_length": 6.0,
+          "max_length": 11.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getError",
+      "file_path": "Classes de Ajuda/EDownloaderInfo/EDownloaderInfo.java",
+      "start_line": 358,
+      "end_line": 360,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 6.333333333333333,
+          "min_length": 5.0,
+          "max_length": 8.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "getJSON",
+      "file_path": "Classes de Ajuda/GetJSON/GetJSON.java",
+      "start_line": 52,
+      "end_line": 73,
+      "size_lines": 22,
+      "repository": "Projetos-em-Java",
+      "commit_count": 3,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 19,
+        "total_lines_with_comments": 19,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 3,
+        "identifier_stats": {
+          "avg_length": 6.3023255813953485,
+          "min_length": 1.0,
+          "max_length": 21.0,
+          "total_count": 43,
+          "short_names_ratio": 0.3953488372093023
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 3
+  },
+  {
+    "method_info": {
+      "name": "get",
+      "file_path": "Classes de Ajuda/GetJSON/GetJSON.java",
+      "start_line": 77,
+      "end_line": 80,
+      "size_lines": 4,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 5.75,
+          "min_length": 3.0,
+          "max_length": 10.0,
+          "total_count": 4,
+          "short_names_ratio": 0.5
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "initLog",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 53,
+      "end_line": 61,
+      "size_lines": 9,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 9,
+        "total_lines_with_comments": 9,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 7.090909090909091,
+          "min_length": 1.0,
+          "max_length": 16.0,
+          "total_count": 11,
+          "short_names_ratio": 0.36363636363636365
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 69,
+      "end_line": 82,
+      "size_lines": 14,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 13,
+        "total_lines_with_comments": 13,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 5.148148148148148,
+          "min_length": 1.0,
+          "max_length": 11.0,
+          "total_count": 27,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 84,
+      "end_line": 86,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 9.0,
+          "min_length": 9.0,
+          "max_length": 9.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeDatedLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 90,
+      "end_line": 106,
+      "size_lines": 17,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 15,
+        "total_lines_with_comments": 15,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 5.473684210526316,
+          "min_length": 1.0,
+          "max_length": 16.0,
+          "total_count": 38,
+          "short_names_ratio": 0.2894736842105263
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "writeDatedLogg",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 108,
+      "end_line": 110,
+      "size_lines": 3,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 14.0,
+          "min_length": 14.0,
+          "max_length": 14.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  },
+  {
+    "method_info": {
+      "name": "setDateFormat",
+      "file_path": "Classes de Ajuda/Logg/Logg.java",
+      "start_line": 114,
+      "end_line": 126,
+      "size_lines": 13,
+      "repository": "Projetos-em-Java",
+      "commit_count": 2,
+      "fix_commit_count": 0,
+      "fix_ratio": 0.0,
+      "quality_metrics": {
+        "code_lines_no_comments": 9,
+        "total_lines_with_comments": 13,
+        "comment_ratio": 0.3076923076923077,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 6.68,
+          "min_length": 1.0,
+          "max_length": 16.0,
+          "total_count": 25,
+          "short_names_ratio": 0.24
+        },
+        "commit_authors": [
+          "Wolfterro"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 2
+  }
+]
