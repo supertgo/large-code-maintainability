@@ -170,6 +170,31 @@ def get_code_shovel_data(repository: Path, file_path: str, method_name: str, sta
 
     return None
 
+def is_git_url(repo: str) -> bool:
+    """Check if the given string is a Git URL"""
+    return (
+        repo.endswith(".git") or 
+        repo.startswith("git@") or 
+        repo.startswith("https://") or
+        repo.startswith("http://")
+    )
+
+def clone_repo(repo_url: str, dest_dir: Path) -> Path:
+    """Clone a Git repository to the destination directory"""
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    repo_name = repo_url.rstrip("/").split("/")[-1].replace(".git", "")
+    clone_path = dest_dir / repo_name
+    if clone_path.exists():
+        logger.info(f"Repository already exists at {clone_path}, using existing clone")
+        return clone_path
+    logger.info(f"Cloning repository from {repo_url} to {clone_path}")
+    cmd = ["git", "clone", "--depth", "1", repo_url, str(clone_path)]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(f"Failed to clone {repo_url}: {result.stderr}")
+    logger.info(f"Successfully cloned repository to {clone_path}")
+    return clone_path
+
 def run_codeshovel(repository: Path, result_path: Path):
     """
     Runs codeshovel on all methods in the repository.
@@ -298,14 +323,17 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Analyze a specific repository
-  python run_code_shovel.py --repo ./repos/spring-boot
-
-  # Analyze a repository with custom results directory
+  # Analyze a specific local repository
   python run_code_shovel.py --repo ./repos/spring-boot --results-dir ./my_results
 
+  # Analyze a repository from Git URL
+  python run_code_shovel.py --repo https://github.com/spring-projects/spring-boot.git --results-dir ./my_results
+
   # Analyze all repositories in a directory
-  python run_code_shovel.py --repos-dir ./repos
+  python run_code_shovel.py --repos-dir ./repos --results-dir ./my_results
+
+  # Analyze and generate reports/visualizations
+  python run_code_shovel.py --repo ./repos/spring-boot --results-dir ./my_results --generate-reports
         """
     )
     
@@ -324,30 +352,54 @@ Examples:
     parser.add_argument(
         "--results-dir",
         type=str,
-        default=DEFAULT_RESULTS_DIR,
-        help=f"Directory to store temporary results (default: {DEFAULT_RESULTS_DIR})"
+        required=True,
+        help="Directory to store temporary results (required)"
+    )
+    parser.add_argument(
+        "--generate-reports",
+        action="store_true",
+        help="Generate visualizations and reports after analysis using fix_analysis.py"
     )
     
     args = parser.parse_args()
     
+    # Check for CodeShovel JAR
+    jar_path = os.environ.get("CODESHOVEL_JAR", "codeshovel.jar")
+    if not os.path.exists(jar_path):
+        logger.warning(f"CodeShovel JAR not found at {jar_path}. Make sure CODESHOVEL_JAR environment variable is set or codeshovel.jar is in the current directory.")
+    
     results_dir = Path(args.results_dir)
     results_dir.mkdir(parents=True, exist_ok=True)
     
+    # Default workdir for clones (always keep clones by default)
+    workdir = Path("./.lcm_work")
     repositories_to_process = []
+    cloned_repos = []  # Track cloned repositories (kept by default)
     
     if args.repo:
-        # Single repository specified
-        repo_path = Path(args.repo)
-        if not repo_path.exists():
-            logger.error(f"Repository path does not exist: {repo_path}")
-            sys.exit(1)
-        if not repo_path.is_dir():
-            logger.error(f"Repository path is not a directory: {repo_path}")
-            sys.exit(1)
-        if not (repo_path / ".git").exists():
-            logger.error(f"Repository path is not a Git repository: {repo_path}")
-            sys.exit(1)
-        repositories_to_process.append(repo_path)
+        # Single repository specified - can be URL or local path
+        if is_git_url(args.repo):
+            # It's a Git URL, clone it
+            try:
+                repo_path = clone_repo(args.repo, workdir)
+                cloned_repos.append(repo_path)
+                repositories_to_process.append(repo_path)
+            except Exception as e:
+                logger.error(f"Failed to clone repository: {e}")
+                sys.exit(1)
+        else:
+            # It's a local path
+            repo_path = Path(args.repo).resolve()
+            if not repo_path.exists():
+                logger.error(f"Repository path does not exist: {repo_path}")
+                sys.exit(1)
+            if not repo_path.is_dir():
+                logger.error(f"Repository path is not a directory: {repo_path}")
+                sys.exit(1)
+            if not (repo_path / ".git").exists():
+                logger.error(f"Repository path is not a Git repository: {repo_path}")
+                sys.exit(1)
+            repositories_to_process.append(repo_path)
     elif args.repos_dir:
         # Directory of repositories specified
         repos_dir = Path(args.repos_dir)
@@ -371,6 +423,23 @@ Examples:
         result_path = results_dir / f"{repository.name}_fix_analysis.json"
         logger.info(f"Processing repository: {repository.name} ({repository})")
         run_codeshovel(repository, result_path)
+    
+    # Generate reports if requested
+    if args.generate_reports:
+        try:
+            from fix_analysis import CodeShovelAnalyzer
+            logger.info("Generating visualizations and reports...")
+            analyzer = CodeShovelAnalyzer(jar_path, str(results_dir))
+            analyzer.generate_from_saved_results()
+            logger.info("Reports generated successfully!")
+        except ImportError:
+            logger.warning("fix_analysis module not available. Skipping report generation.")
+        except Exception as e:
+            logger.error(f"Error generating reports: {e}")
+    
+    # Clones are kept by default (no cleanup)
+    if cloned_repos:
+        logger.info(f"Cloned repositories kept at: {[str(r) for r in cloned_repos]}")
 
 if __name__ == "__main__":
     main()
