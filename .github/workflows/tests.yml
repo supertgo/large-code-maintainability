@@ -33,7 +33,6 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '17'
-        cache: 'gradle'
 
     - name: Display Python and pip versions
       run: |
@@ -59,10 +58,12 @@ jobs:
         python -c "import pandas; print('✓ pandas imported')"
         python -c "import numpy; print('✓ numpy imported')"
         python -c "import pytest; print('✓ pytest imported')"
+        python -c "import matplotlib; print('✓ matplotlib imported')"
+        python -c "import seaborn; print('✓ seaborn imported')"
 
     - name: Run unit tests
       run: |
-        python -m pytest test_fix_analysis.py -v --tb=short --timeout=300 --maxfail=1
+        python -m pytest test_fix_analysis.py -v --tb=long --timeout=300
       env:
         PYTHONDONTWRITEBYTECODE: 1
 
