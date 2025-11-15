@@ -17,6 +17,10 @@ Este projeto tem como objetivo analisar a relação entre o tamanho dos métodos
 - **Classificação de Commits**: Identifica commits de bug/fix baseado em palavras-chave
 - **Análise Estatística**: Correlaciona tamanho dos métodos com frequência de bugs
 - **Visualização de Dados**: Gera gráficos e relatórios para análise dos resultados
+- **Execução Incremental**: Salva progresso automaticamente, permitindo retomar análises interrompidas
+- **Salvamento Atômico**: Previne corrupção de dados mesmo em caso de interrupção
+- **Suporte a URLs Git**: Clona e analisa repositórios diretamente de URLs Git
+- **Processamento em Lote**: Analisa múltiplos repositórios em uma única execução
 
 ### Metodologia:
 1. Clonagem de repositórios Java populares
@@ -68,34 +72,83 @@ Este projeto contribui para o entendimento da relação entre complexidade de c�
 
 ## Uso em uma linha (CLI)
 
+### Configuração Inicial
+
+Antes de usar, configure a variável de ambiente `CODESHOVEL_JAR` com o caminho para o arquivo `codeshovel.jar`:
+
+```bash
+export CODESHOVEL_JAR=/caminho/para/codeshovel.jar
+```
+
+Ou coloque o arquivo `codeshovel.jar` no diretório atual.
+
+### Análise de Repositório Único
+
 Execute a análise em um repositório (URL git ou caminho local) com:
 
 ```bash
-python large-code-maintainability/lcm_cli.py analyze --repo <url-ou-caminho> --codeshovel-jar large-code-maintainability/codeshovel.jar
+python run_code_shovel.py --repo <url-ou-caminho> --results-dir <diretorio-resultados>
 ```
 
-Exemplos:
+**Parâmetros obrigatórios:**
+- `--repo`: Caminho local do repositório ou URL Git (https://, http://, git@, ou termina com .git)
+- `--results-dir`: Diretório onde os resultados temporários serão salvos (obrigatório)
+
+**Parâmetros opcionais:**
+- `--generate-reports`: Gera visualizações e relatórios após a análise usando `fix_analysis.py`
+
+**Exemplos:**
 
 ```bash
-# Com URL git (clona temporariamente)
-python large-code-maintainability/lcm_cli.py analyze \
-  --repo https://github.com/spring-projects/spring-boot.git \
-  --codeshovel-jar large-code-maintainability/codeshovel.jar
+# Analisar repositório local
+python run_code_shovel.py --repo ./repos/spring-boot --results-dir ./my_results
 
-# Com repositório local
-python large-code-maintainability/lcm_cli.py analyze \
-  --repo /caminho/para/repo \
-  --codeshovel-jar large-code-maintainability/codeshovel.jar
+# Analisar repositório a partir de URL Git (clona automaticamente para ./.lcm_work)
+python run_code_shovel.py --repo https://github.com/spring-projects/spring-boot.git --results-dir ./my_results
+
+# Analisar e gerar relatórios/visualizações
+python run_code_shovel.py --repo ./repos/spring-boot --results-dir ./my_results --generate-reports
+
+# Analisar repositório SSH
+python run_code_shovel.py --repo git@github.com:spring-projects/spring-boot.git --results-dir ./my_results
 ```
 
-Saídas são geradas em `fix_analysis_results` (gráficos e relatório). Use `--keep-clone` para manter o clone temporário e `--workdir` para personalizar o diretório temporário.
+**Notas importantes:**
+- Repositórios clonados de URLs são salvos em `./.lcm_work` e mantidos por padrão (não são deletados)
+- A execução é **incremental por padrão**: se interrompida, pode ser retomada executando o mesmo comando novamente
+- O progresso é salvo **atomicamente** após cada método processado, evitando corrupção de dados em caso de interrupção
+- Quando todos os métodos são processados, o arquivo de resultados temporário é automaticamente deletado
 
-### Analisar uma pasta com vários repositórios já clonados
+### Analisar Múltiplos Repositórios
 
 Para executar a análise em todos os repositórios dentro de uma pasta (cada subpasta contendo `.git`):
 
 ```bash
-python large-code-maintainability/lcm_cli.py analyze-dir --repos-dir /caminho/para/pasta_dos_repos --codeshovel-jar large-code-maintainability/codeshovel.jar
+python run_code_shovel.py --repos-dir ./repos --results-dir ./my_results
 ```
 
-Cada repositório terá resultados em `fix_analysis_results`, além de um relatório e visualizações agregadas.
+Cada repositório será processado sequencialmente, e os resultados serão salvos no diretório especificado.
+
+### Recuperação após Interrupção
+
+Se a análise for interrompida (Ctrl+C), o progresso é salvo automaticamente. Para retomar:
+
+```bash
+# Execute o mesmo comando novamente
+python run_code_shovel.py --repo ./repos/spring-boot --results-dir ./my_results
+```
+
+O script detectará automaticamente os métodos já processados e continuará de onde parou.
+
+### Geração de Relatórios
+
+Para gerar visualizações e relatórios após a análise:
+
+```bash
+python run_code_shovel.py --repo ./repos/spring-boot --results-dir ./my_results --generate-reports
+```
+
+Isso gerará:
+- Gráficos de correlação e distribuição
+- Relatório em Markdown
+- Dados exportados em CSV/Excel (se disponível)
