@@ -1,0 +1,3362 @@
+[
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Bacon.java",
+      "start_line": 14,
+      "end_line": 20,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Bacon.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Bacon.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 14,
+        "functionEndLine": 20,
+        "numCommitsSeen": 1,
+        "timeTaken": 15,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Bacon\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Bacon\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Bacon.java",
+            "functionStartLine": 14,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.0,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Bacon.java",
+      "start_line": 14,
+      "end_line": 20,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Bacon.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Bacon.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 14,
+        "functionEndLine": 20,
+        "numCommitsSeen": 1,
+        "timeTaken": 15,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Bacon\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Bacon\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Bacon.java",
+            "functionStartLine": 14,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.0,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Bacon.java",
+      "start_line": 23,
+      "end_line": 29,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Bacon.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Bacon.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 23,
+        "functionEndLine": 29,
+        "numCommitsSeen": 1,
+        "timeTaken": 11,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 1.50;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 1.50;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Bacon.java",
+            "functionStartLine": 23,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Bacon.java",
+      "start_line": 23,
+      "end_line": 29,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Bacon.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Bacon.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 23,
+        "functionEndLine": 29,
+        "numCommitsSeen": 1,
+        "timeTaken": 11,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 1.50;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 1.50;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Bacon.java",
+            "functionStartLine": 23,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/IngredienteDecorator.java",
+      "start_line": 12,
+      "end_line": 14,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "IngredienteDecorator.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/IngredienteDecorator.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 12,
+        "functionEndLine": 14,
+        "numCommitsSeen": 1,
+        "timeTaken": 10,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+@Override\n+public String imprimeIngrediente() {\n+    return this.ingrediente.imprimeIngrediente();\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    return this.ingrediente.imprimeIngrediente();\n}",
+            "path": "src/main/java/decorator/IngredienteDecorator.java",
+            "functionStartLine": 12,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 13.25,
+          "min_length": 6.0,
+          "max_length": 18.0,
+          "total_count": 4,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/IngredienteDecorator.java",
+      "start_line": 12,
+      "end_line": 14,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "IngredienteDecorator.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/IngredienteDecorator.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 12,
+        "functionEndLine": 14,
+        "numCommitsSeen": 1,
+        "timeTaken": 10,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+@Override\n+public String imprimeIngrediente() {\n+    return this.ingrediente.imprimeIngrediente();\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    return this.ingrediente.imprimeIngrediente();\n}",
+            "path": "src/main/java/decorator/IngredienteDecorator.java",
+            "functionStartLine": 12,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 13.25,
+          "min_length": 6.0,
+          "max_length": 18.0,
+          "total_count": 4,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/IngredienteDecorator.java",
+      "start_line": 17,
+      "end_line": 19,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "IngredienteDecorator.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/IngredienteDecorator.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 17,
+        "functionEndLine": 19,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+@Override\n+public double valorDoIngrediente() {\n+    return this.ingrediente.valorDoIngrediente();\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    return this.ingrediente.valorDoIngrediente();\n}",
+            "path": "src/main/java/decorator/IngredienteDecorator.java",
+            "functionStartLine": 17,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 15.666666666666666,
+          "min_length": 11.0,
+          "max_length": 18.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/IngredienteDecorator.java",
+      "start_line": 17,
+      "end_line": 19,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "IngredienteDecorator.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/IngredienteDecorator.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 17,
+        "functionEndLine": 19,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+@Override\n+public double valorDoIngrediente() {\n+    return this.ingrediente.valorDoIngrediente();\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    return this.ingrediente.valorDoIngrediente();\n}",
+            "path": "src/main/java/decorator/IngredienteDecorator.java",
+            "functionStartLine": 17,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 15.666666666666666,
+          "min_length": 11.0,
+          "max_length": 18.0,
+          "total_count": 3,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Ketchup.java",
+      "start_line": 14,
+      "end_line": 20,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Ketchup.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Ketchup.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 14,
+        "functionEndLine": 20,
+        "numCommitsSeen": 1,
+        "timeTaken": 11,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Ketchup\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Ketchup\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Ketchup.java",
+            "functionStartLine": 14,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.2,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Ketchup.java",
+      "start_line": 14,
+      "end_line": 20,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Ketchup.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Ketchup.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 14,
+        "functionEndLine": 20,
+        "numCommitsSeen": 1,
+        "timeTaken": 11,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Ketchup\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Ketchup\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Ketchup.java",
+            "functionStartLine": 14,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.2,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Ketchup.java",
+      "start_line": 23,
+      "end_line": 29,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Ketchup.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Ketchup.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 23,
+        "functionEndLine": 29,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 1.00;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 1.00;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Ketchup.java",
+            "functionStartLine": 23,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Ketchup.java",
+      "start_line": 23,
+      "end_line": 29,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Ketchup.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Ketchup.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 23,
+        "functionEndLine": 29,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 1.00;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 1.00;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Ketchup.java",
+            "functionStartLine": 23,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Pao.java",
+      "start_line": 15,
+      "end_line": 22,
+      "size_lines": 8,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Pao.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Pao.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 15,
+        "functionEndLine": 22,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,7 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String ingredientes = \"Pￃﾣo\";\n+    if (super.ingrediente != null)\n+        ingredientes += \", \" + super.ingrediente.imprimeIngrediente();\n+    return ingredientes;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String ingredientes = \"Pￃﾣo\";\n    if (super.ingrediente != null)\n        ingredientes += \", \" + super.ingrediente.imprimeIngrediente();\n    return ingredientes;\n}",
+            "path": "src/main/java/decorator/Pao.java",
+            "functionStartLine": 15,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 6,
+        "total_lines_with_comments": 6,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 11.777777777777779,
+          "min_length": 6.0,
+          "max_length": 18.0,
+          "total_count": 9,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Pao.java",
+      "start_line": 15,
+      "end_line": 22,
+      "size_lines": 8,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Pao.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Pao.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 15,
+        "functionEndLine": 22,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,7 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String ingredientes = \"Pￃﾣo\";\n+    if (super.ingrediente != null)\n+        ingredientes += \", \" + super.ingrediente.imprimeIngrediente();\n+    return ingredientes;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String ingredientes = \"Pￃﾣo\";\n    if (super.ingrediente != null)\n        ingredientes += \", \" + super.ingrediente.imprimeIngrediente();\n    return ingredientes;\n}",
+            "path": "src/main/java/decorator/Pao.java",
+            "functionStartLine": 15,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 6,
+        "total_lines_with_comments": 6,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 11.777777777777779,
+          "min_length": 6.0,
+          "max_length": 18.0,
+          "total_count": 9,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Pao.java",
+      "start_line": 25,
+      "end_line": 33,
+      "size_lines": 9,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Pao.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Pao.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 25,
+        "functionEndLine": 33,
+        "numCommitsSeen": 1,
+        "timeTaken": 11,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,7 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 1.5;\n+    if (super.ingrediente != null)\n+        valor += ingrediente.valorDoIngrediente();\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 1.5;\n    if (super.ingrediente != null)\n        valor += ingrediente.valorDoIngrediente();\n    return valor;\n}",
+            "path": "src/main/java/decorator/Pao.java",
+            "functionStartLine": 25,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 6,
+        "total_lines_with_comments": 6,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Pao.java",
+      "start_line": 25,
+      "end_line": 33,
+      "size_lines": 9,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Pao.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Pao.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 25,
+        "functionEndLine": 33,
+        "numCommitsSeen": 1,
+        "timeTaken": 11,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,7 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 1.5;\n+    if (super.ingrediente != null)\n+        valor += ingrediente.valorDoIngrediente();\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 1.5;\n    if (super.ingrediente != null)\n        valor += ingrediente.valorDoIngrediente();\n    return valor;\n}",
+            "path": "src/main/java/decorator/Pao.java",
+            "functionStartLine": 25,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 6,
+        "total_lines_with_comments": 6,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Queijo.java",
+      "start_line": 15,
+      "end_line": 21,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Queijo.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Queijo.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 15,
+        "functionEndLine": 21,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Queijo\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Queijo\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Queijo.java",
+            "functionStartLine": 15,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.1,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Queijo.java",
+      "start_line": 15,
+      "end_line": 21,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Queijo.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Queijo.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 15,
+        "functionEndLine": 21,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Queijo\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Queijo\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Queijo.java",
+            "functionStartLine": 15,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.1,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Queijo.java",
+      "start_line": 24,
+      "end_line": 30,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Queijo.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Queijo.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 24,
+        "functionEndLine": 30,
+        "numCommitsSeen": 1,
+        "timeTaken": 7,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 0.75;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 0.75;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Queijo.java",
+            "functionStartLine": 24,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Queijo.java",
+      "start_line": 24,
+      "end_line": 30,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Queijo.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Queijo.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 24,
+        "functionEndLine": 30,
+        "numCommitsSeen": 1,
+        "timeTaken": 7,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 0.75;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 0.75;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Queijo.java",
+            "functionStartLine": 24,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Salada.java",
+      "start_line": 14,
+      "end_line": 20,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Salada.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Salada.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 14,
+        "functionEndLine": 20,
+        "numCommitsSeen": 1,
+        "timeTaken": 10,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Salada\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Salada\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Salada.java",
+            "functionStartLine": 14,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.1,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "imprimeIngrediente",
+      "file_path": "src/main/java/decorator/Salada.java",
+      "start_line": 14,
+      "end_line": 20,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Salada.java",
+        "functionName": "imprimeIngrediente",
+        "functionId": "imprimeIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Salada.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 14,
+        "functionEndLine": 20,
+        "numCommitsSeen": 1,
+        "timeTaken": 10,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public String imprimeIngrediente() {\n+    String texto = \"Salada\";\n+    if (ingrediente != null) {\n+        texto += \", \" + ingrediente.imprimeIngrediente();\n+    }\n+    return texto;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic String imprimeIngrediente() {\n    String texto = \"Salada\";\n    if (ingrediente != null) {\n        texto += \", \" + ingrediente.imprimeIngrediente();\n    }\n    return texto;\n}",
+            "path": "src/main/java/decorator/Salada.java",
+            "functionStartLine": 14,
+            "functionName": "imprimeIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 9.1,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 10,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Salada.java",
+      "start_line": 23,
+      "end_line": 29,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Salada.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Salada.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 23,
+        "functionEndLine": 29,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 0.25;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 0.25;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Salada.java",
+            "functionStartLine": 23,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "valorDoIngrediente",
+      "file_path": "src/main/java/decorator/Salada.java",
+      "start_line": 23,
+      "end_line": 29,
+      "size_lines": 7,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Salada.java",
+        "functionName": "valorDoIngrediente",
+        "functionId": "valorDoIngrediente",
+        "sourceFilePath": "src/main/java/decorator/Salada.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 23,
+        "functionEndLine": 29,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,8 @@\n+@Override\n+public double valorDoIngrediente() {\n+    double valor = 0.25;\n+    if (ingrediente != null) {\n+        valor += ingrediente.valorDoIngrediente();\n+    }\n+    return valor;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic double valorDoIngrediente() {\n    double valor = 0.25;\n    if (ingrediente != null) {\n        valor += ingrediente.valorDoIngrediente();\n    }\n    return valor;\n}",
+            "path": "src/main/java/decorator/Salada.java",
+            "functionStartLine": 23,
+            "functionName": "valorDoIngrediente",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 7,
+        "total_lines_with_comments": 7,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 10.428571428571429,
+          "min_length": 5.0,
+          "max_length": 18.0,
+          "total_count": 7,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "add",
+      "file_path": "src/main/java/observer/Subject.java",
+      "start_line": 13,
+      "end_line": 15,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Subject.java",
+        "functionName": "add",
+        "functionId": "add___observer-Observer",
+        "sourceFilePath": "src/main/java/observer/Subject.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 13,
+        "functionEndLine": 15,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,3 @@\n+public void add(Observer observer) {\n+    this.observers.add(observer);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void add(Observer observer) {\n    this.observers.add(observer);\n}",
+            "path": "src/main/java/observer/Subject.java",
+            "functionStartLine": 13,
+            "functionName": "add",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 6.5,
+          "min_length": 3.0,
+          "max_length": 9.0,
+          "total_count": 6,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "add",
+      "file_path": "src/main/java/observer/Subject.java",
+      "start_line": 13,
+      "end_line": 15,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Subject.java",
+        "functionName": "add",
+        "functionId": "add___observer-Observer",
+        "sourceFilePath": "src/main/java/observer/Subject.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 13,
+        "functionEndLine": 15,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,3 @@\n+public void add(Observer observer) {\n+    this.observers.add(observer);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void add(Observer observer) {\n    this.observers.add(observer);\n}",
+            "path": "src/main/java/observer/Subject.java",
+            "functionStartLine": 13,
+            "functionName": "add",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 6.5,
+          "min_length": 3.0,
+          "max_length": 9.0,
+          "total_count": 6,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "notifyObservers",
+      "file_path": "src/main/java/observer/Subject.java",
+      "start_line": 17,
+      "end_line": 21,
+      "size_lines": 5,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Subject.java",
+        "functionName": "notifyObservers",
+        "functionId": "notifyObservers",
+        "sourceFilePath": "src/main/java/observer/Subject.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 17,
+        "functionEndLine": 21,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+public void notifyObservers() {\n+    for (Observer obs : observers) {\n+        obs.update(this);\n+    }\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void notifyObservers() {\n    for (Observer obs : observers) {\n        obs.update(this);\n    }\n}",
+            "path": "src/main/java/observer/Subject.java",
+            "functionStartLine": 17,
+            "functionName": "notifyObservers",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 5,
+        "total_lines_with_comments": 5,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 7.333333333333333,
+          "min_length": 3.0,
+          "max_length": 15.0,
+          "total_count": 6,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "notifyObservers",
+      "file_path": "src/main/java/observer/Subject.java",
+      "start_line": 17,
+      "end_line": 21,
+      "size_lines": 5,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Subject.java",
+        "functionName": "notifyObservers",
+        "functionId": "notifyObservers",
+        "sourceFilePath": "src/main/java/observer/Subject.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 17,
+        "functionEndLine": 21,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+public void notifyObservers() {\n+    for (Observer obs : observers) {\n+        obs.update(this);\n+    }\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void notifyObservers() {\n    for (Observer obs : observers) {\n        obs.update(this);\n    }\n}",
+            "path": "src/main/java/observer/Subject.java",
+            "functionStartLine": 17,
+            "functionName": "notifyObservers",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 5,
+        "total_lines_with_comments": 5,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 7.333333333333333,
+          "min_length": 3.0,
+          "max_length": 15.0,
+          "total_count": 6,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "getTemperatura",
+      "file_path": "src/main/java/observer/Temperatura.java",
+      "start_line": 7,
+      "end_line": 9,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Temperatura.java",
+        "functionName": "getTemperatura",
+        "functionId": "getTemperatura",
+        "sourceFilePath": "src/main/java/observer/Temperatura.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 7,
+        "functionEndLine": 9,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,3 @@\n+public double getTemperatura() {\n+    return temperatura;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public double getTemperatura() {\n    return temperatura;\n}",
+            "path": "src/main/java/observer/Temperatura.java",
+            "functionStartLine": 7,
+            "functionName": "getTemperatura",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 12.5,
+          "min_length": 11.0,
+          "max_length": 14.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "getTemperatura",
+      "file_path": "src/main/java/observer/Temperatura.java",
+      "start_line": 7,
+      "end_line": 9,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Temperatura.java",
+        "functionName": "getTemperatura",
+        "functionId": "getTemperatura",
+        "sourceFilePath": "src/main/java/observer/Temperatura.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 7,
+        "functionEndLine": 9,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,3 @@\n+public double getTemperatura() {\n+    return temperatura;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public double getTemperatura() {\n    return temperatura;\n}",
+            "path": "src/main/java/observer/Temperatura.java",
+            "functionStartLine": 7,
+            "functionName": "getTemperatura",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 12.5,
+          "min_length": 11.0,
+          "max_length": 14.0,
+          "total_count": 2,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "setTemperatura",
+      "file_path": "src/main/java/observer/Temperatura.java",
+      "start_line": 11,
+      "end_line": 14,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Temperatura.java",
+        "functionName": "setTemperatura",
+        "functionId": "setTemperatura___temperatura-double",
+        "sourceFilePath": "src/main/java/observer/Temperatura.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 11,
+        "functionEndLine": 14,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+public void setTemperatura(double temperatura) {\n+    this.temperatura = temperatura;\n+    super.notifyObservers();\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void setTemperatura(double temperatura) {\n    this.temperatura = temperatura;\n    super.notifyObservers();\n}",
+            "path": "src/main/java/observer/Temperatura.java",
+            "functionStartLine": 11,
+            "functionName": "setTemperatura",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 12.4,
+          "min_length": 11.0,
+          "max_length": 15.0,
+          "total_count": 5,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "setTemperatura",
+      "file_path": "src/main/java/observer/Temperatura.java",
+      "start_line": 11,
+      "end_line": 14,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "Temperatura.java",
+        "functionName": "setTemperatura",
+        "functionId": "setTemperatura___temperatura-double",
+        "sourceFilePath": "src/main/java/observer/Temperatura.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 11,
+        "functionEndLine": 14,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+public void setTemperatura(double temperatura) {\n+    this.temperatura = temperatura;\n+    super.notifyObservers();\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void setTemperatura(double temperatura) {\n    this.temperatura = temperatura;\n    super.notifyObservers();\n}",
+            "path": "src/main/java/observer/Temperatura.java",
+            "functionStartLine": 11,
+            "functionName": "setTemperatura",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 12.4,
+          "min_length": 11.0,
+          "max_length": 15.0,
+          "total_count": 5,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "update",
+      "file_path": "src/main/java/observer/TermometroCelsius.java",
+      "start_line": 5,
+      "end_line": 8,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "TermometroCelsius.java",
+        "functionName": "update",
+        "functionId": "update___s-Subject",
+        "sourceFilePath": "src/main/java/observer/TermometroCelsius.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 10,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+@Override\n+public void update(Subject s) {\n+    double temperatura = ((Temperatura) s).getTemperatura();\n+    System.out.println(\"Temperatura em Celsius: \" + temperatura);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic void update(Subject s) {\n    double temperatura = ((Temperatura) s).getTemperatura();\n    System.out.println(\"Temperatura em Celsius: \" + temperatura);\n}",
+            "path": "src/main/java/observer/TermometroCelsius.java",
+            "functionStartLine": 5,
+            "functionName": "update",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.0,
+          "min_length": 1.0,
+          "max_length": 14.0,
+          "total_count": 14,
+          "short_names_ratio": 0.2857142857142857
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "update",
+      "file_path": "src/main/java/observer/TermometroCelsius.java",
+      "start_line": 5,
+      "end_line": 8,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "TermometroCelsius.java",
+        "functionName": "update",
+        "functionId": "update___s-Subject",
+        "sourceFilePath": "src/main/java/observer/TermometroCelsius.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 10,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+@Override\n+public void update(Subject s) {\n+    double temperatura = ((Temperatura) s).getTemperatura();\n+    System.out.println(\"Temperatura em Celsius: \" + temperatura);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic void update(Subject s) {\n    double temperatura = ((Temperatura) s).getTemperatura();\n    System.out.println(\"Temperatura em Celsius: \" + temperatura);\n}",
+            "path": "src/main/java/observer/TermometroCelsius.java",
+            "functionStartLine": 5,
+            "functionName": "update",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.0,
+          "min_length": 1.0,
+          "max_length": 14.0,
+          "total_count": 14,
+          "short_names_ratio": 0.2857142857142857
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "update",
+      "file_path": "src/main/java/observer/TermometroFahrenheit.java",
+      "start_line": 5,
+      "end_line": 8,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "TermometroFahrenheit.java",
+        "functionName": "update",
+        "functionId": "update___s-Subject",
+        "sourceFilePath": "src/main/java/observer/TermometroFahrenheit.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+@Override\n+public void update(Subject s) {\n+    double temperatura = ((Temperatura) s).getTemperatura() * 1.8 + 32;\n+    System.out.println(\"Temperatura em Fahrenheit: \" + temperatura);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic void update(Subject s) {\n    double temperatura = ((Temperatura) s).getTemperatura() * 1.8 + 32;\n    System.out.println(\"Temperatura em Fahrenheit: \" + temperatura);\n}",
+            "path": "src/main/java/observer/TermometroFahrenheit.java",
+            "functionStartLine": 5,
+            "functionName": "update",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.214285714285714,
+          "min_length": 1.0,
+          "max_length": 14.0,
+          "total_count": 14,
+          "short_names_ratio": 0.2857142857142857
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "update",
+      "file_path": "src/main/java/observer/TermometroFahrenheit.java",
+      "start_line": 5,
+      "end_line": 8,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "TermometroFahrenheit.java",
+        "functionName": "update",
+        "functionId": "update___s-Subject",
+        "sourceFilePath": "src/main/java/observer/TermometroFahrenheit.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+@Override\n+public void update(Subject s) {\n+    double temperatura = ((Temperatura) s).getTemperatura() * 1.8 + 32;\n+    System.out.println(\"Temperatura em Fahrenheit: \" + temperatura);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic void update(Subject s) {\n    double temperatura = ((Temperatura) s).getTemperatura() * 1.8 + 32;\n    System.out.println(\"Temperatura em Fahrenheit: \" + temperatura);\n}",
+            "path": "src/main/java/observer/TermometroFahrenheit.java",
+            "functionStartLine": 5,
+            "functionName": "update",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.214285714285714,
+          "min_length": 1.0,
+          "max_length": 14.0,
+          "total_count": 14,
+          "short_names_ratio": 0.2857142857142857
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "connect",
+      "file_path": "src/main/java/singleton/DBConnection.java",
+      "start_line": 22,
+      "end_line": 26,
+      "size_lines": 5,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "DBConnection.java",
+        "functionName": "connect",
+        "functionId": "connect",
+        "sourceFilePath": "src/main/java/singleton/DBConnection.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 22,
+        "functionEndLine": 26,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+public void connect() throws InterruptedException {\n+    System.out.println(\"Connecting to \" + this.connectionString);\n+    Thread.sleep(1000);\n+    System.out.println(\"Connected!!\");\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void connect() throws InterruptedException {\n    System.out.println(\"Connecting to \" + this.connectionString);\n    Thread.sleep(1000);\n    System.out.println(\"Connected!!\");\n}",
+            "path": "src/main/java/singleton/DBConnection.java",
+            "functionStartLine": 22,
+            "functionName": "connect",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 5,
+        "total_lines_with_comments": 5,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.642857142857143,
+          "min_length": 2.0,
+          "max_length": 20.0,
+          "total_count": 14,
+          "short_names_ratio": 0.21428571428571427
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "connect",
+      "file_path": "src/main/java/singleton/DBConnection.java",
+      "start_line": 22,
+      "end_line": 26,
+      "size_lines": 5,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "DBConnection.java",
+        "functionName": "connect",
+        "functionId": "connect",
+        "sourceFilePath": "src/main/java/singleton/DBConnection.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 22,
+        "functionEndLine": 26,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,5 @@\n+public void connect() throws InterruptedException {\n+    System.out.println(\"Connecting to \" + this.connectionString);\n+    Thread.sleep(1000);\n+    System.out.println(\"Connected!!\");\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void connect() throws InterruptedException {\n    System.out.println(\"Connecting to \" + this.connectionString);\n    Thread.sleep(1000);\n    System.out.println(\"Connected!!\");\n}",
+            "path": "src/main/java/singleton/DBConnection.java",
+            "functionStartLine": 22,
+            "functionName": "connect",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 5,
+        "total_lines_with_comments": 5,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 7.642857142857143,
+          "min_length": 2.0,
+          "max_length": 20.0,
+          "total_count": 14,
+          "short_names_ratio": 0.21428571428571427
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/LengthStrategy.java",
+      "start_line": 5,
+      "end_line": 7,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "LengthStrategy.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/LengthStrategy.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 7,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+@Override\n+public boolean validate(String password) {\n+    return password != null && password.length() >= 8;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic boolean validate(String password) {\n    return password != null && password.length() >= 8;\n}",
+            "path": "src/main/java/strategy/LengthStrategy.java",
+            "functionStartLine": 5,
+            "functionName": "validate",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 7.333333333333333,
+          "min_length": 6.0,
+          "max_length": 8.0,
+          "total_count": 6,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/LengthStrategy.java",
+      "start_line": 5,
+      "end_line": 7,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "LengthStrategy.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/LengthStrategy.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 7,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,4 @@\n+@Override\n+public boolean validate(String password) {\n+    return password != null && password.length() >= 8;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic boolean validate(String password) {\n    return password != null && password.length() >= 8;\n}",
+            "path": "src/main/java/strategy/LengthStrategy.java",
+            "functionStartLine": 5,
+            "functionName": "validate",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 7.333333333333333,
+          "min_length": 6.0,
+          "max_length": 8.0,
+          "total_count": 6,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "setStrategy",
+      "file_path": "src/main/java/strategy/PasswordValidator.java",
+      "start_line": 6,
+      "end_line": 8,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "PasswordValidator.java",
+        "functionName": "setStrategy",
+        "functionId": "setStrategy___strategy-PasswordStrategy",
+        "sourceFilePath": "src/main/java/strategy/PasswordValidator.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 6,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,3 @@\n+public void setStrategy(PasswordStrategy strategy) {\n+    this.strategy = strategy;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void setStrategy(PasswordStrategy strategy) {\n    this.strategy = strategy;\n}",
+            "path": "src/main/java/strategy/PasswordValidator.java",
+            "functionStartLine": 6,
+            "functionName": "setStrategy",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 10.2,
+          "min_length": 8.0,
+          "max_length": 16.0,
+          "total_count": 5,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "setStrategy",
+      "file_path": "src/main/java/strategy/PasswordValidator.java",
+      "start_line": 6,
+      "end_line": 8,
+      "size_lines": 3,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "PasswordValidator.java",
+        "functionName": "setStrategy",
+        "functionId": "setStrategy___strategy-PasswordStrategy",
+        "sourceFilePath": "src/main/java/strategy/PasswordValidator.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 6,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 12,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,3 @@\n+public void setStrategy(PasswordStrategy strategy) {\n+    this.strategy = strategy;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public void setStrategy(PasswordStrategy strategy) {\n    this.strategy = strategy;\n}",
+            "path": "src/main/java/strategy/PasswordValidator.java",
+            "functionStartLine": 6,
+            "functionName": "setStrategy",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 3,
+        "total_lines_with_comments": 3,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 1,
+        "identifier_stats": {
+          "avg_length": 10.2,
+          "min_length": 8.0,
+          "max_length": 16.0,
+          "total_count": 5,
+          "short_names_ratio": 0.0
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/PasswordValidator.java",
+      "start_line": 10,
+      "end_line": 15,
+      "size_lines": 6,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "PasswordValidator.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/PasswordValidator.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 10,
+        "functionEndLine": 15,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,6 @@\n+public boolean validate(String password) {\n+    if (strategy == null) {\n+        throw new IllegalStateException(\"Strategy not set\");\n+    }\n+    return strategy.validate(password);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public boolean validate(String password) {\n    if (strategy == null) {\n        throw new IllegalStateException(\"Strategy not set\");\n    }\n    return strategy.validate(password);\n}",
+            "path": "src/main/java/strategy/PasswordValidator.java",
+            "functionStartLine": 10,
+            "functionName": "validate",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 6,
+        "total_lines_with_comments": 6,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 8.090909090909092,
+          "min_length": 3.0,
+          "max_length": 21.0,
+          "total_count": 11,
+          "short_names_ratio": 0.18181818181818182
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/PasswordValidator.java",
+      "start_line": 10,
+      "end_line": 15,
+      "size_lines": 6,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "PasswordValidator.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/PasswordValidator.java",
+        "functionAnnotation": "",
+        "functionDoc": "",
+        "functionStartLine": 10,
+        "functionEndLine": 15,
+        "numCommitsSeen": 1,
+        "timeTaken": 8,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,6 @@\n+public boolean validate(String password) {\n+    if (strategy == null) {\n+        throw new IllegalStateException(\"Strategy not set\");\n+    }\n+    return strategy.validate(password);\n+}\n\\ No newline at end of file\n",
+            "actualSource": "public boolean validate(String password) {\n    if (strategy == null) {\n        throw new IllegalStateException(\"Strategy not set\");\n    }\n    return strategy.validate(password);\n}",
+            "path": "src/main/java/strategy/PasswordValidator.java",
+            "functionStartLine": 10,
+            "functionName": "validate",
+            "functionAnnotation": "",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 6,
+        "total_lines_with_comments": 6,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 8.090909090909092,
+          "min_length": 3.0,
+          "max_length": 21.0,
+          "total_count": 11,
+          "short_names_ratio": 0.18181818181818182
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/SpecialCharStrategy.java",
+      "start_line": 5,
+      "end_line": 8,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "SpecialCharStrategy.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/SpecialCharStrategy.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 7,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,6 @@\n+@Override\n+public boolean validate(String password) {\n+    if (password == null)\n+        return false;\n+    return password.matches(\".*[^a-zA-Z0-9].*\");\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic boolean validate(String password) {\n    if (password == null)\n        return false;\n    return password.matches(\".*[^a-zA-Z0-9].*\");\n}",
+            "path": "src/main/java/strategy/SpecialCharStrategy.java",
+            "functionStartLine": 5,
+            "functionName": "validate",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 5.555555555555555,
+          "min_length": 1.0,
+          "max_length": 8.0,
+          "total_count": 9,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/SpecialCharStrategy.java",
+      "start_line": 5,
+      "end_line": 8,
+      "size_lines": 4,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "SpecialCharStrategy.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/SpecialCharStrategy.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 8,
+        "numCommitsSeen": 1,
+        "timeTaken": 7,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,6 @@\n+@Override\n+public boolean validate(String password) {\n+    if (password == null)\n+        return false;\n+    return password.matches(\".*[^a-zA-Z0-9].*\");\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic boolean validate(String password) {\n    if (password == null)\n        return false;\n    return password.matches(\".*[^a-zA-Z0-9].*\");\n}",
+            "path": "src/main/java/strategy/SpecialCharStrategy.java",
+            "functionStartLine": 5,
+            "functionName": "validate",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 4,
+        "total_lines_with_comments": 4,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 2,
+        "identifier_stats": {
+          "avg_length": 5.555555555555555,
+          "min_length": 1.0,
+          "max_length": 8.0,
+          "total_count": 9,
+          "short_names_ratio": 0.3333333333333333
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/UpperCaseStrategy.java",
+      "start_line": 5,
+      "end_line": 13,
+      "size_lines": 9,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "UpperCaseStrategy.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/UpperCaseStrategy.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 13,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,11 @@\n+@Override\n+public boolean validate(String password) {\n+    if (password == null)\n+        return false;\n+    for (char c : password.toCharArray()) {\n+        if (Character.isUpperCase(c)) {\n+            return true;\n+        }\n+    }\n+    return false;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic boolean validate(String password) {\n    if (password == null)\n        return false;\n    for (char c : password.toCharArray()) {\n        if (Character.isUpperCase(c)) {\n            return true;\n        }\n    }\n    return false;\n}",
+            "path": "src/main/java/strategy/UpperCaseStrategy.java",
+            "functionStartLine": 5,
+            "functionName": "validate",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 9,
+        "total_lines_with_comments": 9,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 4,
+        "identifier_stats": {
+          "avg_length": 7.1,
+          "min_length": 1.0,
+          "max_length": 11.0,
+          "total_count": 10,
+          "short_names_ratio": 0.2
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  },
+  {
+    "method_info": {
+      "name": "validate",
+      "file_path": "src/main/java/strategy/UpperCaseStrategy.java",
+      "start_line": 5,
+      "end_line": 13,
+      "size_lines": 9,
+      "repository": "dcc-603-rp-design-patterns",
+      "commit_count": 1,
+      "fix_ratio": 0.0,
+      "codeshovel_data": {
+        "origin": "codeshovel",
+        "repositoryName": "dcc-603-rp-design-patterns",
+        "repositoryPath": "/home/rafaelmagesty/TP-engsoft2/large-code-maintainability/.lcm_work/dcc-603-rp-design-patterns/.git",
+        "startCommitName": "HEAD",
+        "sourceFileName": "UpperCaseStrategy.java",
+        "functionName": "validate",
+        "functionId": "validate___password-String",
+        "sourceFilePath": "src/main/java/strategy/UpperCaseStrategy.java",
+        "functionAnnotation": "@Override",
+        "functionDoc": "",
+        "functionStartLine": 5,
+        "functionEndLine": 13,
+        "numCommitsSeen": 1,
+        "timeTaken": 9,
+        "changeHistory": [
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1"
+        ],
+        "changeHistoryShort": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": "Yintroduced"
+        },
+        "changeHistoryDetails": {
+          "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1": {
+            "type": "Yintroduced",
+            "commitMessage": "Resolução dos exercicios\n",
+            "commitDate": "5/8/25, 3:40 PM",
+            "commitName": "ffb5de1b375e9cf03fb6d5b15b616d1391cd1cd1",
+            "commitAuthor": "rafaelmagesty",
+            "diff": "@@ -0,0 +1,11 @@\n+@Override\n+public boolean validate(String password) {\n+    if (password == null)\n+        return false;\n+    for (char c : password.toCharArray()) {\n+        if (Character.isUpperCase(c)) {\n+            return true;\n+        }\n+    }\n+    return false;\n+}\n\\ No newline at end of file\n",
+            "actualSource": "@Override\npublic boolean validate(String password) {\n    if (password == null)\n        return false;\n    for (char c : password.toCharArray()) {\n        if (Character.isUpperCase(c)) {\n            return true;\n        }\n    }\n    return false;\n}",
+            "path": "src/main/java/strategy/UpperCaseStrategy.java",
+            "functionStartLine": 5,
+            "functionName": "validate",
+            "functionAnnotation": "@Override",
+            "functionDoc": ""
+          }
+        }
+      },
+      "quality_metrics": {
+        "code_lines_no_comments": 9,
+        "total_lines_with_comments": 9,
+        "comment_ratio": 0.0,
+        "cyclomatic_complexity": 4,
+        "identifier_stats": {
+          "avg_length": 7.1,
+          "min_length": 1.0,
+          "max_length": 11.0,
+          "total_count": 10,
+          "short_names_ratio": 0.2
+        },
+        "commit_authors": [
+          "rafaelmagesty"
+        ],
+        "author_concentration": 0.0,
+        "complexity_evolution": null
+      }
+    },
+    "fix_commit_count": 0,
+    "total_changes_count": 1
+  }
+]

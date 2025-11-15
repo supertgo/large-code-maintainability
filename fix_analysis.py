@@ -24,6 +24,7 @@ from quality_metrics_extension import (
     EnhancedMethodInfo,
     serialize_enhanced_method_info,
 )
+from html_report_generator import HTMLReportGenerator
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -59,17 +60,24 @@ class FixAnalysis:
 class CodeShovelAnalyzer:
     """Analisador usando CodeShovel para métodos Java"""
 
-    def __init__(self, codeshovel_jar_path: str, repositories_dir: str):
+    def __init__(self, codeshovel_jar_path: str, repositories_dir: str, results_dir: str = None):
         """
         Inicializa o analisador
 
         Args:
             codeshovel_jar_path: Caminho para o JAR do CodeShovel
             repositories_dir: Diretório contendo os repositórios Java
+            results_dir: Diretório para salvar resultados (se None, usa 'fix_analysis_results')
         """
         self.codeshovel_jar_path = codeshovel_jar_path
         self.repositories_dir = Path(repositories_dir)
-        self.results_dir = Path("fix_analysis_results")
+        
+        # Se results_dir foi especificado e repositories_dir também aponta para resultados, use-o
+        if results_dir:
+            self.results_dir = Path(results_dir)
+        else:
+            self.results_dir = Path("fix_analysis_results")
+        
         self.results_dir.mkdir(exist_ok=True)
 
         if not os.path.exists(codeshovel_jar_path):
@@ -245,9 +253,7 @@ class CodeShovelAnalyzer:
 
         if not isinstance(codeshovel_data, dict):
             logger.warning(
-                f"Dados do CodeShovel não são um dicionário válido: {
-                    type(codeshovel_data)
-                }"
+                f"Dados do CodeShovel não são um dicionário válido: {type(codeshovel_data)}"
             )
             return 0, []
 
@@ -268,9 +274,7 @@ class CodeShovelAnalyzer:
         for commit_sha, commit_data in change_details.items():
             if not isinstance(commit_data, dict):
                 logger.warning(
-                    f"Detalhes do commit {commit_sha} não são um dicionário: {
-                        type(commit_data)
-                    }"
+                    f"Detalhes do commit {commit_sha} não são um dicionário: {type(commit_data)}"
                 )
                 continue
 
@@ -642,10 +646,7 @@ class CodeShovelAnalyzer:
         top_fix_methods = df.nlargest(10, "fix_ratio")
 
         for _, row in top_fix_methods.iterrows():
-            report += f"- **{row['method_name']}** ({row['repository']}): {
-                row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {
-                row['size_lines']
-            } linhas)\n"
+            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
 
         report += f"""
         ## Conclusões
@@ -799,10 +800,7 @@ class CodeShovelAnalyzer:
         top_fix_methods = df.nlargest(10, "fix_ratio")
 
         for _, row in top_fix_methods.iterrows():
-            report += f"- **{row['method_name']}** ({row['repository']}): {
-                row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {
-                row['size_lines']
-            } linhas)\n"
+            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
 
         report += f"""
         ## Conclusões
@@ -911,6 +909,7 @@ class CodeShovelAnalyzer:
 
         self.create_visualizations_from_df(df)
         self.generate_report_from_df(df)
+        self.generate_html_report()  # Gera o relatório HTML
         stats = self.generate_statistics_from_df(df)
         logger.info(f"Estatísticas: {stats}")
 
@@ -921,6 +920,62 @@ class CodeShovelAnalyzer:
             "fix_commit_count": len(analysis.fix_commits),
             "total_changes_count": len(analysis.total_changes),
         }
+
+    def generate_html_report(self, analyses: Optional[List[FixAnalysis]] = None):
+        """Gera relatório completo em HTML com gráficos e análises"""
+        
+        # Se analyses não foi fornecido, carrega dos resultados salvos
+        if analyses is None:
+            results = self.load_results()
+            if not results:
+                logger.warning("Nenhum resultado encontrado para gerar HTML")
+                return
+            
+            df = pd.DataFrame(
+                [
+                    {
+                        "method_name": item["method_info"]["name"],
+                        "repository": item["method_info"]["repository"],
+                        "size_lines": item["method_info"]["size_lines"],
+                        "cyclomatic_complexity": item["method_info"].get(
+                            "cyclomatic_complexity", 1
+                        ),
+                        "commit_count": item["method_info"]["commit_count"],
+                        "fix_commit_count": item["fix_commit_count"],
+                        "fix_ratio": item["method_info"]["fix_ratio"],
+                    }
+                    for item in results
+                ]
+            )
+        else:
+            # Converter analyses para DataFrame
+            data = []
+            for analysis in analyses:
+                data.append(
+                    {
+                        "method_name": analysis.method_info.name,
+                        "repository": analysis.method_info.repository,
+                        "size_lines": analysis.method_info.size_lines,
+                        "cyclomatic_complexity": getattr(
+                            analysis.method_info.quality_metrics, 
+                            'cyclomatic_complexity', 
+                            1
+                        ) if hasattr(analysis.method_info, 'quality_metrics') else 1,
+                        "commit_count": analysis.method_info.commit_count,
+                        "fix_commit_count": analysis.method_info.fix_commit_count,
+                        "fix_ratio": analysis.method_info.fix_ratio,
+                    }
+                )
+            df = pd.DataFrame(data)
+        
+        if df.empty:
+            logger.warning("DataFrame vazio, não é possível gerar HTML")
+            return
+        
+        # Usar o módulo HTMLReportGenerator
+        html_generator = HTMLReportGenerator(self.results_dir)
+        html_file = html_generator.generate_html(df)
+        return html_file
 
 
 def main():
@@ -965,6 +1020,7 @@ def main():
             analyzer.create_visualizations(analyses)
 
             analyzer.generate_report(analyses)
+            analyzer.generate_html_report(analyses)  # Gera o relatório HTML
 
             logger.info(
                 "Análise completa! Verifique os arquivos na pasta 'fix_analysis_results'"

@@ -64,6 +64,7 @@ def analyze_single_repo(repo_path: Path, codeshovel_jar: Path, keep_clone: bool)
         analyzer.save_results(repo_path.name, analyses)
         analyzer.create_visualizations(analyses)
         analyzer.generate_report(analyses)
+        analyzer.generate_html_report(analyses)
         return 0
     return 2
 
@@ -160,7 +161,7 @@ def main(argv: Optional[list] = None) -> int:
                 extract_methods_from_single_repo(repo_path, result_file)
                 run_codeshovel(repo_path, result_file)
 
-                # Gera gráficos e relatório usando o fix_analysis.py
+                # Gera gráficos e relatório usando o fix_analysis.py (incluindo HTML)
                 analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
                 analyzer.generate_from_saved_results()
                 return 0
@@ -205,7 +206,7 @@ def main(argv: Optional[list] = None) -> int:
                 extract_methods_from_single_repo(repo, result_file)
                 run_codeshovel(repo, result_file)
 
-            # Gera gráficos e relatório agregado usando o fix_analysis.py
+            # Gera gráficos e relatório agregado usando o fix_analysis.py (incluindo HTML)
             analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
             analyzer.generate_from_saved_results()
             return 0
@@ -215,6 +216,7 @@ def main(argv: Optional[list] = None) -> int:
             if analyses:
                 analyzer.create_visualizations(analyses)
                 analyzer.generate_report(analyses)
+                analyzer.generate_html_report(analyses)
                 return 0
             return 2
 
