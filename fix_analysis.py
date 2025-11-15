@@ -245,9 +245,7 @@ class CodeShovelAnalyzer:
 
         if not isinstance(codeshovel_data, dict):
             logger.warning(
-                f"Dados do CodeShovel não são um dicionário válido: {
-                    type(codeshovel_data)
-                }"
+                f"Dados do CodeShovel não são um dicionário válido: {type(codeshovel_data)}"
             )
             return 0, []
 
@@ -268,9 +266,7 @@ class CodeShovelAnalyzer:
         for commit_sha, commit_data in change_details.items():
             if not isinstance(commit_data, dict):
                 logger.warning(
-                    f"Detalhes do commit {commit_sha} não são um dicionário: {
-                        type(commit_data)
-                    }"
+                    f"Detalhes do commit {commit_sha} não são um dicionário: {type(commit_data)}"
                 )
                 continue
 
@@ -642,10 +638,7 @@ class CodeShovelAnalyzer:
         top_fix_methods = df.nlargest(10, "fix_ratio")
 
         for _, row in top_fix_methods.iterrows():
-            report += f"- **{row['method_name']}** ({row['repository']}): {
-                row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {
-                row['size_lines']
-            } linhas)\n"
+            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
 
         report += f"""
         ## Conclusões
@@ -799,10 +792,7 @@ class CodeShovelAnalyzer:
         top_fix_methods = df.nlargest(10, "fix_ratio")
 
         for _, row in top_fix_methods.iterrows():
-            report += f"- **{row['method_name']}** ({row['repository']}): {
-                row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {
-                row['size_lines']
-            } linhas)\n"
+            report += f"- **{row['method_name']}** ({row['repository']}): {row['fix_ratio']:.2%} ({row['fix_commit_count']} fixes, {row['size_lines']} linhas)\n"
 
         report += f"""
         ## Conclusões
