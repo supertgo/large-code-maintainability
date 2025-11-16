@@ -54,12 +54,12 @@ jobs:
 
       - name: Verify imports
         run: |
-          python -c "import sys; print('✓ Python:', sys.version)"
-          python -c "import pandas; print('✓ pandas imported')"
-          python -c "import numpy; print('✓ numpy imported')"
-          python -c "import pytest; print('✓ pytest imported')"
-          python -c "import matplotlib; print('✓ matplotlib imported')"
-          python -c "import seaborn; print('✓ seaborn imported')"
+          python -c "import sys; print('Python:', sys.version)"
+          python -c "import pandas; print('pandas imported')"
+          python -c "import numpy; print('numpy imported')"
+          python -c "import pytest; print('pytest imported')"
+          python -c "import matplotlib; print('matplotlib imported')"
+          python -c "import seaborn; print(' seaborn imported')"
 
       - name: Run unit tests
         run: |
