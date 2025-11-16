@@ -83,7 +83,7 @@ jobs:
 
       - name: Test module imports
         run: |
-          python -c "import sys; sys.path.insert(0, '.'); import test_fix_analysis; print('✓ test_fix_analysis can be imported')"
+          python -c "import sys; sys.path.insert(0, '.'); import test_fix_analysis; print('test_fix_analysis can be imported')"
 
   lint:
     runs-on: ubuntu-latest
@@ -145,7 +145,7 @@ jobs:
             echo "✓ CodeShovel JAR found"
             ls -lh codeshovel.jar
           else
-            echo "⚠ CodeShovel JAR not found (expected for CI)"
+            echo " CodeShovel JAR not found (expected for CI)"
           fi
 
       - name: Test CLI help
