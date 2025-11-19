@@ -2,37 +2,37 @@
         # Relatório de Análise de Fix vs Tamanho de Métodos
 
         ## Resumo Executivo
-        - **Total de métodos analisados**: 48
+        - **Total de métodos analisados**: 1760
         - **Total de repositórios**: 1
         - **Métodos com commits de fix**: 0
-        - **Tamanho médio dos métodos**: 5.5 linhas
+        - **Tamanho médio dos métodos**: 5.9 linhas
         - **Proporção média de fix**: 0.00%
 
         ## Análise por Categoria de Tamanho
 
         ### Métodos Pequenos (≤10 linhas)
-        - **Quantidade**: 48
+        - **Quantidade**: 1571
         - **Fix ratio médio**: 0.00%
 
         ### Métodos Médios (11-50 linhas)
-        - **Quantidade**: 0
+        - **Quantidade**: 185
         - **Fix ratio médio**: 0.00%
 
         ### Métodos Grandes (>50 linhas)
-        - **Quantidade**: 0
+        - **Quantidade**: 4
         - **Fix ratio médio**: 0.00%
 
         ## Top 10 Métodos com Maior Fix Ratio
-        - **imprimeIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 7 linhas)
-- **imprimeIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 7 linhas)
-- **valorDoIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 7 linhas)
-- **valorDoIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 7 linhas)
-- **imprimeIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 3 linhas)
-- **imprimeIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 3 linhas)
-- **valorDoIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 3 linhas)
-- **valorDoIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 3 linhas)
-- **imprimeIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 7 linhas)
-- **imprimeIngrediente** (dcc-603-rp-design-patterns): 0.00% (0 fixes, 7 linhas)
+        - **engineDiscoveryFinished** (junit-framework): 0.00% (0 fixes, 3 linhas)
+- **equals** (junit-framework): 0.00% (0 fixes, 9 linhas)
+- **hashCode** (junit-framework): 0.00% (0 fixes, 3 linhas)
+- **paragraph** (junit-framework): 0.00% (0 fixes, 3 linhas)
+- **printDeclarationInfo** (junit-framework): 0.00% (0 fixes, 4 linhas)
+- **printReportHeader** (junit-framework): 0.00% (0 fixes, 7 linhas)
+- **findMatchingPattern** (junit-framework): 0.00% (0 fixes, 3 linhas)
+- **close** (junit-framework): 0.00% (0 fixes, 3 linhas)
+- **createOutputDirectory** (junit-framework): 0.00% (0 fixes, 8 linhas)
+- **getConfigurationParameter** (junit-framework): 0.00% (0 fixes, 3 linhas)
 
         ## Conclusões
         Esta análise revela a relação entre o tamanho dos métodos e a frequência de commits de fix.

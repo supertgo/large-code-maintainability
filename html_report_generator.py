@@ -660,7 +660,12 @@ class HTMLReportGenerator:
                 </div>
 """
 
-        html_content += """
+        size_categories = stats.get("size_categories", {})
+        small_avg = stats.get("small_avg_fix_ratio", 0)
+        medium_avg = stats.get("medium_avg_fix_ratio", 0)
+        large_avg = stats.get("large_avg_fix_ratio", 0)
+        
+        html_content += f"""
             </div>
             
             <div class="section">
@@ -668,18 +673,18 @@ class HTMLReportGenerator:
                 <div class="category-stats">
                     <div class="category-card">
                         <h4>Métodos Pequenos (≤10 linhas)</h4>
-                        <p><strong>Quantidade:</strong> {stats.get("size_categories", {}).get("small", 0)}</p>
-                        <p><strong>Fix Ratio Médio:</strong> {stats.get("small_avg_fix_ratio", 0):.2%}</p>
+                        <p><strong>Quantidade:</strong> {size_categories.get("small", 0)}</p>
+                        <p><strong>Fix Ratio Médio:</strong> {small_avg:.2%}</p>
                     </div>
                     <div class="category-card">
                         <h4>Métodos Médios (11-50 linhas)</h4>
-                        <p><strong>Quantidade:</strong> {stats.get("size_categories", {}).get("medium", 0)}</p>
-                        <p><strong>Fix Ratio Médio:</strong> {stats.get("medium_avg_fix_ratio", 0):.2%}</p>
+                        <p><strong>Quantidade:</strong> {size_categories.get("medium", 0)}</p>
+                        <p><strong>Fix Ratio Médio:</strong> {medium_avg:.2%}</p>
                     </div>
                     <div class="category-card">
                         <h4>Métodos Grandes (>50 linhas)</h4>
-                        <p><strong>Quantidade:</strong> {stats.get("size_categories", {}).get("large", 0)}</p>
-                        <p><strong>Fix Ratio Médio:</strong> {stats.get("large_avg_fix_ratio", 0):.2%}</p>
+                        <p><strong>Quantidade:</strong> {size_categories.get("large", 0)}</p>
+                        <p><strong>Fix Ratio Médio:</strong> {large_avg:.2%}</p>
                     </div>
                 </div>
             </div>
@@ -687,6 +692,14 @@ class HTMLReportGenerator:
 
         # Adicionar seção de análise por complexidade ciclomática se disponível
         if "avg_complexity" in stats:
+            avg_complexity = stats.get("avg_complexity", 0)
+            median_complexity = stats.get("median_complexity", 0)
+            max_complexity = stats.get("max_complexity", 0)
+            complexity_categories = stats.get("complexity_categories", {})
+            complexity_low_avg = stats.get("complexity_low_avg_fix_ratio", 0)
+            complexity_medium_avg = stats.get("complexity_medium_avg_fix_ratio", 0)
+            complexity_high_avg = stats.get("complexity_high_avg_fix_ratio", 0)
+            
             html_content += f"""
             <div class="section">
                 <h2>Análise por Complexidade Ciclomática</h2>
@@ -694,39 +707,44 @@ class HTMLReportGenerator:
                 <div class="stats-grid" style="margin-bottom: 30px;">
                     <div class="stat-card">
                         <h3>Complexidade Média</h3>
-                        <div class="value">{stats.get("avg_complexity", 0):.1f}</div>
+                        <div class="value">{avg_complexity:.1f}</div>
                     </div>
                     <div class="stat-card">
                         <h3>Complexidade Mediana</h3>
-                        <div class="value">{stats.get("median_complexity", 0):.0f}</div>
+                        <div class="value">{median_complexity:.0f}</div>
                     </div>
                     <div class="stat-card">
                         <h3>Complexidade Máxima</h3>
-                        <div class="value">{stats.get("max_complexity", 0):.0f}</div>
+                        <div class="value">{max_complexity:.0f}</div>
                     </div>
                 </div>
                 
                 <div class="category-stats">
                     <div class="category-card">
                         <h4>Complexidade Baixa (≤5)</h4>
-                        <p><strong>Quantidade:</strong> {stats.get("complexity_categories", {}).get("low", 0)}</p>
-                        <p><strong>Fix Ratio Médio:</strong> {stats.get("complexity_low_avg_fix_ratio", 0):.2%}</p>
+                        <p><strong>Quantidade:</strong> {complexity_categories.get("low", 0)}</p>
+                        <p><strong>Fix Ratio Médio:</strong> {complexity_low_avg:.2%}</p>
                     </div>
                     <div class="category-card">
                         <h4>Complexidade Média (6-10)</h4>
-                        <p><strong>Quantidade:</strong> {stats.get("complexity_categories", {}).get("medium", 0)}</p>
-                        <p><strong>Fix Ratio Médio:</strong> {stats.get("complexity_medium_avg_fix_ratio", 0):.2%}</p>
+                        <p><strong>Quantidade:</strong> {complexity_categories.get("medium", 0)}</p>
+                        <p><strong>Fix Ratio Médio:</strong> {complexity_medium_avg:.2%}</p>
                     </div>
                     <div class="category-card">
                         <h4>Complexidade Alta (>10)</h4>
-                        <p><strong>Quantidade:</strong> {stats.get("complexity_categories", {}).get("high", 0)}</p>
-                        <p><strong>Fix Ratio Médio:</strong> {stats.get("complexity_high_avg_fix_ratio", 0):.2%}</p>
+                        <p><strong>Quantidade:</strong> {complexity_categories.get("high", 0)}</p>
+                        <p><strong>Fix Ratio Médio:</strong> {complexity_high_avg:.2%}</p>
                     </div>
                 </div>
             </div>
 """
 
-        html_content += """
+        avg_method_size = stats.get("avg_method_size", 0)
+        methods_with_fixes = stats.get("methods_with_fixes", 0)
+        total_methods = stats.get("total_methods", 0)
+        avg_fix_ratio = stats.get("avg_fix_ratio", 0)
+        
+        html_content += f"""
             <div class="section">
                 <h2>Top 10 Métodos com Maior Fix Ratio</h2>
                 <div class="method-list">
@@ -742,16 +760,18 @@ class HTMLReportGenerator:
                 
                 <p style="margin-top: 15px;">Com base nos dados analisados, observamos que:</p>
                 <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>O tamanho médio dos métodos é de <strong>{stats.get("avg_method_size", 0):.1f} linhas</strong></li>
-                    <li><strong>{stats.get("methods_with_fixes", 0)}</strong> métodos de um total de <strong>{stats.get("total_methods", 0)}</strong> tiveram commits de fix</li>
-                    <li>A proporção média de commits de fix é de <strong>{stats.get("avg_fix_ratio", 0):.2%}</strong></li>
+                    <li>O tamanho médio dos métodos é de <strong>{avg_method_size:.1f} linhas</strong></li>
+                    <li><strong>{methods_with_fixes}</strong> métodos de um total de <strong>{total_methods}</strong> tiveram commits de fix</li>
+                    <li>A proporção média de commits de fix é de <strong>{avg_fix_ratio:.2%}</strong></li>
 """
 
         # Adicionar observações sobre complexidade se disponível
         if "avg_complexity" in stats:
+            avg_complexity = stats.get("avg_complexity", 0)
+            complexity_categories = stats.get("complexity_categories", {})
             html_content += f"""
-                    <li>A complexidade ciclomática média é de <strong>{stats.get("avg_complexity", 0):.1f}</strong></li>
-                    <li>Métodos com complexidade alta (>10) representam <strong>{stats.get("complexity_categories", {}).get("high", 0)}</strong> do total</li>
+                    <li>A complexidade ciclomática média é de <strong>{avg_complexity:.1f}</strong></li>
+                    <li>Métodos com complexidade alta (>10) representam <strong>{complexity_categories.get("high", 0)}</strong> do total</li>
 """
             
             # Análise comparativa se houver dados suficientes

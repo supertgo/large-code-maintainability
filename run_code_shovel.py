@@ -63,8 +63,20 @@ def analyze_fix_commits(codeshovel_data) -> Tuple[int, List[Dict]]:
 
     return total_commits, fix_commits
 
-def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, start_line: int):
+def get_code_shovel_data(repository: Path, file_path, method_name: str, start_line: int):
     try:
+        # Converter file_path para Path se for string
+        if isinstance(file_path, str):
+            file_path_obj = Path(file_path)
+        else:
+            file_path_obj = file_path
+        
+        # Verificar se o arquivo existe no repositório
+        full_file_path = repository / file_path_obj
+        if not full_file_path.exists():
+            logger.warning(f"Arquivo Java não encontrado no repositório: {full_file_path}")
+            return None
+        
         jar_path = os.environ.get("CODESHOVEL_JAR", "codeshovel.jar")
         cmd = [
             "java",
@@ -73,7 +85,7 @@ def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, st
             "-repopath",
             str(repository),
             "-filepath",
-            str(file_path),
+            str(file_path_obj),  # Usar caminho relativo ao repositório
             "-methodname",
             method_name,
             "-startline",
@@ -93,8 +105,9 @@ def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, st
             timeout=300,  # 5 minutos timeout
         )
 
+        output_file = f"temp_{method_name}_{start_line}.json"
+        
         if process.returncode == 0:
-            output_file = f"temp_{method_name}_{start_line}.json"
             if os.path.exists(output_file):
                 try:
                     with open(output_file, "r", encoding="utf-8") as f:
@@ -102,6 +115,8 @@ def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, st
 
                         if not content:
                             logger.warning(f"Arquivo de saída vazio: {output_file}")
+                            if process.stderr:
+                                logger.debug(f"Stderr do CodeShovel: {process.stderr}")
                             os.remove(output_file)
                             return None
 
@@ -126,9 +141,22 @@ def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, st
                         os.remove(output_file)
                     return None
             else:
+                # Arquivo não encontrado mesmo com returncode 0
                 logger.warning(f"Arquivo de saída não encontrado: {output_file}")
+                logger.warning(f"Método: {method_name}, Arquivo: {file_path}, Linha: {start_line}")
+                if process.stdout:
+                    logger.info(f"Stdout do CodeShovel: {process.stdout[:500]}")
+                if process.stderr:
+                    logger.info(f"Stderr do CodeShovel: {process.stderr[:500]}")
+                # Verificar se o arquivo foi criado em outro lugar
+                current_dir = os.getcwd()
+                logger.debug(f"Procurando arquivo no diretório atual: {current_dir}")
         else:
-            logger.warning(f"CodeShovel falhou para {method_name}: {process.stderr}")
+            logger.warning(f"CodeShovel falhou para {method_name} (código {process.returncode})")
+            if process.stderr:
+                logger.warning(f"Erro do CodeShovel: {process.stderr[:500]}")
+            if process.stdout:
+                logger.debug(f"Stdout do CodeShovel: {process.stdout[:500]}")
 
     except subprocess.TimeoutExpired:
         logger.warning(f"Timeout ao executar CodeShovel para {method_name}")
@@ -144,6 +172,8 @@ def run_codeshovel(repository: Path, result_path: Path):
     for file in data["files"]:
         methods_completed = 0
         if file["complete"]:
+            # Se o arquivo já está completo, conta todos os métodos como completos
+            methods_completed = len(file.get("methods", []))
             continue
 
         for method in file["methods"]:
@@ -152,10 +182,12 @@ def run_codeshovel(repository: Path, result_path: Path):
                 continue
 
             codeshovel_data = get_code_shovel_data(repository, file["path"], method["name"], method["method_info"]["start_line"])
+            
+            # Marca como completo mesmo se não retornou dados (para evitar tentativas infinitas)
+            method["complete"] = True
+            methods_completed += 1
+            
             if codeshovel_data is not None:
-                method["complete"] = True
-                methods_completed += 1
-
                 total_commits, fix_commits = analyze_fix_commits(codeshovel_data)
 
                 all_changes = []
@@ -172,11 +204,30 @@ def run_codeshovel(repository: Path, result_path: Path):
                 )
 
                 method["codeshovel_analysis"] = asdict(codeshovel_info)
+            else:
+                # Se não retornou dados, marca com valores zero
+                codeshovel_info = CodeShovelMethodInfo(
+                    commit_count = 0,
+                    fix_commit_count = 0,
+                    fix_ratio = 0.0,
+                    total_changes_count = 0
+                )
+                method["codeshovel_analysis"] = asdict(codeshovel_info)
 
-                with open(result_path, "w", encoding="utf-8") as f:
-                    json.dump(data, f, indent=2, ensure_ascii=False)
+            # Salva o progresso após processar cada método
+            with open(result_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
 
+        was_complete = file.get("complete", False)
         file["complete"] = (methods_completed == len(file["methods"]))
+        # Save file state if completion status changed
+        if not was_complete and file["complete"]:
+            with open(result_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    # Salva o estado final após processar todos os arquivos
+    with open(result_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 def main():
     # for repository in Path(DEFAULT_REPOSITORIES_DIR).iterdir():

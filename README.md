@@ -66,36 +66,88 @@ Este projeto tem como objetivo analisar a relação entre o tamanho dos métodos
 
 Este projeto contribui para o entendimento da relação entre complexidade de código e manutenibilidade, fornecendo insights valiosos para desenvolvedores e equipes de desenvolvimento de software.
 
-## Uso em uma linha (CLI)
+## Uso
 
-Execute a análise em um repositório (URL git ou caminho local) com:
+### Instalação de Dependências
+
+Instale as dependências Python necessárias:
 
 ```bash
-python large-code-maintainability/lcm_cli.py analyze --repo <url-ou-caminho> --codeshovel-jar large-code-maintainability/codeshovel.jar
+pip install -r requirements.txt
 ```
+
+### Análise de um Repositório
+
+Execute a análise em um repositório (URL git ou caminho local):
+
+```bash
+python3 lcm_cli.py analyze --repo <url-ou-caminho>
+```
+
+O sistema executa em modo incremental, salvando o progresso por método. Se a análise for interrompida, você pode executar o mesmo comando novamente para continuar de onde parou.
 
 Exemplos:
 
 ```bash
 # Com URL git (clona temporariamente)
-python large-code-maintainability/lcm_cli.py analyze \
-  --repo https://github.com/spring-projects/spring-boot.git \
-  --codeshovel-jar large-code-maintainability/codeshovel.jar
+python3 lcm_cli.py analyze --repo https://github.com/spring-projects/spring-boot.git
 
 # Com repositório local
-python large-code-maintainability/lcm_cli.py analyze \
-  --repo /caminho/para/repo \
-  --codeshovel-jar large-code-maintainability/codeshovel.jar
+python3 lcm_cli.py analyze --repo /caminho/para/repo
+
+# Com caminho customizado para codeshovel.jar
+python3 lcm_cli.py analyze --repo ./meu-repo --codeshovel-jar /caminho/para/codeshovel.jar
+
+# Especificando diretório de resultados
+python3 lcm_cli.py analyze --repo ./meu-repo --results-dir ./resultados
+
+# Mantendo o clone temporário após a análise
+python3 lcm_cli.py analyze --repo https://github.com/user/repo.git --keep-clone
 ```
 
-Saídas são geradas em `fix_analysis_results` (gráficos e relatório). Use `--keep-clone` para manter o clone temporário e `--workdir` para personalizar o diretório temporário.
+Argumentos disponíveis:
+- `--repo` (obrigatório): URL git ou caminho local do repositório
+- `--codeshovel-jar` (opcional): Caminho do codeshovel.jar (padrão: `codeshovel.jar`)
+- `--results-dir` (opcional): Diretório para salvar resultados (padrão: diretório atual)
+- `--workdir` (opcional): Diretório de trabalho temporário (padrão: `./.lcm_work`)
+- `--keep-clone` (opcional): Mantém o clone temporário após a análise
 
-### Analisar uma pasta com vários repositórios já clonados
+Os resultados são salvos no diretório especificado (ou no diretório atual por padrão) e incluem:
+- Arquivos JSON com dados incrementais por método
+- Relatório HTML com gráficos e estatísticas
+- Relatório Markdown
+- Visualizações em PNG
+
+### Análise de Múltiplos Repositórios
 
 Para executar a análise em todos os repositórios dentro de uma pasta (cada subpasta contendo `.git`):
 
 ```bash
-python large-code-maintainability/lcm_cli.py analyze-dir --repos-dir /caminho/para/pasta_dos_repos --codeshovel-jar large-code-maintainability/codeshovel.jar
+python3 lcm_cli.py analyze-dir --repos-dir /caminho/para/pasta_dos_repos
 ```
 
-Cada repositório terá resultados em `fix_analysis_results`, além de um relatório e visualizações agregadas.
+Exemplos:
+
+```bash
+# Análise de todos os repositórios na pasta repos
+python3 lcm_cli.py analyze-dir --repos-dir ./repos
+
+# Com diretório de resultados customizado
+python3 lcm_cli.py analyze-dir --repos-dir ./repos --results-dir ./resultados
+```
+
+Argumentos disponíveis:
+- `--repos-dir` (obrigatório): Pasta contendo múltiplos repositórios git
+- `--codeshovel-jar` (opcional): Caminho do codeshovel.jar (padrão: `codeshovel.jar`)
+- `--results-dir` (opcional): Diretório para salvar resultados (padrão: diretório atual)
+
+Cada repositório terá seus resultados salvos no diretório especificado, além de um relatório e visualizações agregadas.
+
+### Comportamento Incremental
+
+O sistema trabalha de forma incremental por padrão:
+- Extrai repositórios, arquivos e métodos uma vez
+- Processa métodos individualmente, salvando progresso após cada método
+- Se interrompido, o progresso é preservado
+- Ao executar novamente, continua de onde parou
+- Quando todos os métodos são processados, o arquivo JSON é removido automaticamente

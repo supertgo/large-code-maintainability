@@ -12,6 +12,8 @@ import json
 import subprocess
 import re
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # Backend não-interativo para não abrir janelas
 import matplotlib.pyplot as plt
 from pathlib import Path
 from typing import Any, Dict, List, Tuple, Optional
@@ -589,9 +591,8 @@ class CodeShovelAnalyzer:
 
         output_file = self.results_dir / "fix_analysis_visualization.png"
         plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        plt.close()  # Fecha a figura para liberar memória
         logger.info(f"Visualização salva em: {output_file}")
-
-        plt.show()
 
     def generate_report(self, analyses: List[FixAnalysis]):
         """Gera relatório completo da análise"""
@@ -723,9 +724,8 @@ class CodeShovelAnalyzer:
 
         output_file = self.results_dir / "fix_analysis_visualization.png"
         plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        plt.close()  # Fecha a figura para liberar memória
         logger.info(f"Visualização salva em: {output_file}")
-
-        plt.show()
 
     def generate_statistics_from_df(self, df: pd.DataFrame) -> Dict:
         """Gera estatísticas gerais da análise"""
