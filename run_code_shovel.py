@@ -54,11 +54,30 @@ def analyze_fix_commits(codeshovel_data) -> Tuple[int, List[Dict]]:
 
         total_commits += 1
 
-        commit_message = commit_data.get("commitMessage", "").lower()
-        if any(
-            keyword in commit_message
-            for keyword in ["fix", "bug", "issue", "problem", "error"]
-        ):
+        # Tentar diferentes campos possíveis para a mensagem do commit
+        commit_message = (
+            commit_data.get("commitMessage", "") or 
+            commit_data.get("message", "") or 
+            commit_data.get("msg", "") or
+            str(commit_data.get("commit", {}).get("message", "")) if isinstance(commit_data.get("commit"), dict) else ""
+        )
+        
+        # Log apenas para o primeiro commit para debug
+        if total_commits == 1:
+            logger.debug(f"Estrutura do commit - campos: {list(commit_data.keys())}")
+            logger.debug(f"Mensagem do commit (primeiros 200 chars): '{commit_message[:200]}'")
+        
+        commit_message_lower = commit_message.lower()
+        
+        # Palavras-chave expandidas para detectar commits de fix
+        fix_keywords = [
+            "fix", "bug", "issue", "problem", "error", "bugfix", 
+            "hotfix", "patch", "resolve", "correct", "repair", "debug",
+            "fixed", "fixes", "fixing", "resolved", "resolves", "resolving",
+            "correction", "corrections", "bug fix", "fix bug"
+        ]
+        
+        if commit_message_lower and any(keyword in commit_message_lower for keyword in fix_keywords):
             fix_commits.append(commit_data)
 
     return total_commits, fix_commits

@@ -185,22 +185,6 @@ def main(argv: Optional[list] = None) -> int:
             analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repo_analysis_dir), str(repo_analysis_dir))
             analyzer.generate_from_saved_results()
             
-            # Verificação final: se todos os métodos foram processados, remove o arquivo JSON
-            if result_file.exists():
-                try:
-                    with open(result_file, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        if isinstance(data, dict) and "files" in data:
-                            all_complete = all(
-                                file.get("complete", False) 
-                                for file in data["files"]
-                            )
-                            if all_complete and len(data["files"]) > 0:
-                                result_file.unlink()
-                                print(f"Todos os métodos processados. Arquivo {result_file.name} removido.")
-                except (json.JSONDecodeError, KeyError):
-                    pass
-            
             return 0
         finally:
             if clone_created and not args.keep_clone and repo_path is not None:
@@ -265,22 +249,6 @@ def main(argv: Optional[list] = None) -> int:
             # Gera gráficos e relatório individual para este repositório
             analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repo_analysis_dir), str(repo_analysis_dir))
             analyzer.generate_from_saved_results()
-            
-            # Verificação final: se todos os métodos foram processados, remove o arquivo JSON
-            if result_file.exists():
-                try:
-                    with open(result_file, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        if isinstance(data, dict) and "files" in data:
-                            all_complete = all(
-                                file.get("complete", False) 
-                                for file in data["files"]
-                            )
-                            if all_complete and len(data["files"]) > 0:
-                                result_file.unlink()
-                                print(f"Todos os métodos processados para {repo.name}. Arquivo {result_file.name} removido.")
-                except (json.JSONDecodeError, KeyError):
-                    pass
 
         return 0
 
