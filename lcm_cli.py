@@ -17,7 +17,6 @@ Exemplos:
 """
 
 import argparse
-import json
 import os
 import shutil
 import subprocess
@@ -49,7 +48,7 @@ def clone_repo(repo_url: str, dest_dir: Path) -> Path:
     clone_path = dest_dir / repo_name
     if clone_path.exists():
         return clone_path
-    cmd = ["git", "clone", "--depth", "1", repo_url, str(clone_path)]
+    cmd = ["git", "clone", repo_url, str(clone_path)]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         raise RuntimeError(f"Falha ao clonar {repo_url}: {result.stderr}")
@@ -83,9 +82,7 @@ def main(argv: Optional[list] = None) -> int:
         "--repo", required=True, help="URL git ou caminho local do repositório"
     )
     p_an.add_argument(
-        "--codeshovel-jar", 
-        default="codeshovel.jar",
-        help="Caminho do codeshovel.jar (padrão: codeshovel.jar)"
+        "--codeshovel-jar", required=True, help="Caminho do codeshovel.jar"
     )
     p_an.add_argument(
         "--workdir", default="./.lcm_work", help="Diretório de trabalho temporário"
@@ -94,9 +91,14 @@ def main(argv: Optional[list] = None) -> int:
         "--keep-clone", action="store_true", help="Não apagar clone temporário"
     )
     p_an.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Executa em modo incremental, salvando por método",
+    )
+    p_an.add_argument(
         "--results-dir",
-        default=".",
-        help="Pasta para salvar resultados incrementais (padrão: diretório atual)",
+        default="./fix_analysis_results",
+        help="Pasta para salvar resultados incrementais",
     )
 
     p_and = sub.add_parser(
@@ -108,14 +110,17 @@ def main(argv: Optional[list] = None) -> int:
         help="Pasta contendo múltiplos repositórios git (subpastas com .git)",
     )
     p_and.add_argument(
-        "--codeshovel-jar",
-        default="codeshovel.jar",
-        help="Caminho do codeshovel.jar (padrão: codeshovel.jar)"
+        "--codeshovel-jar", required=True, help="Caminho do codeshovel.jar"
+    )
+    p_and.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Executa em modo incremental, salvando por método",
     )
     p_and.add_argument(
         "--results-dir",
-        default=".",
-        help="Pasta para salvar resultados incrementais (padrão: diretório atual)",
+        default="./fix_analysis_results",
+        help="Pasta para salvar resultados incrementais",
     )
 
     args = parser.parse_args(argv)
@@ -130,7 +135,6 @@ def main(argv: Optional[list] = None) -> int:
         temp_root.mkdir(parents=True, exist_ok=True)
 
         clone_created = False
-        repo_path = None
         try:
             if is_git_url(args.repo):
                 repo_path = clone_repo(args.repo, temp_root)
@@ -141,53 +145,33 @@ def main(argv: Optional[list] = None) -> int:
                     print(f"Caminho não é um repositório git válido: {repo_path}")
                     return 1
 
-            import os as _os
+            if args.incremental:
+                import os as _os
 
-            base_results_dir = Path(args.results_dir).resolve()
-            base_results_dir.mkdir(parents=True, exist_ok=True)
-            
-            # Cria pasta específica para este repositório: <repo>_analysis
-            repo_analysis_dir = base_results_dir / f"{repo_path.name}_analysis"
-            repo_analysis_dir.mkdir(parents=True, exist_ok=True)
+                results_dir = Path(args.results_dir).resolve()
+                results_dir.mkdir(parents=True, exist_ok=True)
 
-            # disponibiliza o caminho do JAR para o run_code_shovel
-            _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
+                # disponibiliza o caminho do JAR para o run_code_shovel
+                _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
 
-            result_file = repo_analysis_dir / f"{repo_path.name}_fix_analysis.json"
-            
-            # Check if file exists and has files (extraction already done)
-            file_exists_with_files = False
-            if result_file.exists():
-                try:
-                    with open(result_file, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        if isinstance(data, dict) and "files" in data and len(data["files"]) > 0:
-                            file_exists_with_files = True
-                except (json.JSONDecodeError, KeyError):
-                    pass
-            
-            # Only run extraction if file doesn't exist or has no files
-            if not file_exists_with_files:
                 # inicializa estrutura e executa pipeline incremental
-                extract_single_repo(repo_path, repo_analysis_dir)
+                extract_single_repo(repo_path, results_dir)
+                result_file = results_dir / f"{repo_path.name}_fix_analysis.json"
                 extract_files_from_single_repo(repo_path, result_file)
                 extract_methods_from_single_repo(repo_path, result_file)
-            
-            # Run codeshovel
-            try:
                 run_codeshovel(repo_path, result_file)
-            except KeyboardInterrupt:
-                print("\n⚠️  Processo interrompido pelo usuário (Ctrl+C).")
-                print(f"✅ Progresso salvo em {result_file.name}. Você pode continuar depois executando o mesmo comando.")
-                return 130  # Standard exit code for SIGINT
 
-            # Gera gráficos e relatório usando o fix_analysis.py (incluindo HTML)
-            analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repo_analysis_dir), str(repo_analysis_dir))
-            analyzer.generate_from_saved_results()
-            
-            return 0
+                # Gera gráficos e relatório usando o fix_analysis.py (incluindo HTML)
+                analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
+                analyzer.generate_from_saved_results()
+                return 0
+            else:
+                code = analyze_single_repo(
+                    repo_path, codeshovel_jar, keep_clone=args.keep_clone
+                )
+                return code
         finally:
-            if clone_created and not args.keep_clone and repo_path is not None:
+            if clone_created and not args.keep_clone:
                 # remove apenas o repositório clonado (não o workdir inteiro)
                 safe_rmdir(repo_path)
 
@@ -202,55 +186,39 @@ def main(argv: Optional[list] = None) -> int:
             print(f"Pasta inválida: {repos_dir}")
             return 1
 
-        import os as _os
+        if args.incremental:
+            import os as _os
 
-        base_results_dir = Path(args.results_dir).resolve()
-        base_results_dir.mkdir(parents=True, exist_ok=True)
+            results_dir = Path(args.results_dir).resolve()
+            results_dir.mkdir(parents=True, exist_ok=True)
 
-        _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
+            _os.environ["CODESHOVEL_JAR"] = str(codeshovel_jar)
 
-        repos = [
-            d for d in repos_dir.iterdir() if d.is_dir() and (d / ".git").exists()
-        ]
-        repos.sort(key=lambda r: str(r).lower())
+            repos = [
+                d for d in repos_dir.iterdir() if d.is_dir() and (d / ".git").exists()
+            ]
+            repos.sort(key=lambda r: str(r).lower())
 
-        for repo in repos:
-            # Cria pasta específica para este repositório: <repo>_analysis
-            repo_analysis_dir = base_results_dir / f"{repo.name}_analysis"
-            repo_analysis_dir.mkdir(parents=True, exist_ok=True)
-            
-            result_file = repo_analysis_dir / f"{repo.name}_fix_analysis.json"
-            
-            # Check if file exists and has files (extraction already done)
-            file_exists_with_files = False
-            if result_file.exists():
-                try:
-                    with open(result_file, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        if isinstance(data, dict) and "files" in data and len(data["files"]) > 0:
-                            file_exists_with_files = True
-                except (json.JSONDecodeError, KeyError):
-                    pass
-            
-            # Only run extraction if file doesn't exist or has no files
-            if not file_exists_with_files:
-                extract_single_repo(repo, repo_analysis_dir)
+            for repo in repos:
+                extract_single_repo(repo, results_dir)
+                result_file = results_dir / f"{repo.name}_fix_analysis.json"
                 extract_files_from_single_repo(repo, result_file)
                 extract_methods_from_single_repo(repo, result_file)
-            
-            # Run codeshovel
-            try:
                 run_codeshovel(repo, result_file)
-            except KeyboardInterrupt:
-                print(f"\n⚠️  Processo interrompido pelo usuário (Ctrl+C) durante processamento de {repo.name}.")
-                print(f"✅ Progresso salvo em {result_file.name}. Você pode continuar depois executando o mesmo comando.")
-                return 130  # Standard exit code for SIGINT
-            
-            # Gera gráficos e relatório individual para este repositório
-            analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repo_analysis_dir), str(repo_analysis_dir))
-            analyzer.generate_from_saved_results()
 
-        return 0
+            # Gera gráficos e relatório agregado usando o fix_analysis.py (incluindo HTML)
+            analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
+            analyzer.generate_from_saved_results()
+            return 0
+        else:
+            analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(repos_dir))
+            analyses = analyzer.analyze_all_repositories()
+            if analyses:
+                analyzer.create_visualizations(analyses)
+                analyzer.generate_report(analyses)
+                analyzer.generate_html_report(analyses)
+                return 0
+            return 2
 
     return 0
 
