@@ -1,0 +1,348 @@
+{
+  "name": "javalin",
+  "complete": false,
+  "files": [
+    {
+      "name": "ExceptionHandler.java",
+      "path": "javalin/src/main/java/io/javalin/http/ExceptionHandler.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Handler.java",
+      "path": "javalin/src/main/java/io/javalin/http/Handler.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HandlerType.java",
+      "path": "javalin/src/main/java/io/javalin/http/HandlerType.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "HandlerType",
+          "complete": false,
+          "method_info": {
+            "start_line": 19,
+            "end_line": 25,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": null
+        },
+        {
+          "name": "toString",
+          "complete": false,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 28,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": null
+        }
+      ]
+    },
+    {
+      "name": "Javalin.java",
+      "path": "javalin/src/main/java/io/javalin/Javalin.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "javalinServlet",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 73,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "jettyServer",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 40,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "port",
+          "complete": true,
+          "method_info": {
+            "start_line": 136,
+            "end_line": 138,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.08333333333333333
+          }
+        },
+        {
+          "name": "start",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 88,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "start",
+          "complete": true,
+          "method_info": {
+            "start_line": 99,
+            "end_line": 102,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "start",
+          "complete": true,
+          "method_info": {
+            "start_line": 112,
+            "end_line": 115,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 85,
+            "commit_count": 85,
+            "fix_commit_count": 15,
+            "fix_ratio": 0.17647058823529413
+          }
+        },
+        {
+          "name": "stop",
+          "complete": true,
+          "method_info": {
+            "start_line": 122,
+            "end_line": 128,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 23,
+            "commit_count": 23,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.043478260869565216
+          }
+        }
+      ]
+    },
+    {
+      "name": "module-info.java",
+      "path": "javalin-ssl/src/main/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "javalin/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RequestLogger.java",
+      "path": "javalin/src/main/java/io/javalin/http/RequestLogger.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ResourceHandler.java",
+      "path": "javalin/src/main/java/io/javalin/http/staticfiles/ResourceHandler.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ThrowingRunnable.java",
+      "path": "javalin/src/main/java/io/javalin/util/function/ThrowingRunnable.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "VueDependencyResolver.java",
+      "path": "javalin/src/main/java/io/javalin/vue/VueDependencyResolver.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "resolve",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 84,
+            "size_lines": 27
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "resolveDirectDependencies",
+          "complete": true,
+          "method_info": {
+            "start_line": 103,
+            "end_line": 112,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "resolveTransitiveDependencies",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 102,
+            "size_lines": 18
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsConfig.java",
+      "path": "javalin/src/main/java/io/javalin/websocket/WsConfig.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "onBinaryMessage",
+          "complete": true,
+          "method_info": {
+            "start_line": 45,
+            "end_line": 47,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "onClose",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 58,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "onConnect",
+          "complete": true,
+          "method_info": {
+            "start_line": 27,
+            "end_line": 29,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 64,
+            "end_line": 66,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "onMessage",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "onUpgrade",
+          "complete": true,
+          "method_info": {
+            "start_line": 73,
+            "end_line": 75,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsExceptionHandler.java",
+      "path": "javalin/src/main/java/io/javalin/websocket/WsExceptionHandler.java",
+      "complete": false,
+      "methods": []
+    },
+    {
+      "name": "WsUpgradeLogger.java",
+      "path": "javalin/src/main/java/io/javalin/websocket/WsUpgradeLogger.java",
+      "complete": false,
+      "methods": []
+    }
+  ]
+}
