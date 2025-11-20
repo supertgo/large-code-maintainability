@@ -1,0 +1,252 @@
+{
+  "name": "estruturas-de-dados",
+  "complete": false,
+  "files": [
+    {
+      "name": "EstruturaEstatica.java",
+      "path": "base/EstruturaEstatica.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adiciona",
+          "complete": true,
+          "method_info": {
+            "start_line": 19,
+            "end_line": 24,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "adiciona",
+          "complete": true,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 36,
+            "size_lines": 11
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "estaVazia",
+          "complete": true,
+          "method_info": {
+            "start_line": 15,
+            "end_line": 17,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "getTamanho",
+          "complete": true,
+          "method_info": {
+            "start_line": 67,
+            "end_line": 69,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "remover",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 48,
+            "size_lines": 11
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "setTamanho",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 73,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "tamanho",
+          "complete": true,
+          "method_info": {
+            "start_line": 50,
+            "end_line": 52,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "updateTam",
+          "complete": true,
+          "method_info": {
+            "start_line": 63,
+            "end_line": 65,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "verificaPosi",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 61,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fila.java",
+      "path": "fila/Fila.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "desenfileira",
+          "complete": true,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 37,
+            "size_lines": 12
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "enfileira",
+          "complete": true,
+          "method_info": {
+            "start_line": 13,
+            "end_line": 17,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "espiar",
+          "complete": true,
+          "method_info": {
+            "start_line": 19,
+            "end_line": 24,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pilha.java",
+      "path": "pilha/Pilha.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "desempilha",
+          "complete": true,
+          "method_info": {
+            "start_line": 15,
+            "end_line": 23,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "empilha",
+          "complete": true,
+          "method_info": {
+            "start_line": 11,
+            "end_line": 13,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "topo",
+          "complete": true,
+          "method_info": {
+            "start_line": 25,
+            "end_line": 30,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
