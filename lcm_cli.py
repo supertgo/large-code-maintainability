@@ -48,7 +48,7 @@ def clone_repo(repo_url: str, dest_dir: Path) -> Path:
     clone_path = dest_dir / repo_name
     if clone_path.exists():
         return clone_path
-    cmd = ["git", "clone", "--depth", "1", repo_url, str(clone_path)]
+    cmd = ["git", "clone", repo_url, str(clone_path)]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         raise RuntimeError(f"Falha ao clonar {repo_url}: {result.stderr}")
@@ -64,6 +64,7 @@ def analyze_single_repo(repo_path: Path, codeshovel_jar: Path, keep_clone: bool)
         analyzer.save_results(repo_path.name, analyses)
         analyzer.create_visualizations(analyses)
         analyzer.generate_report(analyses)
+        analyzer.generate_html_report(analyses)
         return 0
     return 2
 
@@ -160,7 +161,7 @@ def main(argv: Optional[list] = None) -> int:
                 extract_methods_from_single_repo(repo_path, result_file)
                 run_codeshovel(repo_path, result_file)
 
-                # Gera gráficos e relatório usando o fix_analysis.py
+                # Gera gráficos e relatório usando o fix_analysis.py (incluindo HTML)
                 analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
                 analyzer.generate_from_saved_results()
                 return 0
@@ -205,7 +206,7 @@ def main(argv: Optional[list] = None) -> int:
                 extract_methods_from_single_repo(repo, result_file)
                 run_codeshovel(repo, result_file)
 
-            # Gera gráficos e relatório agregado usando o fix_analysis.py
+            # Gera gráficos e relatório agregado usando o fix_analysis.py (incluindo HTML)
             analyzer = CodeShovelAnalyzer(str(codeshovel_jar), str(results_dir))
             analyzer.generate_from_saved_results()
             return 0
@@ -215,6 +216,7 @@ def main(argv: Optional[list] = None) -> int:
             if analyses:
                 analyzer.create_visualizations(analyses)
                 analyzer.generate_report(analyses)
+                analyzer.generate_html_report(analyses)
                 return 0
             return 2
 

@@ -437,4 +437,3 @@ def serialize_enhanced_method_info(enhanced_method_info: EnhancedMethodInfo) -> 
             "complexity_evolution": enhanced_method_info.quality_metrics.complexity_evolution,
         },
     }
-
