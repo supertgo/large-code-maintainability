@@ -1,0 +1,7244 @@
+{
+  "name": "spark",
+  "complete": false,
+  "files": [
+    {
+      "name": "AbstractFileResolvingResource.java",
+      "path": "src/main/java/spark/resource/AbstractFileResolvingResource.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 122,
+            "end_line": 135,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "customizeConnection",
+          "complete": true,
+          "method_info": {
+            "start_line": 160,
+            "end_line": 165,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "customizeConnection",
+          "complete": true,
+          "method_info": {
+            "start_line": 175,
+            "end_line": 177,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "exists",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 105,
+            "size_lines": 40
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFile",
+          "complete": true,
+          "method_info": {
+            "start_line": 44,
+            "end_line": 47,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFileForLastModifiedCheck",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 65,
+            "size_lines": 12
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isReadable",
+          "complete": true,
+          "method_info": {
+            "start_line": 106,
+            "end_line": 121,
+            "size_lines": 16
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "lastModified",
+          "complete": true,
+          "method_info": {
+            "start_line": 136,
+            "end_line": 159,
+            "size_lines": 24
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "AbstractResource.java",
+      "path": "src/main/java/spark/resource/AbstractResource.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 121,
+            "end_line": 146,
+            "size_lines": 26
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "createRelative",
+          "complete": true,
+          "method_info": {
+            "start_line": 173,
+            "end_line": 175,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 203,
+            "end_line": 206,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "exists",
+          "complete": true,
+          "method_info": {
+            "start_line": 48,
+            "end_line": 67,
+            "size_lines": 20
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFile",
+          "complete": true,
+          "method_info": {
+            "start_line": 108,
+            "end_line": 110,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFileForLastModifiedCheck",
+          "complete": true,
+          "method_info": {
+            "start_line": 164,
+            "end_line": 166,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFilename",
+          "complete": true,
+          "method_info": {
+            "start_line": 182,
+            "end_line": 184,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getURI",
+          "complete": true,
+          "method_info": {
+            "start_line": 94,
+            "end_line": 107,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getURL",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 87,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 214,
+            "end_line": 216,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isOpen",
+          "complete": true,
+          "method_info": {
+            "start_line": 76,
+            "end_line": 78,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isReadable",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 70,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "lastModified",
+          "complete": true,
+          "method_info": {
+            "start_line": 147,
+            "end_line": 154,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 193,
+            "end_line": 195,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "AbstractResourceHandler.java",
+      "path": "src/main/java/spark/resource/AbstractResourceHandler.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getResource",
+          "complete": true,
+          "method_info": {
+            "start_line": 40,
+            "end_line": 124,
+            "size_lines": 85
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "Access.java",
+      "path": "src/main/java/spark/Access.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "AfterAfterFilters.java",
+      "path": "src/main/java/spark/http/matching/AfterAfterFilters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 68,
+            "size_lines": 37
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "name": "AfterFilters.java",
+      "path": "src/main/java/spark/http/matching/AfterFilters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 68,
+            "size_lines": 37
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Assert.java",
+      "path": "src/main/java/spark/utils/Assert.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Base64.java",
+      "path": "src/main/java/spark/Base64.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "BeforeFilters.java",
+      "path": "src/main/java/spark/http/matching/BeforeFilters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 59,
+            "size_lines": 28
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Body.java",
+      "path": "src/main/java/spark/http/matching/Body.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isSet",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 49,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "notSet",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 45,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "set",
+          "complete": true,
+          "method_info": {
+            "start_line": 55,
+            "end_line": 57,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BytesSerializer.java",
+      "path": "src/main/java/spark/serialization/BytesSerializer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "canProcess",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 33,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "process",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 47,
+            "size_lines": 12
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "ClassPathResource.java",
+      "path": "src/main/java/spark/resource/ClassPathResource.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "createRelative",
+          "complete": true,
+          "method_info": {
+            "start_line": 204,
+            "end_line": 207,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 248,
+            "end_line": 263,
+            "size_lines": 16
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.4
+          }
+        },
+        {
+          "name": "exists",
+          "complete": true,
+          "method_info": {
+            "start_line": 144,
+            "end_line": 161,
+            "size_lines": 18
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "getDescription",
+          "complete": true,
+          "method_info": {
+            "start_line": 227,
+            "end_line": 240,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFilename",
+          "complete": true,
+          "method_info": {
+            "start_line": 217,
+            "end_line": 219,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "getInputStream",
+          "complete": true,
+          "method_info": {
+            "start_line": 162,
+            "end_line": 182,
+            "size_lines": 21
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "getURL",
+          "complete": true,
+          "method_info": {
+            "start_line": 183,
+            "end_line": 203,
+            "size_lines": 21
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 272,
+            "end_line": 274,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ClassPathResourceHandler.java",
+      "path": "src/main/java/spark/resource/ClassPathResourceHandler.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getResource",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 99,
+            "size_lines": 39
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "name": "ClassUtils.java",
+      "path": "src/main/java/spark/utils/ClassUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "CollectionUtils.java",
+      "path": "src/main/java/spark/utils/CollectionUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "CustomErrorPages.java",
+      "path": "src/main/java/spark/CustomErrorPages.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 89,
+            "end_line": 91,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 4,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 98,
+            "end_line": 100,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 4,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "getDefaultFor",
+          "complete": true,
+          "method_info": {
+            "start_line": 79,
+            "end_line": 82,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "DefaultSerializer.java",
+      "path": "src/main/java/spark/serialization/DefaultSerializer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "canProcess",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 33,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "process",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 44,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "DirectoryTraversal.java",
+      "path": "src/main/java/spark/staticfiles/DirectoryTraversal.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "EmbeddedJettyFactory.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/EmbeddedJettyFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "withHttpOnly",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 71,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 0,
+            "commit_count": 0,
+            "fix_commit_count": 0,
+            "fix_ratio": 0
+          }
+        },
+        {
+          "name": "withThreadPool",
+          "complete": true,
+          "method_info": {
+            "start_line": 63,
+            "end_line": 66,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "EmbeddedJettyServer.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/EmbeddedJettyServer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "activeThreadCount",
+          "complete": true,
+          "method_info": {
+            "start_line": 184,
+            "end_line": 189,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "extinguish",
+          "complete": true,
+          "method_info": {
+            "start_line": 170,
+            "end_line": 183,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.4
+          }
+        },
+        {
+          "name": "join",
+          "complete": true,
+          "method_info": {
+            "start_line": 162,
+            "end_line": 164,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 0,
+            "commit_count": 0,
+            "fix_commit_count": 0,
+            "fix_ratio": 0
+          }
+        },
+        {
+          "name": "trustForwardHeaders",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 79,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withThreadPool",
+          "complete": true,
+          "method_info": {
+            "start_line": 197,
+            "end_line": 200,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "EmbeddedServer.java",
+      "path": "src/main/java/spark/embeddedserver/EmbeddedServer.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "EmbeddedServerFactory.java",
+      "path": "src/main/java/spark/embeddedserver/EmbeddedServerFactory.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "create",
+          "complete": false,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 42,
+            "size_lines": 2
+          },
+          "codeshovel_analysis": null
+        }
+      ]
+    },
+    {
+      "name": "EmbeddedServers.java",
+      "path": "src/main/java/spark/embeddedserver/EmbeddedServers.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ExceptionHandler.java",
+      "path": "src/main/java/spark/ExceptionHandler.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ExceptionHandlerImpl.java",
+      "path": "src/main/java/spark/ExceptionHandlerImpl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "exceptionClass",
+          "complete": true,
+          "method_info": {
+            "start_line": 49,
+            "end_line": 51,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "ExceptionMapper.java",
+      "path": "src/main/java/spark/ExceptionMapper.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "clear",
+          "complete": true,
+          "method_info": {
+            "start_line": 118,
+            "end_line": 120,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getHandler",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 110,
+            "size_lines": 36
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "getHandler",
+          "complete": true,
+          "method_info": {
+            "start_line": 111,
+            "end_line": 113,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "map",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "name": "Experimental.java",
+      "path": "src/main/java/spark/Experimental.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ExternalResource.java",
+      "path": "src/main/java/spark/resource/ExternalResource.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "exists",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 58,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getDescription",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 63,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getFilename",
+          "complete": true,
+          "method_info": {
+            "start_line": 99,
+            "end_line": 101,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getInputStream",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 68,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 86,
+            "end_line": 88,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getURL",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 79,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isDirectory",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ExternalResourceHandler.java",
+      "path": "src/main/java/spark/resource/ExternalResourceHandler.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getResource",
+          "complete": true,
+          "method_info": {
+            "start_line": 60,
+            "end_line": 98,
+            "size_lines": 39
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.5714285714285714
+          }
+        }
+      ]
+    },
+    {
+      "name": "Filter.java",
+      "path": "src/main/java/spark/Filter.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "FilterImpl.java",
+      "path": "src/main/java/spark/FilterImpl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 56,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 71,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "delegate",
+          "complete": true,
+          "method_info": {
+            "start_line": 111,
+            "end_line": 113,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getAcceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 98,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "getPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 103,
+            "end_line": 105,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 2,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "handle",
+          "complete": true,
+          "method_info": {
+            "start_line": 72,
+            "end_line": 74,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "withPrefix",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 45,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "FilterTools.java",
+      "path": "src/main/java/spark/servlet/FilterTools.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getFilterPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 62,
+            "end_line": 75,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "getRelativePath",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 61,
+            "size_lines": 29
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "name": "GeneralError.java",
+      "path": "src/main/java/spark/http/matching/GeneralError.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "GzipUtils.java",
+      "path": "src/main/java/spark/utils/GzipUtils.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "test",
+          "complete": true,
+          "method_info": {
+            "start_line": 90,
+            "end_line": 96,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Halt.java",
+      "path": "src/main/java/spark/http/matching/Halt.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HaltException.java",
+      "path": "src/main/java/spark/HaltException.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 80,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getBody",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 73,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getStatusCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 58,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "statusCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 63,
+            "end_line": 65,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "HttpMethod.java",
+      "path": "src/main/java/spark/route/HttpMethod.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpRequestWrapper.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/HttpRequestWrapper.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "available",
+          "complete": true,
+          "method_info": {
+            "start_line": 89,
+            "end_line": 91,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "cacheInputStream",
+          "complete": true,
+          "method_info": {
+            "start_line": 72,
+            "end_line": 74,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "getInputStream",
+          "complete": true,
+          "method_info": {
+            "start_line": 50,
+            "end_line": 70,
+            "size_lines": 21
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "isFinished",
+          "complete": true,
+          "method_info": {
+            "start_line": 94,
+            "end_line": 96,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "isReady",
+          "complete": true,
+          "method_info": {
+            "start_line": 99,
+            "end_line": 101,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "notConsumed",
+          "complete": true,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 43,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "notConsumed",
+          "complete": true,
+          "method_info": {
+            "start_line": 45,
+            "end_line": 47,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "read",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 86,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "setReadListener",
+          "complete": true,
+          "method_info": {
+            "start_line": 104,
+            "end_line": 105,
+            "size_lines": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "InputStreamResource.java",
+      "path": "src/main/java/spark/resource/InputStreamResource.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "InputStreamSerializer.java",
+      "path": "src/main/java/spark/serialization/InputStreamSerializer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "canProcess",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 35,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "process",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 43,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "IOUtils.java",
+      "path": "src/main/java/spark/utils/IOUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "JettyHandler.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/JettyHandler.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "JettyServer.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/JettyServer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 57,
+            "size_lines": 22
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 60,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JettyServerFactory.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/JettyServerFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "MatcherFilter.java",
+      "path": "src/main/java/spark/http/matching/MatcherFilter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "destroy",
+          "complete": true,
+          "method_info": {
+            "start_line": 211,
+            "end_line": 212,
+            "size_lines": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "getHttpMethodFrom",
+          "complete": true,
+          "method_info": {
+            "start_line": 201,
+            "end_line": 208,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "init",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 87,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "MimeParse.java",
+      "path": "src/main/java/spark/utils/MimeParse.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "compareTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 115,
+            "end_line": 209,
+            "size_lines": 95
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 38,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MimeType.java",
+      "path": "src/main/java/spark/staticfiles/MimeType.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ModelAndView.java",
+      "path": "src/main/java/spark/ModelAndView.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getModel",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getViewName",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 60,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NotSupportedException.java",
+      "path": "src/main/java/spark/embeddedserver/NotSupportedException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ObjectUtils.java",
+      "path": "src/main/java/spark/utils/ObjectUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "QueryParamsMap.java",
+      "path": "src/main/java/spark/QueryParamsMap.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "booleanValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 226,
+            "end_line": 228,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "doubleValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 254,
+            "end_line": 256,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "floatValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 247,
+            "end_line": 249,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 160,
+            "end_line": 177,
+            "size_lines": 18
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "hasKey",
+          "complete": true,
+          "method_info": {
+            "start_line": 212,
+            "end_line": 214,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hasKeys",
+          "complete": true,
+          "method_info": {
+            "start_line": 205,
+            "end_line": 207,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hasValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 219,
+            "end_line": 221,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "integerValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 233,
+            "end_line": 235,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "longValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 240,
+            "end_line": 242,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "value",
+          "complete": true,
+          "method_info": {
+            "start_line": 178,
+            "end_line": 197,
+            "size_lines": 20
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "value",
+          "complete": true,
+          "method_info": {
+            "start_line": 198,
+            "end_line": 200,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "values",
+          "complete": true,
+          "method_info": {
+            "start_line": 261,
+            "end_line": 263,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "name": "Redirect.java",
+      "path": "src/main/java/spark/Redirect.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "any",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 70,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "any",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 125,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 54,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "delete",
+          "complete": true,
+          "method_info": {
+            "start_line": 108,
+            "end_line": 110,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "delete",
+          "complete": true,
+          "method_info": {
+            "start_line": 167,
+            "end_line": 169,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 80,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 134,
+            "end_line": 136,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "intValue",
+          "complete": true,
+          "method_info": {
+            "start_line": 44,
+            "end_line": 46,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 88,
+            "end_line": 90,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 145,
+            "end_line": 147,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 98,
+            "end_line": 100,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 156,
+            "end_line": 158,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Request.java",
+      "path": "src/main/java/spark/Request.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "attribute",
+          "complete": true,
+          "method_info": {
+            "start_line": 378,
+            "end_line": 380,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "attributes",
+          "complete": true,
+          "method_info": {
+            "start_line": 398,
+            "end_line": 405,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 255,
+            "end_line": 262,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 11,
+            "commit_count": 11,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.36363636363636365
+          }
+        },
+        {
+          "name": "bodyAsBytes",
+          "complete": true,
+          "method_info": {
+            "start_line": 264,
+            "end_line": 269,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.6666666666666666
+          }
+        },
+        {
+          "name": "changeMatch",
+          "complete": true,
+          "method_info": {
+            "start_line": 121,
+            "end_line": 128,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.6
+          }
+        },
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 282,
+            "end_line": 284,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 241,
+            "end_line": 243,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contextPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 227,
+            "end_line": 229,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 493,
+            "end_line": 503,
+            "size_lines": 11
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "headers",
+          "complete": true,
+          "method_info": {
+            "start_line": 340,
+            "end_line": 342,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "headers",
+          "complete": true,
+          "method_info": {
+            "start_line": 354,
+            "end_line": 363,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "host",
+          "complete": true,
+          "method_info": {
+            "start_line": 182,
+            "end_line": 184,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "initQueryMap",
+          "complete": true,
+          "method_info": {
+            "start_line": 431,
+            "end_line": 435,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "ip",
+          "complete": true,
+          "method_info": {
+            "start_line": 248,
+            "end_line": 250,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "matchedPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 213,
+            "end_line": 215,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "params",
+          "complete": true,
+          "method_info": {
+            "start_line": 146,
+            "end_line": 160,
+            "size_lines": 15
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 5,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "pathInfo",
+          "complete": true,
+          "method_info": {
+            "start_line": 205,
+            "end_line": 207,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "port",
+          "complete": true,
+          "method_info": {
+            "start_line": 196,
+            "end_line": 198,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "protocol",
+          "complete": true,
+          "method_info": {
+            "start_line": 515,
+            "end_line": 517,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryMap",
+          "complete": true,
+          "method_info": {
+            "start_line": 417,
+            "end_line": 421,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.4
+          }
+        },
+        {
+          "name": "queryMap",
+          "complete": true,
+          "method_info": {
+            "start_line": 427,
+            "end_line": 429,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryParamOrDefault",
+          "complete": true,
+          "method_info": {
+            "start_line": 318,
+            "end_line": 321,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryParams",
+          "complete": true,
+          "method_info": {
+            "start_line": 293,
+            "end_line": 295,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryParams",
+          "complete": true,
+          "method_info": {
+            "start_line": 347,
+            "end_line": 349,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.125
+          }
+        },
+        {
+          "name": "queryParamsSafe",
+          "complete": true,
+          "method_info": {
+            "start_line": 306,
+            "end_line": 308,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 2,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "queryParamsValues",
+          "complete": true,
+          "method_info": {
+            "start_line": 330,
+            "end_line": 332,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "queryString",
+          "complete": true,
+          "method_info": {
+            "start_line": 368,
+            "end_line": 370,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "raw",
+          "complete": true,
+          "method_info": {
+            "start_line": 410,
+            "end_line": 412,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "readBodyAsBytes",
+          "complete": true,
+          "method_info": {
+            "start_line": 271,
+            "end_line": 281,
+            "size_lines": 11
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "requestMethod",
+          "complete": true,
+          "method_info": {
+            "start_line": 168,
+            "end_line": 170,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "scheme",
+          "complete": true,
+          "method_info": {
+            "start_line": 175,
+            "end_line": 177,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "servletPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 220,
+            "end_line": 222,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "session",
+          "complete": true,
+          "method_info": {
+            "start_line": 443,
+            "end_line": 449,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "session",
+          "complete": true,
+          "method_info": {
+            "start_line": 460,
+            "end_line": 492,
+            "size_lines": 33
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "splat",
+          "complete": true,
+          "method_info": {
+            "start_line": 161,
+            "end_line": 163,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "uri",
+          "complete": true,
+          "method_info": {
+            "start_line": 508,
+            "end_line": 510,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "url",
+          "complete": true,
+          "method_info": {
+            "start_line": 234,
+            "end_line": 236,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "userAgent",
+          "complete": true,
+          "method_info": {
+            "start_line": 189,
+            "end_line": 191,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RequestResponseFactory.java",
+      "path": "src/main/java/spark/RequestResponseFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RequestWrapper.java",
+      "path": "src/main/java/spark/http/matching/RequestWrapper.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "attribute",
+          "complete": true,
+          "method_info": {
+            "start_line": 207,
+            "end_line": 209,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "attributes",
+          "complete": true,
+          "method_info": {
+            "start_line": 217,
+            "end_line": 219,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 93,
+            "end_line": 95,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "bodyAsBytes",
+          "complete": true,
+          "method_info": {
+            "start_line": 98,
+            "end_line": 100,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "changeMatch",
+          "complete": true,
+          "method_info": {
+            "start_line": 50,
+            "end_line": 52,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 103,
+            "end_line": 105,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 88,
+            "end_line": 90,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contextPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 83,
+            "end_line": 85,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 247,
+            "end_line": 249,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 34,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 108,
+            "end_line": 110,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 113,
+            "end_line": 115,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "headers",
+          "complete": true,
+          "method_info": {
+            "start_line": 157,
+            "end_line": 159,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "headers",
+          "complete": true,
+          "method_info": {
+            "start_line": 167,
+            "end_line": 169,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "host",
+          "complete": true,
+          "method_info": {
+            "start_line": 133,
+            "end_line": 135,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "ip",
+          "complete": true,
+          "method_info": {
+            "start_line": 138,
+            "end_line": 140,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "matchedPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 77,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "params",
+          "complete": true,
+          "method_info": {
+            "start_line": 123,
+            "end_line": 125,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "pathInfo",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 72,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "port",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "protocol",
+          "complete": true,
+          "method_info": {
+            "start_line": 202,
+            "end_line": 204,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryMap",
+          "complete": true,
+          "method_info": {
+            "start_line": 232,
+            "end_line": 234,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryMap",
+          "complete": true,
+          "method_info": {
+            "start_line": 237,
+            "end_line": 239,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryParams",
+          "complete": true,
+          "method_info": {
+            "start_line": 143,
+            "end_line": 145,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryParams",
+          "complete": true,
+          "method_info": {
+            "start_line": 162,
+            "end_line": 164,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "queryParamsSafe",
+          "complete": true,
+          "method_info": {
+            "start_line": 148,
+            "end_line": 151,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "queryParamsValues",
+          "complete": true,
+          "method_info": {
+            "start_line": 152,
+            "end_line": 154,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "queryString",
+          "complete": true,
+          "method_info": {
+            "start_line": 172,
+            "end_line": 174,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "raw",
+          "complete": true,
+          "method_info": {
+            "start_line": 177,
+            "end_line": 179,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "requestMethod",
+          "complete": true,
+          "method_info": {
+            "start_line": 55,
+            "end_line": 57,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "scheme",
+          "complete": true,
+          "method_info": {
+            "start_line": 60,
+            "end_line": 62,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "servletPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 80,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "session",
+          "complete": true,
+          "method_info": {
+            "start_line": 222,
+            "end_line": 224,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "session",
+          "complete": true,
+          "method_info": {
+            "start_line": 227,
+            "end_line": 229,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "setDelegate",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 44,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "splat",
+          "complete": true,
+          "method_info": {
+            "start_line": 128,
+            "end_line": 130,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 182,
+            "end_line": 184,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "uri",
+          "complete": true,
+          "method_info": {
+            "start_line": 197,
+            "end_line": 199,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "url",
+          "complete": true,
+          "method_info": {
+            "start_line": 192,
+            "end_line": 194,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "userAgent",
+          "complete": true,
+          "method_info": {
+            "start_line": 187,
+            "end_line": 189,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Resource.java",
+      "path": "src/main/java/spark/resource/Resource.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ResourceUtils.java",
+      "path": "src/main/java/spark/utils/ResourceUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Response.java",
+      "path": "src/main/java/spark/Response.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 93,
+            "end_line": 95,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 104,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 206,
+            "end_line": 208,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 218,
+            "end_line": 220,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 230,
+            "end_line": 232,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 243,
+            "end_line": 245,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 256,
+            "end_line": 258,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 270,
+            "end_line": 272,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 285,
+            "end_line": 293,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 155,
+            "end_line": 157,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 165,
+            "end_line": 167,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 175,
+            "end_line": 177,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 185,
+            "end_line": 187,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 195,
+            "end_line": 197,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "raw",
+          "complete": true,
+          "method_info": {
+            "start_line": 109,
+            "end_line": 111,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "redirect",
+          "complete": true,
+          "method_info": {
+            "start_line": 118,
+            "end_line": 134,
+            "size_lines": 17
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.1111111111111111
+          }
+        },
+        {
+          "name": "redirect",
+          "complete": true,
+          "method_info": {
+            "start_line": 135,
+            "end_line": 154,
+            "size_lines": 20
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "removeCookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 300,
+            "end_line": 302,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "removeCookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 310,
+            "end_line": 315,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "status",
+          "complete": true,
+          "method_info": {
+            "start_line": 57,
+            "end_line": 59,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "status",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 68,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "type",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 77,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "type",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 86,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ResponseTransformer.java",
+      "path": "src/main/java/spark/ResponseTransformer.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ResponseTransformerRouteImpl.java",
+      "path": "src/main/java/spark/ResponseTransformerRouteImpl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "handle",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 48,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "render",
+          "complete": true,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 43,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ResponseWrapper.java",
+      "path": "src/main/java/spark/http/matching/ResponseWrapper.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 58,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 63,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 122,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 125,
+            "end_line": 127,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 130,
+            "end_line": 132,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 135,
+            "end_line": 137,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 140,
+            "end_line": 142,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 145,
+            "end_line": 147,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 25,
+            "end_line": 27,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 68,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 73,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 102,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "raw",
+          "complete": true,
+          "method_info": {
+            "start_line": 76,
+            "end_line": 78,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "redirect",
+          "complete": true,
+          "method_info": {
+            "start_line": 81,
+            "end_line": 84,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "redirect",
+          "complete": true,
+          "method_info": {
+            "start_line": 87,
+            "end_line": 90,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "removeCookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 150,
+            "end_line": 152,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "removeCookie",
+          "complete": true,
+          "method_info": {
+            "start_line": 155,
+            "end_line": 157,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "setDelegate",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 39,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "status",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 48,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "status",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 105,
+            "end_line": 107,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "type",
+          "complete": true,
+          "method_info": {
+            "start_line": 110,
+            "end_line": 112,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "type",
+          "complete": true,
+          "method_info": {
+            "start_line": 115,
+            "end_line": 117,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Routable.java",
+      "path": "src/main/java/spark/Routable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "after",
+          "complete": true,
+          "method_info": {
+            "start_line": 160,
+            "end_line": 162,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "after",
+          "complete": true,
+          "method_info": {
+            "start_line": 282,
+            "end_line": 284,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "after",
+          "complete": true,
+          "method_info": {
+            "start_line": 304,
+            "end_line": 306,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "afterAfter",
+          "complete": true,
+          "method_info": {
+            "start_line": 313,
+            "end_line": 315,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.3
+          }
+        },
+        {
+          "name": "afterAfter",
+          "complete": true,
+          "method_info": {
+            "start_line": 322,
+            "end_line": 324,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.3
+          }
+        },
+        {
+          "name": "before",
+          "complete": true,
+          "method_info": {
+            "start_line": 150,
+            "end_line": 152,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "before",
+          "complete": true,
+          "method_info": {
+            "start_line": 273,
+            "end_line": 275,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "before",
+          "complete": true,
+          "method_info": {
+            "start_line": 293,
+            "end_line": 295,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "connect",
+          "complete": true,
+          "method_info": {
+            "start_line": 130,
+            "end_line": 132,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "connect",
+          "complete": true,
+          "method_info": {
+            "start_line": 252,
+            "end_line": 254,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "connect",
+          "complete": true,
+          "method_info": {
+            "start_line": 523,
+            "end_line": 525,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "connect",
+          "complete": true,
+          "method_info": {
+            "start_line": 701,
+            "end_line": 703,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "createRouteImpl",
+          "complete": true,
+          "method_info": {
+            "start_line": 806,
+            "end_line": 811,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "createRouteImpl",
+          "complete": true,
+          "method_info": {
+            "start_line": 820,
+            "end_line": 825,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "defaultResponseTransformer",
+          "complete": true,
+          "method_info": {
+            "start_line": 832,
+            "end_line": 834,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "delete",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 102,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "delete",
+          "complete": true,
+          "method_info": {
+            "start_line": 219,
+            "end_line": 221,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "delete",
+          "complete": true,
+          "method_info": {
+            "start_line": 419,
+            "end_line": 421,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "delete",
+          "complete": true,
+          "method_info": {
+            "start_line": 652,
+            "end_line": 654,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 60,
+            "end_line": 62,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 175,
+            "end_line": 177,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 341,
+            "end_line": 343,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 583,
+            "end_line": 585,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "get",
+          "complete": true,
+          "method_info": {
+            "start_line": 595,
+            "end_line": 597,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "head",
+          "complete": true,
+          "method_info": {
+            "start_line": 110,
+            "end_line": 112,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "head",
+          "complete": true,
+          "method_info": {
+            "start_line": 230,
+            "end_line": 232,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "head",
+          "complete": true,
+          "method_info": {
+            "start_line": 471,
+            "end_line": 473,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "head",
+          "complete": true,
+          "method_info": {
+            "start_line": 678,
+            "end_line": 680,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "head",
+          "complete": true,
+          "method_info": {
+            "start_line": 690,
+            "end_line": 692,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "options",
+          "complete": true,
+          "method_info": {
+            "start_line": 140,
+            "end_line": 142,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "options",
+          "complete": true,
+          "method_info": {
+            "start_line": 263,
+            "end_line": 265,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "options",
+          "complete": true,
+          "method_info": {
+            "start_line": 549,
+            "end_line": 551,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "options",
+          "complete": true,
+          "method_info": {
+            "start_line": 753,
+            "end_line": 755,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "patch",
+          "complete": true,
+          "method_info": {
+            "start_line": 90,
+            "end_line": 92,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "patch",
+          "complete": true,
+          "method_info": {
+            "start_line": 208,
+            "end_line": 210,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "patch",
+          "complete": true,
+          "method_info": {
+            "start_line": 445,
+            "end_line": 447,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "patch",
+          "complete": true,
+          "method_info": {
+            "start_line": 779,
+            "end_line": 781,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 72,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 186,
+            "end_line": 188,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 367,
+            "end_line": 369,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 606,
+            "end_line": 608,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "post",
+          "complete": true,
+          "method_info": {
+            "start_line": 618,
+            "end_line": 620,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 80,
+            "end_line": 82,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 197,
+            "end_line": 199,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 393,
+            "end_line": 395,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 629,
+            "end_line": 631,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "put",
+          "complete": true,
+          "method_info": {
+            "start_line": 641,
+            "end_line": 643,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "trace",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 122,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "trace",
+          "complete": true,
+          "method_info": {
+            "start_line": 241,
+            "end_line": 243,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "trace",
+          "complete": true,
+          "method_info": {
+            "start_line": 497,
+            "end_line": 499,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "trace",
+          "complete": true,
+          "method_info": {
+            "start_line": 727,
+            "end_line": 729,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "name": "Route.java",
+      "path": "src/main/java/spark/Route.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RouteContext.java",
+      "path": "src/main/java/spark/http/matching/RouteContext.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "acceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 108,
+            "end_line": 110,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "body",
+          "complete": true,
+          "method_info": {
+            "start_line": 112,
+            "end_line": 114,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "create",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 35,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "httpMethod",
+          "complete": true,
+          "method_info": {
+            "start_line": 128,
+            "end_line": 130,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "httpRequest",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 102,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "requestWrapper",
+          "complete": true,
+          "method_info": {
+            "start_line": 116,
+            "end_line": 118,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "response",
+          "complete": true,
+          "method_info": {
+            "start_line": 124,
+            "end_line": 126,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseWrapper",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 122,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "routeMatcher",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "uri",
+          "complete": true,
+          "method_info": {
+            "start_line": 104,
+            "end_line": 106,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withAcceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 68,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withBody",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 73,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withHttpMethod",
+          "complete": true,
+          "method_info": {
+            "start_line": 95,
+            "end_line": 98,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withHttpRequest",
+          "complete": true,
+          "method_info": {
+            "start_line": 60,
+            "end_line": 63,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withMatcher",
+          "complete": true,
+          "method_info": {
+            "start_line": 55,
+            "end_line": 58,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withRequestWrapper",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 78,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 90,
+            "end_line": 93,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withResponseWrapper",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 88,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withUri",
+          "complete": true,
+          "method_info": {
+            "start_line": 80,
+            "end_line": 83,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RouteEntry.java",
+      "path": "src/main/java/spark/route/RouteEntry.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "matchPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 59,
+            "end_line": 64,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 130,
+            "end_line": 132,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "name": "RouteGroup.java",
+      "path": "src/main/java/spark/RouteGroup.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RouteImpl.java",
+      "path": "src/main/java/spark/RouteImpl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "delegate",
+          "complete": true,
+          "method_info": {
+            "start_line": 149,
+            "end_line": 151,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getAcceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 134,
+            "end_line": 136,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "getPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 141,
+            "end_line": 143,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.6666666666666666
+          }
+        },
+        {
+          "name": "handle",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 73,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "render",
+          "complete": true,
+          "method_info": {
+            "start_line": 127,
+            "end_line": 129,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "withPrefix",
+          "complete": true,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 44,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RouteMatch.java",
+      "path": "src/main/java/spark/routematch/RouteMatch.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getAcceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 55,
+            "end_line": 57,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getHttpMethod",
+          "complete": true,
+          "method_info": {
+            "start_line": 48,
+            "end_line": 50,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "getMatchUri",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 72,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getRequestURI",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 80,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "getTarget",
+          "complete": true,
+          "method_info": {
+            "start_line": 62,
+            "end_line": 64,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Routes.java",
+      "path": "src/main/java/spark/route/Routes.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 63,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 73,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 185,
+            "end_line": 194,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 272,
+            "end_line": 295,
+            "size_lines": 24
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "clear",
+          "complete": true,
+          "method_info": {
+            "start_line": 133,
+            "end_line": 135,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "find",
+          "complete": true,
+          "method_info": {
+            "start_line": 83,
+            "end_line": 87,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "findAll",
+          "complete": true,
+          "method_info": {
+            "start_line": 119,
+            "end_line": 128,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "findMultiple",
+          "complete": true,
+          "method_info": {
+            "start_line": 97,
+            "end_line": 118,
+            "size_lines": 22
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "findTargetWithGivenAcceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 224,
+            "end_line": 242,
+            "size_lines": 19
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "findTargetsForRequestedRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 213,
+            "end_line": 221,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "remove",
+          "complete": true,
+          "method_info": {
+            "start_line": 149,
+            "end_line": 162,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "remove",
+          "complete": true,
+          "method_info": {
+            "start_line": 173,
+            "end_line": 179,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "removeRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 243,
+            "end_line": 262,
+            "size_lines": 20
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.6666666666666666
+          }
+        },
+        {
+          "name": "routeWithGivenAcceptType",
+          "complete": true,
+          "method_info": {
+            "start_line": 209,
+            "end_line": 211,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "name": "Routes.java",
+      "path": "src/main/java/spark/http/matching/Routes.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 30,
+            "end_line": 83,
+            "size_lines": 54
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Serializer.java",
+      "path": "src/main/java/spark/serialization/Serializer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "processElement",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 73,
+            "size_lines": 27
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "setNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SerializerChain.java",
+      "path": "src/main/java/spark/serialization/SerializerChain.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "process",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 54,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Service.java",
+      "path": "src/main/java/spark/Service.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "addFilter",
+          "complete": true,
+          "method_info": {
+            "start_line": 591,
+            "end_line": 594,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "addFilter",
+          "complete": true,
+          "method_info": {
+            "start_line": 605,
+            "end_line": 608,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.4444444444444444
+          }
+        },
+        {
+          "name": "addRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 585,
+            "end_line": 588,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "addRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 598,
+            "end_line": 601,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 13,
+            "commit_count": 13,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.3076923076923077
+          }
+        },
+        {
+          "name": "awaitInitialization",
+          "complete": true,
+          "method_info": {
+            "start_line": 490,
+            "end_line": 502,
+            "size_lines": 13
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "awaitStop",
+          "complete": true,
+          "method_info": {
+            "start_line": 527,
+            "end_line": 535,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "disableMimeTypeGuessing",
+          "complete": true,
+          "method_info": {
+            "start_line": 855,
+            "end_line": 857,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "expireTime",
+          "complete": true,
+          "method_info": {
+            "start_line": 838,
+            "end_line": 840,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "externalLocation",
+          "complete": true,
+          "method_info": {
+            "start_line": 807,
+            "end_line": 809,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getPaths",
+          "complete": true,
+          "method_info": {
+            "start_line": 574,
+            "end_line": 576,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "halt",
+          "complete": true,
+          "method_info": {
+            "start_line": 707,
+            "end_line": 709,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "halt",
+          "complete": true,
+          "method_info": {
+            "start_line": 719,
+            "end_line": 721,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "halt",
+          "complete": true,
+          "method_info": {
+            "start_line": 731,
+            "end_line": 733,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "halt",
+          "complete": true,
+          "method_info": {
+            "start_line": 744,
+            "end_line": 746,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "handle",
+          "complete": true,
+          "method_info": {
+            "start_line": 688,
+            "end_line": 690,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "hasMultipleHandlers",
+          "complete": true,
+          "method_info": {
+            "start_line": 508,
+            "end_line": 510,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2857142857142857
+          }
+        },
+        {
+          "name": "header",
+          "complete": true,
+          "method_info": {
+            "start_line": 828,
+            "end_line": 830,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "headers",
+          "complete": true,
+          "method_info": {
+            "start_line": 817,
+            "end_line": 819,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "initExceptionHandler",
+          "complete": true,
+          "method_info": {
+            "start_line": 779,
+            "end_line": 784,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "initializeRouteMatcher",
+          "complete": true,
+          "method_info": {
+            "start_line": 656,
+            "end_line": 687,
+            "size_lines": 32
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "initiateStop",
+          "complete": true,
+          "method_info": {
+            "start_line": 536,
+            "end_line": 567,
+            "size_lines": 32
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "location",
+          "complete": true,
+          "method_info": {
+            "start_line": 797,
+            "end_line": 799,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "path",
+          "complete": true,
+          "method_info": {
+            "start_line": 568,
+            "end_line": 572,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "registerMimeType",
+          "complete": true,
+          "method_info": {
+            "start_line": 848,
+            "end_line": 850,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "routes",
+          "complete": true,
+          "method_info": {
+            "start_line": 580,
+            "end_line": 582,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "throwBeforeRouteMappingException",
+          "complete": true,
+          "method_info": {
+            "start_line": 503,
+            "end_line": 506,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "unmap",
+          "complete": true,
+          "method_info": {
+            "start_line": 379,
+            "end_line": 381,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "unmap",
+          "complete": true,
+          "method_info": {
+            "start_line": 394,
+            "end_line": 396,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "webSocket",
+          "complete": true,
+          "method_info": {
+            "start_line": 406,
+            "end_line": 408,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "webSocket",
+          "complete": true,
+          "method_info": {
+            "start_line": 418,
+            "end_line": 420,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 0,
+            "commit_count": 0,
+            "fix_commit_count": 0,
+            "fix_ratio": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ServletFlag.java",
+      "path": "src/main/java/spark/globalstate/ServletFlag.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ServletRoutes.java",
+      "path": "src/main/java/spark/route/ServletRoutes.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Session.java",
+      "path": "src/main/java/spark/Session.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "attribute",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 60,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "attributes",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 73,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "creationTime",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 80,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "id",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 87,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "invalidate",
+          "complete": true,
+          "method_info": {
+            "start_line": 118,
+            "end_line": 121,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "isNew",
+          "complete": true,
+          "method_info": {
+            "start_line": 126,
+            "end_line": 128,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "lastAccessedTime",
+          "complete": true,
+          "method_info": {
+            "start_line": 94,
+            "end_line": 96,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "maxInactiveInterval",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 104,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "maxInactiveInterval",
+          "complete": true,
+          "method_info": {
+            "start_line": 111,
+            "end_line": 113,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "raw",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "removeAttribute",
+          "complete": true,
+          "method_info": {
+            "start_line": 135,
+            "end_line": 137,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SimpleRouteMatcher.java",
+      "path": "src/main/java/spark/route/SimpleRouteMatcher.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "clearRoutes",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "findTargetForRequestedRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 49,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.375
+          }
+        },
+        {
+          "name": "findTargetsForRequestedRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 60,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.375
+          }
+        },
+        {
+          "name": "parseValidateAddRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.5714285714285714
+          }
+        },
+        {
+          "name": "removeRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 77,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.6
+          }
+        },
+        {
+          "name": "removeRoute",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 86,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "name": "SocketConnectorFactory.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/SocketConnectorFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Spark.java",
+      "path": "src/main/java/spark/Spark.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SparkApplication.java",
+      "path": "src/main/java/spark/servlet/SparkApplication.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SparkFilter.java",
+      "path": "src/main/java/spark/servlet/SparkFilter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "destroy",
+          "complete": true,
+          "method_info": {
+            "start_line": 178,
+            "end_line": 184,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.4
+          }
+        },
+        {
+          "name": "doFilter",
+          "complete": true,
+          "method_info": {
+            "start_line": 143,
+            "end_line": 156,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 17,
+            "commit_count": 17,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.11764705882352941
+          }
+        },
+        {
+          "name": "getApplication",
+          "complete": true,
+          "method_info": {
+            "start_line": 89,
+            "end_line": 91,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "getApplication",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 119,
+            "size_lines": 18
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "getApplications",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 142,
+            "size_lines": 23
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "getPathInfo",
+          "complete": true,
+          "method_info": {
+            "start_line": 157,
+            "end_line": 159,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 0,
+            "commit_count": 0,
+            "fix_commit_count": 0,
+            "fix_ratio": 0
+          }
+        },
+        {
+          "name": "getRequestURI",
+          "complete": true,
+          "method_info": {
+            "start_line": 162,
+            "end_line": 164,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "init",
+          "complete": true,
+          "method_info": {
+            "start_line": 64,
+            "end_line": 76,
+            "size_lines": 13
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "SparkUtils.java",
+      "path": "src/main/java/spark/utils/SparkUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SslStores.java",
+      "path": "src/main/java/spark/ssl/SslStores.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "certAlias",
+          "complete": true,
+          "method_info": {
+            "start_line": 107,
+            "end_line": 109,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "keystoreFile",
+          "complete": true,
+          "method_info": {
+            "start_line": 93,
+            "end_line": 95,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "keystorePassword",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 102,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "needsClientCert",
+          "complete": true,
+          "method_info": {
+            "start_line": 128,
+            "end_line": 130,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "trustStoreFile",
+          "complete": true,
+          "method_info": {
+            "start_line": 114,
+            "end_line": 116,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "trustStorePassword",
+          "complete": true,
+          "method_info": {
+            "start_line": 121,
+            "end_line": 123,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "StaticFilesConfiguration.java",
+      "path": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "clear",
+          "complete": true,
+          "method_info": {
+            "start_line": 116,
+            "end_line": 125,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "isExternalStaticResourcesSet",
+          "complete": true,
+          "method_info": {
+            "start_line": 131,
+            "end_line": 133,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "isStaticResourcesSet",
+          "complete": true,
+          "method_info": {
+            "start_line": 127,
+            "end_line": 129,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "putCustomHeader",
+          "complete": true,
+          "method_info": {
+            "start_line": 197,
+            "end_line": 199,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "putCustomHeaders",
+          "complete": true,
+          "method_info": {
+            "start_line": 193,
+            "end_line": 195,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "setExpireTimeSeconds",
+          "complete": true,
+          "method_info": {
+            "start_line": 188,
+            "end_line": 191,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "StaticFilesFolder.java",
+      "path": "src/main/java/spark/staticfiles/StaticFilesFolder.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "StringUtils.java",
+      "path": "src/main/java/spark/utils/StringUtils.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "TemplateEngine.java",
+      "path": "src/main/java/spark/TemplateEngine.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "modelAndView",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 33,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "render",
+          "complete": true,
+          "method_info": {
+            "start_line": 19,
+            "end_line": 22,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "TemplateViewRoute.java",
+      "path": "src/main/java/spark/TemplateViewRoute.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "TemplateViewRouteImpl.java",
+      "path": "src/main/java/spark/TemplateViewRouteImpl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "handle",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "modelAndView",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 98,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "render",
+          "complete": true,
+          "method_info": {
+            "start_line": 60,
+            "end_line": 62,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "render",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 87,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "TypeUtil.java",
+      "path": "src/main/java/spark/utils/urldecoding/TypeUtil.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "UriPath.java",
+      "path": "src/main/java/spark/resource/UriPath.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "UrlDecode.java",
+      "path": "src/main/java/spark/utils/urldecoding/UrlDecode.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Utf8Appendable.java",
+      "path": "src/main/java/spark/utils/urldecoding/Utf8Appendable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "append",
+          "complete": true,
+          "method_info": {
+            "start_line": 95,
+            "end_line": 103,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "append",
+          "complete": true,
+          "method_info": {
+            "start_line": 104,
+            "end_line": 113,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "append",
+          "complete": true,
+          "method_info": {
+            "start_line": 114,
+            "end_line": 121,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "appendByte",
+          "complete": true,
+          "method_info": {
+            "start_line": 122,
+            "end_line": 156,
+            "size_lines": 35
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "checkCharAppend",
+          "complete": true,
+          "method_info": {
+            "start_line": 86,
+            "end_line": 93,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "checkState",
+          "complete": true,
+          "method_info": {
+            "start_line": 168,
+            "end_line": 181,
+            "size_lines": 14
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "isUtf8SequenceComplete",
+          "complete": true,
+          "method_info": {
+            "start_line": 157,
+            "end_line": 159,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "reset",
+          "complete": true,
+          "method_info": {
+            "start_line": 81,
+            "end_line": 83,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Utf8StringBuilder.java",
+      "path": "src/main/java/spark/utils/urldecoding/Utf8StringBuilder.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "length",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 46,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "reset",
+          "complete": true,
+          "method_info": {
+            "start_line": 49,
+            "end_line": 53,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 60,
+            "size_lines": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WebSocketCreatorFactory.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/websocket/WebSocketCreatorFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "WebSocketHandlerClassWrapper.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/websocket/WebSocketHandlerClassWrapper.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getHandler",
+          "complete": true,
+          "method_info": {
+            "start_line": 15,
+            "end_line": 23,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WebSocketHandlerInstanceWrapper.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/websocket/WebSocketHandlerInstanceWrapper.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getHandler",
+          "complete": true,
+          "method_info": {
+            "start_line": 16,
+            "end_line": 18,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WebSocketHandlerWrapper.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/websocket/WebSocketHandlerWrapper.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "validateHandlerClass",
+          "complete": true,
+          "method_info": {
+            "start_line": 18,
+            "end_line": 25,
+            "size_lines": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WebSocketServletContextHandlerFactory.java",
+      "path": "src/main/java/spark/embeddedserver/jetty/websocket/WebSocketServletContextHandlerFactory.java",
+      "complete": false,
+      "methods": []
+    },
+    {
+      "name": "Wrapper.java",
+      "path": "src/main/java/spark/utils/Wrapper.java",
+      "complete": false,
+      "methods": []
+    }
+  ]
+}
