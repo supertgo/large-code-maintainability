@@ -13,7 +13,8 @@
           "method_info": {
             "start_line": 122,
             "end_line": 135,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -28,7 +29,8 @@
           "method_info": {
             "start_line": 160,
             "end_line": 165,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -43,7 +45,8 @@
           "method_info": {
             "start_line": 175,
             "end_line": 177,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -58,7 +61,8 @@
           "method_info": {
             "start_line": 66,
             "end_line": 105,
-            "size_lines": 40
+            "size_lines": 40,
+            "cyclomatic_complexity": 8
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -73,7 +77,8 @@
           "method_info": {
             "start_line": 44,
             "end_line": 47,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -88,7 +93,8 @@
           "method_info": {
             "start_line": 54,
             "end_line": 65,
-            "size_lines": 12
+            "size_lines": 12,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -103,7 +109,8 @@
           "method_info": {
             "start_line": 106,
             "end_line": 121,
-            "size_lines": 16
+            "size_lines": 16,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -118,7 +125,8 @@
           "method_info": {
             "start_line": 136,
             "end_line": 159,
-            "size_lines": 24
+            "size_lines": 24,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -140,7 +148,8 @@
           "method_info": {
             "start_line": 121,
             "end_line": 146,
-            "size_lines": 26
+            "size_lines": 26,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -155,7 +164,8 @@
           "method_info": {
             "start_line": 173,
             "end_line": 175,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -170,7 +180,8 @@
           "method_info": {
             "start_line": 203,
             "end_line": 206,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -185,7 +196,8 @@
           "method_info": {
             "start_line": 48,
             "end_line": 67,
-            "size_lines": 20
+            "size_lines": 20,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -200,7 +212,8 @@
           "method_info": {
             "start_line": 108,
             "end_line": 110,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -215,7 +228,8 @@
           "method_info": {
             "start_line": 164,
             "end_line": 166,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -230,7 +244,8 @@
           "method_info": {
             "start_line": 182,
             "end_line": 184,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -245,7 +260,8 @@
           "method_info": {
             "start_line": 94,
             "end_line": 107,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -260,7 +276,8 @@
           "method_info": {
             "start_line": 85,
             "end_line": 87,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -275,7 +292,8 @@
           "method_info": {
             "start_line": 214,
             "end_line": 216,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -290,7 +308,8 @@
           "method_info": {
             "start_line": 76,
             "end_line": 78,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -305,7 +324,8 @@
           "method_info": {
             "start_line": 68,
             "end_line": 70,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -320,7 +340,8 @@
           "method_info": {
             "start_line": 147,
             "end_line": 154,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -335,7 +356,8 @@
           "method_info": {
             "start_line": 193,
             "end_line": 195,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -357,7 +379,8 @@
           "method_info": {
             "start_line": 40,
             "end_line": 124,
-            "size_lines": 85
+            "size_lines": 85,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -385,7 +408,8 @@
           "method_info": {
             "start_line": 32,
             "end_line": 68,
-            "size_lines": 37
+            "size_lines": 37,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -407,7 +431,8 @@
           "method_info": {
             "start_line": 32,
             "end_line": 68,
-            "size_lines": 37
+            "size_lines": 37,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -441,7 +466,8 @@
           "method_info": {
             "start_line": 32,
             "end_line": 59,
-            "size_lines": 28
+            "size_lines": 28,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -463,7 +489,8 @@
           "method_info": {
             "start_line": 51,
             "end_line": 53,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -478,7 +505,8 @@
           "method_info": {
             "start_line": 47,
             "end_line": 49,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -493,7 +521,8 @@
           "method_info": {
             "start_line": 43,
             "end_line": 45,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -508,7 +537,8 @@
           "method_info": {
             "start_line": 55,
             "end_line": 57,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -530,7 +560,8 @@
           "method_info": {
             "start_line": 31,
             "end_line": 33,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -545,7 +576,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 47,
-            "size_lines": 12
+            "size_lines": 12,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -567,7 +599,8 @@
           "method_info": {
             "start_line": 204,
             "end_line": 207,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -582,7 +615,8 @@
           "method_info": {
             "start_line": 248,
             "end_line": 263,
-            "size_lines": 16
+            "size_lines": 16,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -597,7 +631,8 @@
           "method_info": {
             "start_line": 144,
             "end_line": 161,
-            "size_lines": 18
+            "size_lines": 18,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -612,7 +647,8 @@
           "method_info": {
             "start_line": 227,
             "end_line": 240,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -627,7 +663,8 @@
           "method_info": {
             "start_line": 217,
             "end_line": 219,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -642,7 +679,8 @@
           "method_info": {
             "start_line": 162,
             "end_line": 182,
-            "size_lines": 21
+            "size_lines": 21,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -657,7 +695,8 @@
           "method_info": {
             "start_line": 183,
             "end_line": 203,
-            "size_lines": 21
+            "size_lines": 21,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -672,7 +711,8 @@
           "method_info": {
             "start_line": 272,
             "end_line": 274,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -694,7 +734,8 @@
           "method_info": {
             "start_line": 61,
             "end_line": 99,
-            "size_lines": 39
+            "size_lines": 39,
+            "cyclomatic_complexity": 11
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -728,7 +769,8 @@
           "method_info": {
             "start_line": 89,
             "end_line": 91,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -743,7 +785,8 @@
           "method_info": {
             "start_line": 98,
             "end_line": 100,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -758,7 +801,8 @@
           "method_info": {
             "start_line": 79,
             "end_line": 82,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -780,7 +824,8 @@
           "method_info": {
             "start_line": 31,
             "end_line": 33,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -795,7 +840,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 44,
-            "size_lines": 9
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -823,7 +869,8 @@
           "method_info": {
             "start_line": 68,
             "end_line": 71,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 0,
@@ -838,7 +885,8 @@
           "method_info": {
             "start_line": 63,
             "end_line": 66,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -860,7 +908,8 @@
           "method_info": {
             "start_line": 184,
             "end_line": 189,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -875,7 +924,8 @@
           "method_info": {
             "start_line": 170,
             "end_line": 183,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -890,7 +940,8 @@
           "method_info": {
             "start_line": 162,
             "end_line": 164,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 0,
@@ -905,7 +956,8 @@
           "method_info": {
             "start_line": 77,
             "end_line": 79,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -920,7 +972,8 @@
           "method_info": {
             "start_line": 197,
             "end_line": 200,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -977,7 +1030,8 @@
           "method_info": {
             "start_line": 49,
             "end_line": 51,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -999,7 +1053,8 @@
           "method_info": {
             "start_line": 118,
             "end_line": 120,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1014,7 +1069,8 @@
           "method_info": {
             "start_line": 75,
             "end_line": 110,
-            "size_lines": 36
+            "size_lines": 36,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -1029,7 +1085,8 @@
           "method_info": {
             "start_line": 111,
             "end_line": 113,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -1044,7 +1101,8 @@
           "method_info": {
             "start_line": 65,
             "end_line": 67,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -1072,7 +1130,8 @@
           "method_info": {
             "start_line": 56,
             "end_line": 58,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1087,7 +1146,8 @@
           "method_info": {
             "start_line": 61,
             "end_line": 63,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1102,7 +1162,8 @@
           "method_info": {
             "start_line": 99,
             "end_line": 101,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1117,7 +1178,8 @@
           "method_info": {
             "start_line": 66,
             "end_line": 68,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1132,7 +1194,8 @@
           "method_info": {
             "start_line": 86,
             "end_line": 88,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1147,7 +1210,8 @@
           "method_info": {
             "start_line": 77,
             "end_line": 79,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1162,7 +1226,8 @@
           "method_info": {
             "start_line": 51,
             "end_line": 53,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1184,7 +1249,8 @@
           "method_info": {
             "start_line": 60,
             "end_line": 98,
-            "size_lines": 39
+            "size_lines": 39,
+            "cyclomatic_complexity": 11
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -1212,7 +1278,8 @@
           "method_info": {
             "start_line": 54,
             "end_line": 56,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1227,7 +1294,8 @@
           "method_info": {
             "start_line": 66,
             "end_line": 71,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -1242,7 +1310,8 @@
           "method_info": {
             "start_line": 111,
             "end_line": 113,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1257,7 +1326,8 @@
           "method_info": {
             "start_line": 96,
             "end_line": 98,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1272,7 +1342,8 @@
           "method_info": {
             "start_line": 103,
             "end_line": 105,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1287,7 +1358,8 @@
           "method_info": {
             "start_line": 72,
             "end_line": 74,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -1302,7 +1374,8 @@
           "method_info": {
             "start_line": 42,
             "end_line": 45,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1324,7 +1397,8 @@
           "method_info": {
             "start_line": 62,
             "end_line": 75,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -1339,7 +1413,8 @@
           "method_info": {
             "start_line": 33,
             "end_line": 61,
-            "size_lines": 29
+            "size_lines": 29,
+            "cyclomatic_complexity": 7
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -1367,7 +1442,8 @@
           "method_info": {
             "start_line": 90,
             "end_line": 96,
-            "size_lines": 7
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1395,7 +1471,8 @@
           "method_info": {
             "start_line": 78,
             "end_line": 80,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1410,7 +1487,8 @@
           "method_info": {
             "start_line": 71,
             "end_line": 73,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1425,7 +1503,8 @@
           "method_info": {
             "start_line": 56,
             "end_line": 58,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1440,7 +1519,8 @@
           "method_info": {
             "start_line": 63,
             "end_line": 65,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1468,7 +1548,8 @@
           "method_info": {
             "start_line": 89,
             "end_line": 91,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1483,7 +1564,8 @@
           "method_info": {
             "start_line": 72,
             "end_line": 74,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1498,7 +1580,8 @@
           "method_info": {
             "start_line": 50,
             "end_line": 70,
-            "size_lines": 21
+            "size_lines": 21,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -1513,7 +1596,8 @@
           "method_info": {
             "start_line": 94,
             "end_line": 96,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1528,7 +1612,8 @@
           "method_info": {
             "start_line": 99,
             "end_line": 101,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1543,7 +1628,8 @@
           "method_info": {
             "start_line": 41,
             "end_line": 43,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1558,7 +1644,8 @@
           "method_info": {
             "start_line": 45,
             "end_line": 47,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1573,7 +1660,8 @@
           "method_info": {
             "start_line": 84,
             "end_line": 86,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1588,7 +1676,8 @@
           "method_info": {
             "start_line": 104,
             "end_line": 105,
-            "size_lines": 2
+            "size_lines": 2,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1616,7 +1705,8 @@
           "method_info": {
             "start_line": 33,
             "end_line": 35,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -1631,7 +1721,8 @@
           "method_info": {
             "start_line": 38,
             "end_line": 43,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1665,7 +1756,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 57,
-            "size_lines": 22
+            "size_lines": 22,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -1680,7 +1772,8 @@
           "method_info": {
             "start_line": 58,
             "end_line": 60,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1708,7 +1801,8 @@
           "method_info": {
             "start_line": 211,
             "end_line": 212,
-            "size_lines": 2
+            "size_lines": 2,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -1723,7 +1817,8 @@
           "method_info": {
             "start_line": 201,
             "end_line": 208,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -1738,7 +1833,8 @@
           "method_info": {
             "start_line": 85,
             "end_line": 87,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -1760,7 +1856,8 @@
           "method_info": {
             "start_line": 115,
             "end_line": 209,
-            "size_lines": 95
+            "size_lines": 95,
+            "cyclomatic_complexity": 25
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1775,7 +1872,8 @@
           "method_info": {
             "start_line": 32,
             "end_line": 38,
-            "size_lines": 7
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1803,7 +1901,8 @@
           "method_info": {
             "start_line": 51,
             "end_line": 53,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1818,7 +1917,8 @@
           "method_info": {
             "start_line": 58,
             "end_line": 60,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1852,7 +1952,8 @@
           "method_info": {
             "start_line": 226,
             "end_line": 228,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1867,7 +1968,8 @@
           "method_info": {
             "start_line": 254,
             "end_line": 256,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1882,7 +1984,8 @@
           "method_info": {
             "start_line": 247,
             "end_line": 249,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1897,7 +2000,8 @@
           "method_info": {
             "start_line": 160,
             "end_line": 177,
-            "size_lines": 18
+            "size_lines": 18,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -1912,7 +2016,8 @@
           "method_info": {
             "start_line": 212,
             "end_line": 214,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -1927,7 +2032,8 @@
           "method_info": {
             "start_line": 205,
             "end_line": 207,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -1942,7 +2048,8 @@
           "method_info": {
             "start_line": 219,
             "end_line": 221,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1957,7 +2064,8 @@
           "method_info": {
             "start_line": 233,
             "end_line": 235,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1972,7 +2080,8 @@
           "method_info": {
             "start_line": 240,
             "end_line": 242,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -1987,7 +2096,8 @@
           "method_info": {
             "start_line": 178,
             "end_line": 197,
-            "size_lines": 20
+            "size_lines": 20,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2002,7 +2112,8 @@
           "method_info": {
             "start_line": 198,
             "end_line": 200,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -2017,7 +2128,8 @@
           "method_info": {
             "start_line": 261,
             "end_line": 263,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2039,7 +2151,8 @@
           "method_info": {
             "start_line": 68,
             "end_line": 70,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2054,7 +2167,8 @@
           "method_info": {
             "start_line": 120,
             "end_line": 125,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2069,7 +2183,8 @@
           "method_info": {
             "start_line": 52,
             "end_line": 54,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -2084,7 +2199,8 @@
           "method_info": {
             "start_line": 108,
             "end_line": 110,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2099,7 +2215,8 @@
           "method_info": {
             "start_line": 167,
             "end_line": 169,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2114,7 +2231,8 @@
           "method_info": {
             "start_line": 78,
             "end_line": 80,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2129,7 +2247,8 @@
           "method_info": {
             "start_line": 134,
             "end_line": 136,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2144,7 +2263,8 @@
           "method_info": {
             "start_line": 44,
             "end_line": 46,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2159,7 +2279,8 @@
           "method_info": {
             "start_line": 88,
             "end_line": 90,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2174,7 +2295,8 @@
           "method_info": {
             "start_line": 145,
             "end_line": 147,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2189,7 +2311,8 @@
           "method_info": {
             "start_line": 98,
             "end_line": 100,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2204,7 +2327,8 @@
           "method_info": {
             "start_line": 156,
             "end_line": 158,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2226,7 +2350,8 @@
           "method_info": {
             "start_line": 378,
             "end_line": 380,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -2241,7 +2366,8 @@
           "method_info": {
             "start_line": 398,
             "end_line": 405,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2256,7 +2382,8 @@
           "method_info": {
             "start_line": 255,
             "end_line": 262,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 11,
@@ -2271,7 +2398,8 @@
           "method_info": {
             "start_line": 264,
             "end_line": 269,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2286,7 +2414,8 @@
           "method_info": {
             "start_line": 121,
             "end_line": 128,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2301,7 +2430,8 @@
           "method_info": {
             "start_line": 282,
             "end_line": 284,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2316,7 +2446,8 @@
           "method_info": {
             "start_line": 241,
             "end_line": 243,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2331,7 +2462,8 @@
           "method_info": {
             "start_line": 227,
             "end_line": 229,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2346,7 +2478,8 @@
           "method_info": {
             "start_line": 493,
             "end_line": 503,
-            "size_lines": 11
+            "size_lines": 11,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -2361,7 +2494,8 @@
           "method_info": {
             "start_line": 340,
             "end_line": 342,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2376,7 +2510,8 @@
           "method_info": {
             "start_line": 354,
             "end_line": 363,
-            "size_lines": 10
+            "size_lines": 10,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -2391,7 +2526,8 @@
           "method_info": {
             "start_line": 182,
             "end_line": 184,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2406,7 +2542,8 @@
           "method_info": {
             "start_line": 431,
             "end_line": 435,
-            "size_lines": 5
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2421,7 +2558,8 @@
           "method_info": {
             "start_line": 248,
             "end_line": 250,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2436,7 +2574,8 @@
           "method_info": {
             "start_line": 213,
             "end_line": 215,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2451,7 +2590,8 @@
           "method_info": {
             "start_line": 146,
             "end_line": 160,
-            "size_lines": 15
+            "size_lines": 15,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -2466,7 +2606,8 @@
           "method_info": {
             "start_line": 205,
             "end_line": 207,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -2481,7 +2622,8 @@
           "method_info": {
             "start_line": 196,
             "end_line": 198,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2496,7 +2638,8 @@
           "method_info": {
             "start_line": 515,
             "end_line": 517,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -2511,7 +2654,8 @@
           "method_info": {
             "start_line": 417,
             "end_line": 421,
-            "size_lines": 5
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2526,7 +2670,8 @@
           "method_info": {
             "start_line": 427,
             "end_line": 429,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2541,7 +2686,8 @@
           "method_info": {
             "start_line": 318,
             "end_line": 321,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -2556,7 +2702,8 @@
           "method_info": {
             "start_line": 293,
             "end_line": 295,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -2571,7 +2718,8 @@
           "method_info": {
             "start_line": 347,
             "end_line": 349,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -2586,7 +2734,8 @@
           "method_info": {
             "start_line": 306,
             "end_line": 308,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2601,7 +2750,8 @@
           "method_info": {
             "start_line": 330,
             "end_line": 332,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2616,7 +2766,8 @@
           "method_info": {
             "start_line": 368,
             "end_line": 370,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -2631,7 +2782,8 @@
           "method_info": {
             "start_line": 410,
             "end_line": 412,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2646,7 +2798,8 @@
           "method_info": {
             "start_line": 271,
             "end_line": 281,
-            "size_lines": 11
+            "size_lines": 11,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -2661,7 +2814,8 @@
           "method_info": {
             "start_line": 168,
             "end_line": 170,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -2676,7 +2830,8 @@
           "method_info": {
             "start_line": 175,
             "end_line": 177,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2691,7 +2846,8 @@
           "method_info": {
             "start_line": 220,
             "end_line": 222,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2706,7 +2862,8 @@
           "method_info": {
             "start_line": 443,
             "end_line": 449,
-            "size_lines": 7
+            "size_lines": 7,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2721,7 +2878,8 @@
           "method_info": {
             "start_line": 460,
             "end_line": 492,
-            "size_lines": 33
+            "size_lines": 33,
+            "cyclomatic_complexity": 6
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2736,7 +2894,8 @@
           "method_info": {
             "start_line": 161,
             "end_line": 163,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2751,7 +2910,8 @@
           "method_info": {
             "start_line": 508,
             "end_line": 510,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -2766,7 +2926,8 @@
           "method_info": {
             "start_line": 234,
             "end_line": 236,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2781,7 +2942,8 @@
           "method_info": {
             "start_line": 189,
             "end_line": 191,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -2809,7 +2971,8 @@
           "method_info": {
             "start_line": 207,
             "end_line": 209,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2824,7 +2987,8 @@
           "method_info": {
             "start_line": 217,
             "end_line": 219,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2839,7 +3003,8 @@
           "method_info": {
             "start_line": 93,
             "end_line": 95,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2854,7 +3019,8 @@
           "method_info": {
             "start_line": 98,
             "end_line": 100,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -2869,7 +3035,8 @@
           "method_info": {
             "start_line": 50,
             "end_line": 52,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2884,7 +3051,8 @@
           "method_info": {
             "start_line": 103,
             "end_line": 105,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2899,7 +3067,8 @@
           "method_info": {
             "start_line": 88,
             "end_line": 90,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2914,7 +3083,8 @@
           "method_info": {
             "start_line": 83,
             "end_line": 85,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2929,7 +3099,8 @@
           "method_info": {
             "start_line": 247,
             "end_line": 249,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -2944,7 +3115,8 @@
           "method_info": {
             "start_line": 32,
             "end_line": 34,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2959,7 +3131,8 @@
           "method_info": {
             "start_line": 108,
             "end_line": 110,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2974,7 +3147,8 @@
           "method_info": {
             "start_line": 113,
             "end_line": 115,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -2989,7 +3163,8 @@
           "method_info": {
             "start_line": 157,
             "end_line": 159,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3004,7 +3179,8 @@
           "method_info": {
             "start_line": 167,
             "end_line": 169,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3019,7 +3195,8 @@
           "method_info": {
             "start_line": 133,
             "end_line": 135,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3034,7 +3211,8 @@
           "method_info": {
             "start_line": 138,
             "end_line": 140,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3049,7 +3227,8 @@
           "method_info": {
             "start_line": 75,
             "end_line": 77,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -3064,7 +3243,8 @@
           "method_info": {
             "start_line": 123,
             "end_line": 125,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -3079,7 +3259,8 @@
           "method_info": {
             "start_line": 70,
             "end_line": 72,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3094,7 +3275,8 @@
           "method_info": {
             "start_line": 65,
             "end_line": 67,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3109,7 +3291,8 @@
           "method_info": {
             "start_line": 202,
             "end_line": 204,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3124,7 +3307,8 @@
           "method_info": {
             "start_line": 232,
             "end_line": 234,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3139,7 +3323,8 @@
           "method_info": {
             "start_line": 237,
             "end_line": 239,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3154,7 +3339,8 @@
           "method_info": {
             "start_line": 143,
             "end_line": 145,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3169,7 +3355,8 @@
           "method_info": {
             "start_line": 162,
             "end_line": 164,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3184,7 +3371,8 @@
           "method_info": {
             "start_line": 148,
             "end_line": 151,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3199,7 +3387,8 @@
           "method_info": {
             "start_line": 152,
             "end_line": 154,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3214,7 +3403,8 @@
           "method_info": {
             "start_line": 172,
             "end_line": 174,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3229,7 +3419,8 @@
           "method_info": {
             "start_line": 177,
             "end_line": 179,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3244,7 +3435,8 @@
           "method_info": {
             "start_line": 55,
             "end_line": 57,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3259,7 +3451,8 @@
           "method_info": {
             "start_line": 60,
             "end_line": 62,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3274,7 +3467,8 @@
           "method_info": {
             "start_line": 78,
             "end_line": 80,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3289,7 +3483,8 @@
           "method_info": {
             "start_line": 222,
             "end_line": 224,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3304,7 +3499,8 @@
           "method_info": {
             "start_line": 227,
             "end_line": 229,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3319,7 +3515,8 @@
           "method_info": {
             "start_line": 42,
             "end_line": 44,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3334,7 +3531,8 @@
           "method_info": {
             "start_line": 128,
             "end_line": 130,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3349,7 +3547,8 @@
           "method_info": {
             "start_line": 182,
             "end_line": 184,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3364,7 +3563,8 @@
           "method_info": {
             "start_line": 197,
             "end_line": 199,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3379,7 +3579,8 @@
           "method_info": {
             "start_line": 192,
             "end_line": 194,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3394,7 +3595,8 @@
           "method_info": {
             "start_line": 187,
             "end_line": 189,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3428,7 +3630,8 @@
           "method_info": {
             "start_line": 93,
             "end_line": 95,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3443,7 +3646,8 @@
           "method_info": {
             "start_line": 102,
             "end_line": 104,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3458,7 +3662,8 @@
           "method_info": {
             "start_line": 206,
             "end_line": 208,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3473,7 +3678,8 @@
           "method_info": {
             "start_line": 218,
             "end_line": 220,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3488,7 +3694,8 @@
           "method_info": {
             "start_line": 230,
             "end_line": 232,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3503,7 +3710,8 @@
           "method_info": {
             "start_line": 243,
             "end_line": 245,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -3518,7 +3726,8 @@
           "method_info": {
             "start_line": 256,
             "end_line": 258,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3533,7 +3742,8 @@
           "method_info": {
             "start_line": 270,
             "end_line": 272,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3548,7 +3758,8 @@
           "method_info": {
             "start_line": 285,
             "end_line": 293,
-            "size_lines": 9
+            "size_lines": 9,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3563,7 +3774,8 @@
           "method_info": {
             "start_line": 155,
             "end_line": 157,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -3578,7 +3790,8 @@
           "method_info": {
             "start_line": 165,
             "end_line": 167,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3593,7 +3806,8 @@
           "method_info": {
             "start_line": 175,
             "end_line": 177,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3608,7 +3822,8 @@
           "method_info": {
             "start_line": 185,
             "end_line": 187,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3623,7 +3838,8 @@
           "method_info": {
             "start_line": 195,
             "end_line": 197,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3638,7 +3854,8 @@
           "method_info": {
             "start_line": 109,
             "end_line": 111,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -3653,7 +3870,8 @@
           "method_info": {
             "start_line": 118,
             "end_line": 134,
-            "size_lines": 17
+            "size_lines": 17,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 9,
@@ -3668,7 +3886,8 @@
           "method_info": {
             "start_line": 135,
             "end_line": 154,
-            "size_lines": 20
+            "size_lines": 20,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3683,7 +3902,8 @@
           "method_info": {
             "start_line": 300,
             "end_line": 302,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -3698,7 +3918,8 @@
           "method_info": {
             "start_line": 310,
             "end_line": 315,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3713,7 +3934,8 @@
           "method_info": {
             "start_line": 57,
             "end_line": 59,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3728,7 +3950,8 @@
           "method_info": {
             "start_line": 66,
             "end_line": 68,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3743,7 +3966,8 @@
           "method_info": {
             "start_line": 75,
             "end_line": 77,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -3758,7 +3982,8 @@
           "method_info": {
             "start_line": 84,
             "end_line": 86,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3786,7 +4011,8 @@
           "method_info": {
             "start_line": 46,
             "end_line": 48,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3801,7 +4027,8 @@
           "method_info": {
             "start_line": 41,
             "end_line": 43,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -3823,7 +4050,8 @@
           "method_info": {
             "start_line": 56,
             "end_line": 58,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3838,7 +4066,8 @@
           "method_info": {
             "start_line": 61,
             "end_line": 63,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3853,7 +4082,8 @@
           "method_info": {
             "start_line": 120,
             "end_line": 122,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3868,7 +4098,8 @@
           "method_info": {
             "start_line": 125,
             "end_line": 127,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3883,7 +4114,8 @@
           "method_info": {
             "start_line": 130,
             "end_line": 132,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3898,7 +4130,8 @@
           "method_info": {
             "start_line": 135,
             "end_line": 137,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -3913,7 +4146,8 @@
           "method_info": {
             "start_line": 140,
             "end_line": 142,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3928,7 +4162,8 @@
           "method_info": {
             "start_line": 145,
             "end_line": 147,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -3943,7 +4178,8 @@
           "method_info": {
             "start_line": 25,
             "end_line": 27,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -3958,7 +4194,8 @@
           "method_info": {
             "start_line": 66,
             "end_line": 68,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3973,7 +4210,8 @@
           "method_info": {
             "start_line": 71,
             "end_line": 73,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -3988,7 +4226,8 @@
           "method_info": {
             "start_line": 100,
             "end_line": 102,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -4003,7 +4242,8 @@
           "method_info": {
             "start_line": 76,
             "end_line": 78,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -4018,7 +4258,8 @@
           "method_info": {
             "start_line": 81,
             "end_line": 84,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -4033,7 +4274,8 @@
           "method_info": {
             "start_line": 87,
             "end_line": 90,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -4048,7 +4290,8 @@
           "method_info": {
             "start_line": 150,
             "end_line": 152,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -4063,7 +4306,8 @@
           "method_info": {
             "start_line": 155,
             "end_line": 157,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -4078,7 +4322,8 @@
           "method_info": {
             "start_line": 37,
             "end_line": 39,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -4093,7 +4338,8 @@
           "method_info": {
             "start_line": 46,
             "end_line": 48,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -4108,7 +4354,8 @@
           "method_info": {
             "start_line": 51,
             "end_line": 53,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -4123,7 +4370,8 @@
           "method_info": {
             "start_line": 105,
             "end_line": 107,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -4138,7 +4386,8 @@
           "method_info": {
             "start_line": 110,
             "end_line": 112,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -4153,7 +4402,8 @@
           "method_info": {
             "start_line": 115,
             "end_line": 117,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -4175,7 +4425,8 @@
           "method_info": {
             "start_line": 160,
             "end_line": 162,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -4190,7 +4441,8 @@
           "method_info": {
             "start_line": 282,
             "end_line": 284,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -4205,7 +4457,8 @@
           "method_info": {
             "start_line": 304,
             "end_line": 306,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -4220,7 +4473,8 @@
           "method_info": {
             "start_line": 313,
             "end_line": 315,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -4235,7 +4489,8 @@
           "method_info": {
             "start_line": 322,
             "end_line": 324,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -4250,7 +4505,8 @@
           "method_info": {
             "start_line": 150,
             "end_line": 152,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -4265,7 +4521,8 @@
           "method_info": {
             "start_line": 273,
             "end_line": 275,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -4280,7 +4537,8 @@
           "method_info": {
             "start_line": 293,
             "end_line": 295,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -4295,7 +4553,8 @@
           "method_info": {
             "start_line": 130,
             "end_line": 132,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4310,7 +4569,8 @@
           "method_info": {
             "start_line": 252,
             "end_line": 254,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4325,7 +4585,8 @@
           "method_info": {
             "start_line": 523,
             "end_line": 525,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4340,7 +4601,8 @@
           "method_info": {
             "start_line": 701,
             "end_line": 703,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4355,7 +4617,8 @@
           "method_info": {
             "start_line": 806,
             "end_line": 811,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -4370,7 +4633,8 @@
           "method_info": {
             "start_line": 820,
             "end_line": 825,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -4385,7 +4649,8 @@
           "method_info": {
             "start_line": 832,
             "end_line": 834,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -4400,7 +4665,8 @@
           "method_info": {
             "start_line": 100,
             "end_line": 102,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4415,7 +4681,8 @@
           "method_info": {
             "start_line": 219,
             "end_line": 221,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4430,7 +4697,8 @@
           "method_info": {
             "start_line": 419,
             "end_line": 421,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4445,7 +4713,8 @@
           "method_info": {
             "start_line": 652,
             "end_line": 654,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4460,7 +4729,8 @@
           "method_info": {
             "start_line": 60,
             "end_line": 62,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4475,7 +4745,8 @@
           "method_info": {
             "start_line": 175,
             "end_line": 177,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4490,7 +4761,8 @@
           "method_info": {
             "start_line": 341,
             "end_line": 343,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4505,7 +4777,8 @@
           "method_info": {
             "start_line": 583,
             "end_line": 585,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4520,7 +4793,8 @@
           "method_info": {
             "start_line": 595,
             "end_line": 597,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4535,7 +4809,8 @@
           "method_info": {
             "start_line": 110,
             "end_line": 112,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4550,7 +4825,8 @@
           "method_info": {
             "start_line": 230,
             "end_line": 232,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4565,7 +4841,8 @@
           "method_info": {
             "start_line": 471,
             "end_line": 473,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4580,7 +4857,8 @@
           "method_info": {
             "start_line": 678,
             "end_line": 680,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4595,7 +4873,8 @@
           "method_info": {
             "start_line": 690,
             "end_line": 692,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4610,7 +4889,8 @@
           "method_info": {
             "start_line": 140,
             "end_line": 142,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4625,7 +4905,8 @@
           "method_info": {
             "start_line": 263,
             "end_line": 265,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4640,7 +4921,8 @@
           "method_info": {
             "start_line": 549,
             "end_line": 551,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4655,7 +4937,8 @@
           "method_info": {
             "start_line": 753,
             "end_line": 755,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4670,7 +4953,8 @@
           "method_info": {
             "start_line": 90,
             "end_line": 92,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4685,7 +4969,8 @@
           "method_info": {
             "start_line": 208,
             "end_line": 210,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4700,7 +4985,8 @@
           "method_info": {
             "start_line": 445,
             "end_line": 447,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4715,7 +5001,8 @@
           "method_info": {
             "start_line": 779,
             "end_line": 781,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4730,7 +5017,8 @@
           "method_info": {
             "start_line": 70,
             "end_line": 72,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4745,7 +5033,8 @@
           "method_info": {
             "start_line": 186,
             "end_line": 188,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4760,7 +5049,8 @@
           "method_info": {
             "start_line": 367,
             "end_line": 369,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4775,7 +5065,8 @@
           "method_info": {
             "start_line": 606,
             "end_line": 608,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4790,7 +5081,8 @@
           "method_info": {
             "start_line": 618,
             "end_line": 620,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4805,7 +5097,8 @@
           "method_info": {
             "start_line": 80,
             "end_line": 82,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4820,7 +5113,8 @@
           "method_info": {
             "start_line": 197,
             "end_line": 199,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4835,7 +5129,8 @@
           "method_info": {
             "start_line": 393,
             "end_line": 395,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4850,7 +5145,8 @@
           "method_info": {
             "start_line": 629,
             "end_line": 631,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4865,7 +5161,8 @@
           "method_info": {
             "start_line": 641,
             "end_line": 643,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4880,7 +5177,8 @@
           "method_info": {
             "start_line": 120,
             "end_line": 122,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4895,7 +5193,8 @@
           "method_info": {
             "start_line": 241,
             "end_line": 243,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -4910,7 +5209,8 @@
           "method_info": {
             "start_line": 497,
             "end_line": 499,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4925,7 +5225,8 @@
           "method_info": {
             "start_line": 727,
             "end_line": 729,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -4953,7 +5254,8 @@
           "method_info": {
             "start_line": 108,
             "end_line": 110,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -4968,7 +5270,8 @@
           "method_info": {
             "start_line": 112,
             "end_line": 114,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -4983,7 +5286,8 @@
           "method_info": {
             "start_line": 33,
             "end_line": 35,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -4998,7 +5302,8 @@
           "method_info": {
             "start_line": 128,
             "end_line": 130,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5013,7 +5318,8 @@
           "method_info": {
             "start_line": 100,
             "end_line": 102,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5028,7 +5334,8 @@
           "method_info": {
             "start_line": 116,
             "end_line": 118,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5043,7 +5350,8 @@
           "method_info": {
             "start_line": 124,
             "end_line": 126,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5058,7 +5366,8 @@
           "method_info": {
             "start_line": 120,
             "end_line": 122,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5073,7 +5382,8 @@
           "method_info": {
             "start_line": 51,
             "end_line": 53,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5088,7 +5398,8 @@
           "method_info": {
             "start_line": 104,
             "end_line": 106,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5103,7 +5414,8 @@
           "method_info": {
             "start_line": 65,
             "end_line": 68,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5118,7 +5430,8 @@
           "method_info": {
             "start_line": 70,
             "end_line": 73,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5133,7 +5446,8 @@
           "method_info": {
             "start_line": 95,
             "end_line": 98,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5148,7 +5462,8 @@
           "method_info": {
             "start_line": 60,
             "end_line": 63,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5163,7 +5478,8 @@
           "method_info": {
             "start_line": 55,
             "end_line": 58,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5178,7 +5494,8 @@
           "method_info": {
             "start_line": 75,
             "end_line": 78,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5193,7 +5510,8 @@
           "method_info": {
             "start_line": 90,
             "end_line": 93,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5208,7 +5526,8 @@
           "method_info": {
             "start_line": 85,
             "end_line": 88,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5223,7 +5542,8 @@
           "method_info": {
             "start_line": 80,
             "end_line": 83,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5245,7 +5565,8 @@
           "method_info": {
             "start_line": 59,
             "end_line": 64,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 6
           },
           "codeshovel_analysis": {
             "total_changes_count": 9,
@@ -5260,7 +5581,8 @@
           "method_info": {
             "start_line": 130,
             "end_line": 132,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -5288,7 +5610,8 @@
           "method_info": {
             "start_line": 149,
             "end_line": 151,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5303,7 +5626,8 @@
           "method_info": {
             "start_line": 134,
             "end_line": 136,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5318,7 +5642,8 @@
           "method_info": {
             "start_line": 141,
             "end_line": 143,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5333,7 +5658,8 @@
           "method_info": {
             "start_line": 71,
             "end_line": 73,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -5348,7 +5674,8 @@
           "method_info": {
             "start_line": 127,
             "end_line": 129,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5363,7 +5690,8 @@
           "method_info": {
             "start_line": 41,
             "end_line": 44,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5385,7 +5713,8 @@
           "method_info": {
             "start_line": 55,
             "end_line": 57,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5400,7 +5729,8 @@
           "method_info": {
             "start_line": 48,
             "end_line": 50,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5415,7 +5745,8 @@
           "method_info": {
             "start_line": 70,
             "end_line": 72,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -5430,7 +5761,8 @@
           "method_info": {
             "start_line": 78,
             "end_line": 80,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -5445,7 +5777,8 @@
           "method_info": {
             "start_line": 62,
             "end_line": 64,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -5467,7 +5800,8 @@
           "method_info": {
             "start_line": 61,
             "end_line": 63,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5482,7 +5816,8 @@
           "method_info": {
             "start_line": 71,
             "end_line": 73,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5497,7 +5832,8 @@
           "method_info": {
             "start_line": 185,
             "end_line": 194,
-            "size_lines": 10
+            "size_lines": 10,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -5512,7 +5848,8 @@
           "method_info": {
             "start_line": 272,
             "end_line": 295,
-            "size_lines": 24
+            "size_lines": 24,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5527,7 +5864,8 @@
           "method_info": {
             "start_line": 133,
             "end_line": 135,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5542,7 +5880,8 @@
           "method_info": {
             "start_line": 83,
             "end_line": 87,
-            "size_lines": 5
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5557,7 +5896,8 @@
           "method_info": {
             "start_line": 119,
             "end_line": 128,
-            "size_lines": 10
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5572,7 +5912,8 @@
           "method_info": {
             "start_line": 97,
             "end_line": 118,
-            "size_lines": 22
+            "size_lines": 22,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -5587,7 +5928,8 @@
           "method_info": {
             "start_line": 224,
             "end_line": 242,
-            "size_lines": 19
+            "size_lines": 19,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5602,7 +5944,8 @@
           "method_info": {
             "start_line": 213,
             "end_line": 221,
-            "size_lines": 9
+            "size_lines": 9,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5617,7 +5960,8 @@
           "method_info": {
             "start_line": 149,
             "end_line": 162,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5632,7 +5976,8 @@
           "method_info": {
             "start_line": 173,
             "end_line": 179,
-            "size_lines": 7
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5647,7 +5992,8 @@
           "method_info": {
             "start_line": 243,
             "end_line": 262,
-            "size_lines": 20
+            "size_lines": 20,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5662,7 +6008,8 @@
           "method_info": {
             "start_line": 209,
             "end_line": 211,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -5684,7 +6031,8 @@
           "method_info": {
             "start_line": 30,
             "end_line": 83,
-            "size_lines": 54
+            "size_lines": 54,
+            "cyclomatic_complexity": 11
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -5706,7 +6054,8 @@
           "method_info": {
             "start_line": 47,
             "end_line": 73,
-            "size_lines": 27
+            "size_lines": 27,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -5721,7 +6070,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 38,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -5743,7 +6093,8 @@
           "method_info": {
             "start_line": 52,
             "end_line": 54,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -5765,7 +6116,8 @@
           "method_info": {
             "start_line": 591,
             "end_line": 594,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5780,7 +6132,8 @@
           "method_info": {
             "start_line": 605,
             "end_line": 608,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 9,
@@ -5795,7 +6148,8 @@
           "method_info": {
             "start_line": 585,
             "end_line": 588,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5810,7 +6164,8 @@
           "method_info": {
             "start_line": 598,
             "end_line": 601,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 13,
@@ -5825,7 +6180,8 @@
           "method_info": {
             "start_line": 490,
             "end_line": 502,
-            "size_lines": 13
+            "size_lines": 13,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -5840,7 +6196,8 @@
           "method_info": {
             "start_line": 527,
             "end_line": 535,
-            "size_lines": 9
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5855,7 +6212,8 @@
           "method_info": {
             "start_line": 855,
             "end_line": 857,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5870,7 +6228,8 @@
           "method_info": {
             "start_line": 838,
             "end_line": 840,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5885,7 +6244,8 @@
           "method_info": {
             "start_line": 807,
             "end_line": 809,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5900,7 +6260,8 @@
           "method_info": {
             "start_line": 574,
             "end_line": 576,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -5915,7 +6276,8 @@
           "method_info": {
             "start_line": 707,
             "end_line": 709,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5930,7 +6292,8 @@
           "method_info": {
             "start_line": 719,
             "end_line": 721,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5945,7 +6308,8 @@
           "method_info": {
             "start_line": 731,
             "end_line": 733,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5960,7 +6324,8 @@
           "method_info": {
             "start_line": 744,
             "end_line": 746,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5975,7 +6340,8 @@
           "method_info": {
             "start_line": 688,
             "end_line": 690,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -5990,7 +6356,8 @@
           "method_info": {
             "start_line": 508,
             "end_line": 510,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -6005,7 +6372,8 @@
           "method_info": {
             "start_line": 828,
             "end_line": 830,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6020,7 +6388,8 @@
           "method_info": {
             "start_line": 817,
             "end_line": 819,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6035,7 +6404,8 @@
           "method_info": {
             "start_line": 779,
             "end_line": 784,
-            "size_lines": 6
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6050,7 +6420,8 @@
           "method_info": {
             "start_line": 656,
             "end_line": 687,
-            "size_lines": 32
+            "size_lines": 32,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6065,7 +6436,8 @@
           "method_info": {
             "start_line": 536,
             "end_line": 567,
-            "size_lines": 32
+            "size_lines": 32,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6080,7 +6452,8 @@
           "method_info": {
             "start_line": 797,
             "end_line": 799,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6095,7 +6468,8 @@
           "method_info": {
             "start_line": 568,
             "end_line": 572,
-            "size_lines": 5
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6110,7 +6484,8 @@
           "method_info": {
             "start_line": 848,
             "end_line": 850,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6125,7 +6500,8 @@
           "method_info": {
             "start_line": 580,
             "end_line": 582,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6140,7 +6516,8 @@
           "method_info": {
             "start_line": 503,
             "end_line": 506,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -6155,7 +6532,8 @@
           "method_info": {
             "start_line": 379,
             "end_line": 381,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6170,7 +6548,8 @@
           "method_info": {
             "start_line": 394,
             "end_line": 396,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6185,7 +6564,8 @@
           "method_info": {
             "start_line": 406,
             "end_line": 408,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6200,7 +6580,8 @@
           "method_info": {
             "start_line": 418,
             "end_line": 420,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 0,
@@ -6234,7 +6615,8 @@
           "method_info": {
             "start_line": 58,
             "end_line": 60,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6249,7 +6631,8 @@
           "method_info": {
             "start_line": 66,
             "end_line": 73,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -6264,7 +6647,8 @@
           "method_info": {
             "start_line": 78,
             "end_line": 80,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6279,7 +6663,8 @@
           "method_info": {
             "start_line": 85,
             "end_line": 87,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6294,7 +6679,8 @@
           "method_info": {
             "start_line": 118,
             "end_line": 121,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6309,7 +6695,8 @@
           "method_info": {
             "start_line": 126,
             "end_line": 128,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6324,7 +6711,8 @@
           "method_info": {
             "start_line": 94,
             "end_line": 96,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6339,7 +6727,8 @@
           "method_info": {
             "start_line": 102,
             "end_line": 104,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6354,7 +6743,8 @@
           "method_info": {
             "start_line": 111,
             "end_line": 113,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6369,7 +6759,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 38,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6384,7 +6775,8 @@
           "method_info": {
             "start_line": 135,
             "end_line": 137,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6406,7 +6798,8 @@
           "method_info": {
             "start_line": 65,
             "end_line": 67,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -6421,7 +6814,8 @@
           "method_info": {
             "start_line": 47,
             "end_line": 49,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -6436,7 +6830,8 @@
           "method_info": {
             "start_line": 58,
             "end_line": 60,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -6451,7 +6846,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 38,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 7,
@@ -6466,7 +6862,8 @@
           "method_info": {
             "start_line": 75,
             "end_line": 77,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -6481,7 +6878,8 @@
           "method_info": {
             "start_line": 84,
             "end_line": 86,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -6521,7 +6919,8 @@
           "method_info": {
             "start_line": 178,
             "end_line": 184,
-            "size_lines": 7
+            "size_lines": 7,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -6536,7 +6935,8 @@
           "method_info": {
             "start_line": 143,
             "end_line": 156,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 17,
@@ -6551,7 +6951,8 @@
           "method_info": {
             "start_line": 89,
             "end_line": 91,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6566,7 +6967,8 @@
           "method_info": {
             "start_line": 102,
             "end_line": 119,
-            "size_lines": 18
+            "size_lines": 18,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6581,7 +6983,8 @@
           "method_info": {
             "start_line": 120,
             "end_line": 142,
-            "size_lines": 23
+            "size_lines": 23,
+            "cyclomatic_complexity": 5
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6596,7 +6999,8 @@
           "method_info": {
             "start_line": 157,
             "end_line": 159,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 0,
@@ -6611,7 +7015,8 @@
           "method_info": {
             "start_line": 162,
             "end_line": 164,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6626,7 +7031,8 @@
           "method_info": {
             "start_line": 64,
             "end_line": 76,
-            "size_lines": 13
+            "size_lines": 13,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 10,
@@ -6654,7 +7060,8 @@
           "method_info": {
             "start_line": 107,
             "end_line": 109,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6669,7 +7076,8 @@
           "method_info": {
             "start_line": 93,
             "end_line": 95,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6684,7 +7092,8 @@
           "method_info": {
             "start_line": 100,
             "end_line": 102,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6699,7 +7108,8 @@
           "method_info": {
             "start_line": 128,
             "end_line": 130,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6714,7 +7124,8 @@
           "method_info": {
             "start_line": 114,
             "end_line": 116,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6729,7 +7140,8 @@
           "method_info": {
             "start_line": 121,
             "end_line": 123,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6751,7 +7163,8 @@
           "method_info": {
             "start_line": 116,
             "end_line": 125,
-            "size_lines": 10
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -6766,7 +7179,8 @@
           "method_info": {
             "start_line": 131,
             "end_line": 133,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6781,7 +7195,8 @@
           "method_info": {
             "start_line": 127,
             "end_line": 129,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6796,7 +7211,8 @@
           "method_info": {
             "start_line": 197,
             "end_line": 199,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6811,7 +7227,8 @@
           "method_info": {
             "start_line": 193,
             "end_line": 195,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -6826,7 +7243,8 @@
           "method_info": {
             "start_line": 188,
             "end_line": 191,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6860,7 +7278,8 @@
           "method_info": {
             "start_line": 31,
             "end_line": 33,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -6875,7 +7294,8 @@
           "method_info": {
             "start_line": 19,
             "end_line": 22,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 2,
@@ -6903,7 +7323,8 @@
           "method_info": {
             "start_line": 65,
             "end_line": 67,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6918,7 +7339,8 @@
           "method_info": {
             "start_line": 96,
             "end_line": 98,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6933,7 +7355,8 @@
           "method_info": {
             "start_line": 60,
             "end_line": 62,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -6948,7 +7371,8 @@
           "method_info": {
             "start_line": 84,
             "end_line": 87,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -6988,7 +7412,8 @@
           "method_info": {
             "start_line": 95,
             "end_line": 103,
-            "size_lines": 9
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7003,7 +7428,8 @@
           "method_info": {
             "start_line": 104,
             "end_line": 113,
-            "size_lines": 10
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7018,7 +7444,8 @@
           "method_info": {
             "start_line": 114,
             "end_line": 121,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7033,7 +7460,8 @@
           "method_info": {
             "start_line": 122,
             "end_line": 156,
-            "size_lines": 35
+            "size_lines": 35,
+            "cyclomatic_complexity": 9
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7048,7 +7476,8 @@
           "method_info": {
             "start_line": 86,
             "end_line": 93,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7063,7 +7492,8 @@
           "method_info": {
             "start_line": 168,
             "end_line": 181,
-            "size_lines": 14
+            "size_lines": 14,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7078,7 +7508,8 @@
           "method_info": {
             "start_line": 157,
             "end_line": 159,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7093,7 +7524,8 @@
           "method_info": {
             "start_line": 81,
             "end_line": 83,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7115,7 +7547,8 @@
           "method_info": {
             "start_line": 43,
             "end_line": 46,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7130,7 +7563,8 @@
           "method_info": {
             "start_line": 49,
             "end_line": 53,
-            "size_lines": 5
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7145,7 +7579,8 @@
           "method_info": {
             "start_line": 56,
             "end_line": 60,
-            "size_lines": 5
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7173,7 +7608,8 @@
           "method_info": {
             "start_line": 15,
             "end_line": 23,
-            "size_lines": 9
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7195,7 +7631,8 @@
           "method_info": {
             "start_line": 16,
             "end_line": 18,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
@@ -7217,7 +7654,8 @@
           "method_info": {
             "start_line": 18,
             "end_line": 25,
-            "size_lines": 8
+            "size_lines": 8,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,

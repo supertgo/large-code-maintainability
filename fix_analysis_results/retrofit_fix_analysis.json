@@ -1,0 +1,6385 @@
+{
+  "name": "retrofit",
+  "complete": false,
+  "files": [
+    {
+      "name": "AndroidMainExecutor.java",
+      "path": "retrofit/src/main/java/retrofit2/AndroidMainExecutor.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 28,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 13,
+            "commit_count": 13,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "AnnotatedConverters.java",
+      "path": "samples/src/main/java/com/example/retrofit/AnnotatedConverters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "add",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 60,
+            "size_lines": 10,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "build",
+          "complete": true,
+          "method_info": {
+            "start_line": 62,
+            "end_line": 64,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BehaviorCall.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/BehaviorCall.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 165,
+            "end_line": 171,
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "clone",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 54,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "enqueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 91,
+            "size_lines": 24,
+            "cyclomatic_complexity": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 14,
+            "commit_count": 14,
+            "fix_commit_count": 5,
+            "fix_ratio": 0.35714285714285715
+          }
+        },
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 133,
+            "end_line": 139,
+            "size_lines": 7,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.4444444444444444
+          }
+        },
+        {
+          "name": "isCanceled",
+          "complete": true,
+          "method_info": {
+            "start_line": 174,
+            "end_line": 176,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 116,
+            "end_line": 120,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 146,
+            "end_line": 149,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 109,
+            "end_line": 113,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 140,
+            "end_line": 143,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "request",
+          "complete": true,
+          "method_info": {
+            "start_line": 57,
+            "end_line": 59,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 92,
+            "end_line": 108,
+            "size_lines": 17,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.4
+          }
+        },
+        {
+          "name": "timeout",
+          "complete": true,
+          "method_info": {
+            "start_line": 62,
+            "end_line": 64,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BehaviorDelegate.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/BehaviorDelegate.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "getActualTypeArguments",
+          "complete": true,
+          "method_info": {
+            "start_line": 137,
+            "end_line": 139,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getRawType",
+          "complete": true,
+          "method_info": {
+            "start_line": 142,
+            "end_line": 144,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "returningResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 56,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Body.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Body.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "BodyCallAdapter.java",
+      "path": "retrofit-adapters/scala/src/main/java/retrofit2/adapter/scala/BodyCallAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 40,
+            "end_line": 45,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 55,
+            "end_line": 57,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 54,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 37,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BodyObservable.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/BodyObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "onComplete",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 72,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 88,
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 67,
+            "size_lines": 16,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onSubscribe",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 49,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 36,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "BodyObservable.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/BodyObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "onComplete",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 72,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 88,
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 67,
+            "size_lines": 16,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onSubscribe",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 49,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 36,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BodyOnSubscribe.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/BodyOnSubscribe.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "call",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "onCompleted",
+          "complete": true,
+          "method_info": {
+            "start_line": 88,
+            "end_line": 92,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 73,
+            "end_line": 87,
+            "size_lines": 15,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 72,
+            "size_lines": 21,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "BuiltInConverters.java",
+      "path": "retrofit/src/main/java/retrofit2/BuiltInConverters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 62,
+            "end_line": 65,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 72,
+            "end_line": 75,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 82,
+            "end_line": 84,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 92,
+            "end_line": 94,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 110,
+            "size_lines": 9,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 116,
+            "end_line": 118,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BuiltInFactories.java",
+      "path": "retrofit/src/main/java/retrofit2/BuiltInFactories.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Call.java",
+      "path": "retrofit/src/main/java/retrofit2/Call.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "CallAdapter.java",
+      "path": "retrofit/src/main/java/retrofit2/CallAdapter.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "CallArbiter.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/CallArbiter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "deliverResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 176,
+            "size_lines": 57,
+            "cyclomatic_complexity": 12
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "isUnsubscribed",
+          "complete": true,
+          "method_info": {
+            "start_line": 57,
+            "end_line": 59,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "request",
+          "complete": true,
+          "method_info": {
+            "start_line": 62,
+            "end_line": 90,
+            "size_lines": 29,
+            "cyclomatic_complexity": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "unsubscribe",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 54,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Callback.java",
+      "path": "retrofit/src/main/java/retrofit2/Callback.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "CallEnqueueObservable.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/CallEnqueueObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "dispose",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 99,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isDisposed",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 104,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 95,
+            "size_lines": 12,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 83,
+            "size_lines": 26,
+            "cyclomatic_complexity": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 44,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CallEnqueueObservable.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/CallEnqueueObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "dispose",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 99,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isDisposed",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 104,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 95,
+            "size_lines": 12,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 83,
+            "size_lines": 26,
+            "cyclomatic_complexity": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 44,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CallEnqueueOnSubscribe.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/CallEnqueueOnSubscribe.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "call",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 42,
+            "size_lines": 10,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 23,
+            "commit_count": 23,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.13043478260869565
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 48,
+            "end_line": 51,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 45,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CallExecuteObservable.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/CallExecuteObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "dispose",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 81,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isDisposed",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 86,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 77,
+            "size_lines": 43,
+            "cyclomatic_complexity": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CallExecuteObservable.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/CallExecuteObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "dispose",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 81,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isDisposed",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 86,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 77,
+            "size_lines": 43,
+            "cyclomatic_complexity": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CallExecuteOnSubscribe.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/CallExecuteOnSubscribe.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "call",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 49,
+            "size_lines": 18,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 22,
+            "commit_count": 22,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.13636363636363635
+          }
+        }
+      ]
+    },
+    {
+      "name": "Calls.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/Calls.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 125,
+            "end_line": 127,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 190,
+            "end_line": 192,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "clone",
+          "complete": true,
+          "method_info": {
+            "start_line": 135,
+            "end_line": 137,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "clone",
+          "complete": true,
+          "method_info": {
+            "start_line": 200,
+            "end_line": 202,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "enqueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 103,
+            "end_line": 119,
+            "size_lines": 17,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "enqueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 180,
+            "end_line": 182,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 82,
+            "end_line": 93,
+            "size_lines": 12,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 175,
+            "end_line": 177,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "isCanceled",
+          "complete": true,
+          "method_info": {
+            "start_line": 130,
+            "end_line": 132,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isCanceled",
+          "complete": true,
+          "method_info": {
+            "start_line": 195,
+            "end_line": 197,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isExecuted",
+          "complete": true,
+          "method_info": {
+            "start_line": 120,
+            "end_line": 122,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isExecuted",
+          "complete": true,
+          "method_info": {
+            "start_line": 185,
+            "end_line": 187,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "request",
+          "complete": true,
+          "method_info": {
+            "start_line": 140,
+            "end_line": 145,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "request",
+          "complete": true,
+          "method_info": {
+            "start_line": 205,
+            "end_line": 207,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "timeout",
+          "complete": true,
+          "method_info": {
+            "start_line": 148,
+            "end_line": 150,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "timeout",
+          "complete": true,
+          "method_info": {
+            "start_line": 210,
+            "end_line": 212,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ChunkingConverter.java",
+      "path": "samples/src/main/java/com/example/retrofit/ChunkingConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 77,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 80,
+            "end_line": 82,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CompletableFutureCallAdapterFactory.java",
+      "path": "retrofit/src/main/java/retrofit2/CompletableFutureCallAdapterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 74,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 115,
+            "end_line": 119,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 150,
+            "end_line": 155,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 94,
+            "end_line": 96,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 135,
+            "end_line": 137,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 85,
+            "end_line": 93,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 130,
+            "end_line": 132,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 110,
+            "end_line": 112,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Converter.java",
+      "path": "retrofit/src/main/java/retrofit2/Converter.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Crawler.java",
+      "path": "samples/src/main/java/com/example/retrofit/Crawler.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 149,
+            "end_line": 156,
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "crawlPage",
+          "complete": true,
+          "method_info": {
+            "start_line": 58,
+            "end_line": 70,
+            "size_lines": 13,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 92,
+            "end_line": 94,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 89,
+            "size_lines": 19,
+            "cyclomatic_complexity": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "DefaultCallAdapterFactory.java",
+      "path": "retrofit/src/main/java/retrofit2/DefaultCallAdapterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 59,
+            "end_line": 61,
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 112,
+            "end_line": 114,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "clone",
+          "complete": true,
+          "method_info": {
+            "start_line": 123,
+            "end_line": 125,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "enqueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 80,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 14,
+            "commit_count": 14,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.07142857142857142
+          }
+        },
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 107,
+            "end_line": 109,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isCanceled",
+          "complete": true,
+          "method_info": {
+            "start_line": 117,
+            "end_line": 119,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isExecuted",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 104,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 95,
+            "end_line": 97,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 81,
+            "end_line": 94,
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 14,
+            "commit_count": 14,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.21428571428571427
+          }
+        },
+        {
+          "name": "request",
+          "complete": true,
+          "method_info": {
+            "start_line": 128,
+            "end_line": 130,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 56,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "timeout",
+          "complete": true,
+          "method_info": {
+            "start_line": 133,
+            "end_line": 135,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "DefaultMethodSupport.java",
+      "path": "retrofit/src/main/java14/retrofit2/DefaultMethodSupport.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "DefaultMethodSupport.java",
+      "path": "retrofit/src/main/java16/retrofit2/DefaultMethodSupport.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "DefaultMethodSupport.java",
+      "path": "retrofit/src/main/java/retrofit2/DefaultMethodSupport.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "DELETE.java",
+      "path": "retrofit/src/main/java/retrofit2/http/DELETE.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "DeserializeErrorBody.java",
+      "path": "samples/src/main/java/com/example/retrofit/DeserializeErrorBody.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "DynamicBaseUrl.java",
+      "path": "samples/src/main/java/com/example/retrofit/DynamicBaseUrl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "setHost",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 45,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ErrorHandlingAdapter.java",
+      "path": "samples/src/main/java/com/example/retrofit/ErrorHandlingAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 102,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 117,
+            "end_line": 119,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "clientError",
+          "complete": true,
+          "method_info": {
+            "start_line": 198,
+            "end_line": 200,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "clone",
+          "complete": true,
+          "method_info": {
+            "start_line": 161,
+            "end_line": 163,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "enqueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 122,
+            "end_line": 125,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "networkError",
+          "complete": true,
+          "method_info": {
+            "start_line": 208,
+            "end_line": 210,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 146,
+            "end_line": 158,
+            "size_lines": 13,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 126,
+            "end_line": 145,
+            "size_lines": 20,
+            "cyclomatic_complexity": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 95,
+            "end_line": 97,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "serverError",
+          "complete": true,
+          "method_info": {
+            "start_line": 203,
+            "end_line": 205,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "success",
+          "complete": true,
+          "method_info": {
+            "start_line": 188,
+            "end_line": 190,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "unauthenticated",
+          "complete": true,
+          "method_info": {
+            "start_line": 193,
+            "end_line": 195,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "unexpectedError",
+          "complete": true,
+          "method_info": {
+            "start_line": 213,
+            "end_line": 215,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "name": "EverythingIsNonNull.java",
+      "path": "retrofit/src/main/java/retrofit2/internal/EverythingIsNonNull.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Field.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Field.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "FieldMap.java",
+      "path": "retrofit/src/main/java/retrofit2/http/FieldMap.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "FormUrlEncoded.java",
+      "path": "retrofit/src/main/java/retrofit2/http/FormUrlEncoded.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "GET.java",
+      "path": "retrofit/src/main/java/retrofit2/http/GET.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "GsonConverterFactory.java",
+      "path": "retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "withStreaming",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 72,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GsonRequestBodyConverter.java",
+      "path": "retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 54,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GsonResponseBodyConverter.java",
+      "path": "retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonResponseBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 49,
+            "size_lines": 13,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GsonStreamingRequestBody.java",
+      "path": "retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonStreamingRequestBody.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 40,
+            "end_line": 42,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 45,
+            "end_line": 47,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GuavaCallAdapterFactory.java",
+      "path": "retrofit-adapters/guava/src/main/java/retrofit2/adapter/guava/GuavaCallAdapterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 101,
+            "end_line": 106,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 139,
+            "end_line": 144,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "interruptTask",
+          "complete": true,
+          "method_info": {
+            "start_line": 177,
+            "end_line": 179,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 116,
+            "end_line": 118,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 150,
+            "end_line": 152,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 107,
+            "end_line": 115,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 145,
+            "end_line": 147,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 98,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 134,
+            "end_line": 136,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "set",
+          "complete": true,
+          "method_info": {
+            "start_line": 167,
+            "end_line": 169,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "setException",
+          "complete": true,
+          "method_info": {
+            "start_line": 172,
+            "end_line": 174,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GuavaOptionalConverterFactory.java",
+      "path": "retrofit-converters/guava/src/main/java/retrofit/converter/guava/GuavaOptionalConverterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HEAD.java",
+      "path": "retrofit/src/main/java/retrofit2/http/HEAD.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Header.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Header.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HeaderMap.java",
+      "path": "retrofit/src/main/java/retrofit2/http/HeaderMap.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Headers.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Headers.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HTTP.java",
+      "path": "retrofit/src/main/java/retrofit2/http/HTTP.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpException.java",
+      "path": "retrofit/src/main/java/retrofit2/HttpException.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "code",
+          "complete": true,
+          "method_info": {
+            "start_line": 40,
+            "end_line": 42,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "message",
+          "complete": true,
+          "method_info": {
+            "start_line": 45,
+            "end_line": 47,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "HttpException.java",
+      "path": "retrofit-adapters/guava/src/main/java/retrofit2/adapter/guava/HttpException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpException.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/HttpException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpException.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/HttpException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpException.java",
+      "path": "retrofit-adapters/java8/src/main/java/retrofit2/adapter/java8/HttpException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpException.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/HttpException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpServiceMethod.java",
+      "path": "retrofit/src/main/java/retrofit2/HttpServiceMethod.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 178,
+            "end_line": 180,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 196,
+            "end_line": 210,
+            "size_lines": 15,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 231,
+            "end_line": 262,
+            "size_lines": 32,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "Invocation.java",
+      "path": "retrofit/src/main/java/retrofit2/Invocation.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "annotationUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 136,
+            "end_line": 138,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "instance",
+          "complete": true,
+          "method_info": {
+            "start_line": 112,
+            "end_line": 114,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "method",
+          "complete": true,
+          "method_info": {
+            "start_line": 116,
+            "end_line": 118,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 141,
+            "end_line": 143,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "InvocationMetrics.java",
+      "path": "samples/src/main/java/com/example/retrofit/InvocationMetrics.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "intercept",
+          "complete": true,
+          "method_info": {
+            "start_line": 48,
+            "end_line": 66,
+            "size_lines": 19,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JacksonConverterFactory.java",
+      "path": "retrofit-converters/jackson/src/main/java/retrofit2/converter/jackson/JacksonConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "withStreaming",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 79,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JacksonRequestBodyConverter.java",
+      "path": "retrofit-converters/jackson/src/main/java/retrofit2/converter/jackson/JacksonRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 43,
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JacksonResponseBodyConverter.java",
+      "path": "retrofit-converters/jackson/src/main/java/retrofit2/converter/jackson/JacksonResponseBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 38,
+            "size_lines": 8,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JacksonStreamingRequestBody.java",
+      "path": "retrofit-converters/jackson/src/main/java/retrofit2/converter/jackson/JacksonStreamingRequestBody.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 43,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Java8CallAdapterFactory.java",
+      "path": "retrofit-adapters/java8/src/main/java/retrofit2/adapter/java8/Java8CallAdapterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 103,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 147,
+            "end_line": 150,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 104,
+            "end_line": 109,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 151,
+            "end_line": 156,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 124,
+            "end_line": 126,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 167,
+            "end_line": 169,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 115,
+            "end_line": 123,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 162,
+            "end_line": 164,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 95,
+            "end_line": 97,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 142,
+            "end_line": 144,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Java8OptionalConverterFactory.java",
+      "path": "retrofit-converters/java8/src/main/java/retrofit/converter/java8/Java8OptionalConverterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "JaxbConverterFactory.java",
+      "path": "retrofit-converters/jaxb3/src/main/java/retrofit2/converter/jaxb3/JaxbConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contextForType",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 84,
+            "size_lines": 8,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "JaxbConverterFactory.java",
+      "path": "retrofit-converters/jaxb/src/main/java/retrofit2/converter/jaxb/JaxbConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contextForType",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 84,
+            "size_lines": 8,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JaxbRequestConverter.java",
+      "path": "retrofit-converters/jaxb3/src/main/java/retrofit2/converter/jaxb3/JaxbRequestConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 40,
+            "end_line": 54,
+            "size_lines": 15,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "JaxbRequestConverter.java",
+      "path": "retrofit-converters/jaxb/src/main/java/retrofit2/converter/jaxb/JaxbRequestConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 40,
+            "end_line": 54,
+            "size_lines": 15,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "JaxbResponseConverter.java",
+      "path": "retrofit-converters/jaxb3/src/main/java/retrofit2/converter/jaxb3/JaxbResponseConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 54,
+            "size_lines": 12,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "JaxbResponseConverter.java",
+      "path": "retrofit-converters/jaxb/src/main/java/retrofit2/converter/jaxb/JaxbResponseConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 54,
+            "size_lines": 12,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 2,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JsonAndXmlConverters.java",
+      "path": "samples/src/main/java/com/example/retrofit/JsonAndXmlConverters.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "JsonQueryParameters.java",
+      "path": "samples/src/main/java/com/example/retrofit/JsonQueryParameters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 74,
+            "end_line": 78,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MockRetrofit.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/MockRetrofit.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "backgroundExecutor",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 45,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "backgroundExecutor",
+          "complete": true,
+          "method_info": {
+            "start_line": 71,
+            "end_line": 75,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "build",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 81,
+            "size_lines": 5,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "networkBehavior",
+          "complete": true,
+          "method_info": {
+            "start_line": 39,
+            "end_line": 41,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "networkBehavior",
+          "complete": true,
+          "method_info": {
+            "start_line": 64,
+            "end_line": 68,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "retrofit",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 37,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MockRetrofitIOException.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/MockRetrofitIOException.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "MoshiConverterFactory.java",
+      "path": "retrofit-converters/moshi/src/main/java/retrofit2/converter/moshi/MoshiConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "asLenient",
+          "complete": true,
+          "method_info": {
+            "start_line": 79,
+            "end_line": 81,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "failOnUnknown",
+          "complete": true,
+          "method_info": {
+            "start_line": 84,
+            "end_line": 86,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withNullSerialization",
+          "complete": true,
+          "method_info": {
+            "start_line": 89,
+            "end_line": 91,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "withStreaming",
+          "complete": true,
+          "method_info": {
+            "start_line": 99,
+            "end_line": 101,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MoshiRequestBodyConverter.java",
+      "path": "retrofit-converters/moshi/src/main/java/retrofit2/converter/moshi/MoshiRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 47,
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MoshiResponseBodyConverter.java",
+      "path": "retrofit-converters/moshi/src/main/java/retrofit2/converter/moshi/MoshiResponseBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 55,
+            "size_lines": 19,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MoshiStreamingRequestBody.java",
+      "path": "retrofit-converters/moshi/src/main/java/retrofit2/converter/moshi/MoshiStreamingRequestBody.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 43,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Multipart.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Multipart.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "NetworkBehavior.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/NetworkBehavior.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "calculateDelay",
+          "complete": true,
+          "method_info": {
+            "start_line": 196,
+            "end_line": 204,
+            "size_lines": 9,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "calculateIsError",
+          "complete": true,
+          "method_info": {
+            "start_line": 188,
+            "end_line": 190,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "calculateIsFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 180,
+            "end_line": 182,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "delay",
+          "complete": true,
+          "method_info": {
+            "start_line": 91,
+            "end_line": 93,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "errorPercent",
+          "complete": true,
+          "method_info": {
+            "start_line": 137,
+            "end_line": 139,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "failureException",
+          "complete": true,
+          "method_info": {
+            "start_line": 132,
+            "end_line": 134,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "failurePercent",
+          "complete": true,
+          "method_info": {
+            "start_line": 113,
+            "end_line": 115,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        },
+        {
+          "name": "setDelay",
+          "complete": true,
+          "method_info": {
+            "start_line": 83,
+            "end_line": 88,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "setErrorFactory",
+          "complete": true,
+          "method_info": {
+            "start_line": 152,
+            "end_line": 157,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "setErrorPercent",
+          "complete": true,
+          "method_info": {
+            "start_line": 142,
+            "end_line": 145,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "setFailureException",
+          "complete": true,
+          "method_info": {
+            "start_line": 124,
+            "end_line": 129,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "setFailurePercent",
+          "complete": true,
+          "method_info": {
+            "start_line": 107,
+            "end_line": 110,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "setVariancePercent",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 99,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "variancePercent",
+          "complete": true,
+          "method_info": {
+            "start_line": 102,
+            "end_line": 104,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "OkHttpCall.java",
+      "path": "retrofit/src/main/java/retrofit2/OkHttpCall.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "callFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 176,
+            "end_line": 185,
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "cancel",
+          "complete": true,
+          "method_info": {
+            "start_line": 257,
+            "end_line": 267,
+            "size_lines": 11,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "clone",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 68,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.16666666666666666
+          }
+        },
+        {
+          "name": "close",
+          "complete": true,
+          "method_info": {
+            "start_line": 342,
+            "end_line": 344,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 294,
+            "end_line": 296,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 332,
+            "end_line": 334,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 289,
+            "end_line": 291,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 327,
+            "end_line": 329,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "enqueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 119,
+            "end_line": 152,
+            "size_lines": 34,
+            "cyclomatic_complexity": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 20,
+            "commit_count": 20,
+            "fix_commit_count": 5,
+            "fix_ratio": 0.25
+          }
+        },
+        {
+          "name": "execute",
+          "complete": true,
+          "method_info": {
+            "start_line": 193,
+            "end_line": 208,
+            "size_lines": 16,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2222222222222222
+          }
+        },
+        {
+          "name": "isCanceled",
+          "complete": true,
+          "method_info": {
+            "start_line": 270,
+            "end_line": 277,
+            "size_lines": 8,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 172,
+            "end_line": 174,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 153,
+            "end_line": 171,
+            "size_lines": 19,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 11,
+            "commit_count": 11,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.18181818181818182
+          }
+        },
+        {
+          "name": "read",
+          "complete": true,
+          "method_info": {
+            "start_line": 315,
+            "end_line": 324,
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "source",
+          "complete": true,
+          "method_info": {
+            "start_line": 299,
+            "end_line": 301,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "source",
+          "complete": true,
+          "method_info": {
+            "start_line": 337,
+            "end_line": 339,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OptionalConverter.java",
+      "path": "retrofit-converters/guava/src/main/java/retrofit/converter/guava/OptionalConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 33,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OptionalConverter.java",
+      "path": "retrofit-converters/java8/src/main/java/retrofit/converter/java8/OptionalConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 33,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OptionalConverterFactory.java",
+      "path": "retrofit/src/main/java/retrofit2/OptionalConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 70,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OPTIONS.java",
+      "path": "retrofit/src/main/java/retrofit2/http/OPTIONS.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit/src/main/java/retrofit2/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit/src/main/java/retrofit2/http/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-mock/src/main/java/retrofit2/mock/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/jaxb3/src/main/java/retrofit2/converter/jaxb3/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/guava/src/main/java/retrofit/converter/guava/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/scalars/src/main/java/retrofit2/converter/scalars/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/gson/src/main/java/retrofit2/converter/gson/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/jackson/src/main/java/retrofit2/converter/jackson/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/java8/src/main/java/retrofit/converter/java8/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/protobuf/src/main/java/retrofit2/converter/protobuf/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/jaxb/src/main/java/retrofit2/converter/jaxb/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/moshi/src/main/java/retrofit2/converter/moshi/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/wire/src/main/java/retrofit2/converter/wire/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-converters/simplexml/src/main/java/retrofit2/converter/simplexml/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "samples/src/main/java/com/example/retrofit/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-adapters/guava/src/main/java/retrofit2/adapter/guava/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-adapters/scala/src/main/java/retrofit2/adapter/scala/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-adapters/java8/src/main/java/retrofit2/adapter/java8/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ParameterHandler.java",
+      "path": "retrofit/src/main/java/retrofit2/ParameterHandler.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Part.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Part.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "PartMap.java",
+      "path": "retrofit/src/main/java/retrofit2/http/PartMap.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "PATCH.java",
+      "path": "retrofit/src/main/java/retrofit2/http/PATCH.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Path.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Path.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Platform.java",
+      "path": "retrofit/src/main/java/retrofit2/Platform.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "POST.java",
+      "path": "retrofit/src/main/java/retrofit2/http/POST.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ProtoConverterFactory.java",
+      "path": "retrofit-converters/protobuf/src/main/java/retrofit2/converter/protobuf/ProtoConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "withStreaming",
+          "complete": true,
+          "method_info": {
+            "start_line": 63,
+            "end_line": 65,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ProtoRequestBodyConverter.java",
+      "path": "retrofit-converters/protobuf/src/main/java/retrofit2/converter/protobuf/ProtoRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 40,
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ProtoResponseBodyConverter.java",
+      "path": "retrofit-converters/protobuf/src/main/java/retrofit2/converter/protobuf/ProtoResponseBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 49,
+            "size_lines": 12,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.125
+          }
+        }
+      ]
+    },
+    {
+      "name": "ProtoStreamingRequestBody.java",
+      "path": "retrofit-converters/protobuf/src/main/java/retrofit2/converter/protobuf/ProtoStreamingRequestBody.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 36,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 39,
+            "end_line": 41,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PUT.java",
+      "path": "retrofit/src/main/java/retrofit2/http/PUT.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Query.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Query.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "QueryMap.java",
+      "path": "retrofit/src/main/java/retrofit2/http/QueryMap.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "QueryName.java",
+      "path": "retrofit/src/main/java/retrofit2/http/QueryName.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Reflection.java",
+      "path": "retrofit/src/main/java/retrofit2/Reflection.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RequestBuilder.java",
+      "path": "retrofit/src/main/java/retrofit2/RequestBuilder.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 289,
+            "end_line": 291,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 284,
+            "end_line": 286,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 294,
+            "end_line": 296,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RequestFactory.java",
+      "path": "retrofit/src/main/java/retrofit2/RequestFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "parseAnnotations",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 68,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "parseHeaders",
+          "complete": true,
+          "method_info": {
+            "start_line": 304,
+            "end_line": 824,
+            "size_lines": 521,
+            "cyclomatic_complexity": 75
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 22,
+            "commit_count": 22,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "parseHttpMethodAndPath",
+          "complete": true,
+          "method_info": {
+            "start_line": 270,
+            "end_line": 302,
+            "size_lines": 33,
+            "cyclomatic_complexity": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 17,
+            "commit_count": 17,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "parseMethodAnnotation",
+          "complete": true,
+          "method_info": {
+            "start_line": 232,
+            "end_line": 269,
+            "size_lines": 38,
+            "cyclomatic_complexity": 5
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 30,
+            "commit_count": 30,
+            "fix_commit_count": 3,
+            "fix_ratio": 0.1
+          }
+        },
+        {
+          "name": "parsePathParameters",
+          "complete": true,
+          "method_info": {
+            "start_line": 851,
+            "end_line": 858,
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 13,
+            "commit_count": 13,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "validatePathName",
+          "complete": true,
+          "method_info": {
+            "start_line": 832,
+            "end_line": 845,
+            "size_lines": 14,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 11,
+            "commit_count": 11,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "validateResolvableType",
+          "complete": true,
+          "method_info": {
+            "start_line": 825,
+            "end_line": 830,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Response.java",
+      "path": "retrofit/src/main/java/retrofit2/Response.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "code",
+          "complete": true,
+          "method_info": {
+            "start_line": 131,
+            "end_line": 133,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "headers",
+          "complete": true,
+          "method_info": {
+            "start_line": 141,
+            "end_line": 143,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isSuccessful",
+          "complete": true,
+          "method_info": {
+            "start_line": 146,
+            "end_line": 148,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "message",
+          "complete": true,
+          "method_info": {
+            "start_line": 136,
+            "end_line": 138,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 161,
+            "end_line": 163,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ResponseCallAdapter.java",
+      "path": "retrofit-adapters/scala/src/main/java/retrofit2/adapter/scala/ResponseCallAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 39,
+            "end_line": 44,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onFailure",
+          "complete": true,
+          "method_info": {
+            "start_line": 50,
+            "end_line": 52,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 45,
+            "end_line": 47,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 36,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Result.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/Result.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "isError",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Result.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/Result.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "isError",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Result.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/Result.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "isError",
+          "complete": true,
+          "method_info": {
+            "start_line": 65,
+            "end_line": 67,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 75,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ResultObservable.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/ResultObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "onComplete",
+          "complete": true,
+          "method_info": {
+            "start_line": 72,
+            "end_line": 74,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 71,
+            "size_lines": 16,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onSubscribe",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 48,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 36,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ResultObservable.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/ResultObservable.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "onComplete",
+          "complete": true,
+          "method_info": {
+            "start_line": 72,
+            "end_line": 74,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 71,
+            "size_lines": 16,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 53,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onSubscribe",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 48,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "subscribeActual",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 36,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ResultOnSubscribe.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/ResultOnSubscribe.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "call",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 38,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onCompleted",
+          "complete": true,
+          "method_info": {
+            "start_line": 75,
+            "end_line": 77,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "onError",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 74,
+            "size_lines": 21,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "onNext",
+          "complete": true,
+          "method_info": {
+            "start_line": 49,
+            "end_line": 51,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Retrofit.java",
+      "path": "retrofit/src/main/java/retrofit2/Retrofit.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "addCallAdapterFactory",
+          "complete": true,
+          "method_info": {
+            "start_line": 627,
+            "end_line": 630,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "addConverterFactory",
+          "complete": true,
+          "method_info": {
+            "start_line": 618,
+            "end_line": 621,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.14285714285714285
+          }
+        },
+        {
+          "name": "baseUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 274,
+            "end_line": 276,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "baseUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 542,
+            "end_line": 545,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "baseUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 552,
+            "end_line": 555,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "baseUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 607,
+            "end_line": 615,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "build",
+          "complete": true,
+          "method_info": {
+            "start_line": 669,
+            "end_line": 714,
+            "size_lines": 46,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 49,
+            "commit_count": 49,
+            "fix_commit_count": 4,
+            "fix_ratio": 0.08163265306122448
+          }
+        },
+        {
+          "name": "callFactory",
+          "complete": true,
+          "method_info": {
+            "start_line": 532,
+            "end_line": 535,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "callbackExecutor",
+          "complete": true,
+          "method_info": {
+            "start_line": 639,
+            "end_line": 642,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "client",
+          "complete": true,
+          "method_info": {
+            "start_line": 523,
+            "end_line": 525,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.125
+          }
+        },
+        {
+          "name": "newBuilder",
+          "complete": true,
+          "method_info": {
+            "start_line": 473,
+            "end_line": 475,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "validateEagerly",
+          "complete": true,
+          "method_info": {
+            "start_line": 658,
+            "end_line": 661,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "validateServiceInterface",
+          "complete": true,
+          "method_info": {
+            "start_line": 182,
+            "end_line": 212,
+            "size_lines": 31,
+            "cyclomatic_complexity": 11
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 13,
+            "commit_count": 13,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.15384615384615385
+          }
+        }
+      ]
+    },
+    {
+      "name": "RxJava2CallAdapter.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/RxJava2CallAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 99,
+            "size_lines": 34,
+            "cyclomatic_complexity": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.4
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 63,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RxJava2CallAdapterFactory.java",
+      "path": "retrofit-adapters/rxjava2/src/main/java/retrofit2/adapter/rxjava2/RxJava2CallAdapterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RxJava3CallAdapter.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/RxJava3CallAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 99,
+            "size_lines": 34,
+            "cyclomatic_complexity": 8
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 63,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RxJava3CallAdapterFactory.java",
+      "path": "retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/RxJava3CallAdapterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RxJavaCallAdapter.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/RxJavaCallAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 59,
+            "end_line": 85,
+            "size_lines": 27,
+            "cyclomatic_complexity": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 14,
+            "commit_count": 14,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.07142857142857142
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 56,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RxJavaCallAdapterFactory.java",
+      "path": "retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/RxJavaCallAdapterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "RxJavaObserveOnMainThread.java",
+      "path": "samples/src/main/java/com/example/retrofit/RxJavaObserveOnMainThread.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "adapt",
+          "complete": true,
+          "method_info": {
+            "start_line": 69,
+            "end_line": 74,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "responseType",
+          "complete": true,
+          "method_info": {
+            "start_line": 77,
+            "end_line": 79,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ScalaCallAdapterFactory.java",
+      "path": "retrofit-adapters/scala/src/main/java/retrofit2/adapter/scala/ScalaCallAdapterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ScalarRequestBodyConverter.java",
+      "path": "retrofit-converters/scalars/src/main/java/retrofit2/converter/scalars/ScalarRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 30,
+            "end_line": 32,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ScalarResponseBodyConverters.java",
+      "path": "retrofit-converters/scalars/src/main/java/retrofit2/converter/scalars/ScalarResponseBodyConverters.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 29,
+            "end_line": 31,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 40,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 49,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 63,
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 72,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 79,
+            "end_line": 81,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 88,
+            "end_line": 90,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 97,
+            "end_line": 99,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 106,
+            "end_line": 108,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ScalarsConverterFactory.java",
+      "path": "retrofit-converters/scalars/src/main/java/retrofit2/converter/scalars/ScalarsConverterFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ServiceMethod.java",
+      "path": "retrofit/src/main/java/retrofit2/ServiceMethod.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SimpleMockService.java",
+      "path": "samples/src/main/java/com/example/retrofit/SimpleMockService.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contributors",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 52,
+            "size_lines": 11,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2222222222222222
+          }
+        }
+      ]
+    },
+    {
+      "name": "SimpleService.java",
+      "path": "samples/src/main/java/com/example/retrofit/SimpleService.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SimpleXmlConverterFactory.java",
+      "path": "retrofit-converters/simplexml/src/main/java/retrofit2/converter/simplexml/SimpleXmlConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "isStrict",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 70,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SimpleXmlRequestBodyConverter.java",
+      "path": "retrofit-converters/simplexml/src/main/java/retrofit2/converter/simplexml/SimpleXmlRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 50,
+            "size_lines": 14,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 13,
+            "commit_count": 13,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SimpleXmlResponseBodyConverter.java",
+      "path": "retrofit-converters/simplexml/src/main/java/retrofit2/converter/simplexml/SimpleXmlResponseBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 50,
+            "size_lines": 16,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SkipCallbackExecutor.java",
+      "path": "retrofit/src/main/java/retrofit2/SkipCallbackExecutor.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SkipCallbackExecutorImpl.java",
+      "path": "retrofit/src/main/java/retrofit2/SkipCallbackExecutorImpl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "ensurePresent",
+          "complete": true,
+          "method_info": {
+            "start_line": 24,
+            "end_line": 34,
+            "size_lines": 11,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 44,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 47,
+            "end_line": 49,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 52,
+            "end_line": 54,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Streaming.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Streaming.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Tag.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Tag.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Url.java",
+      "path": "retrofit/src/main/java/retrofit2/http/Url.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Utils.java",
+      "path": "retrofit/src/main/java/retrofit2/Utils.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "buffer",
+          "complete": true,
+          "method_info": {
+            "start_line": 328,
+            "end_line": 332,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "checkNotPrimitive",
+          "complete": true,
+          "method_info": {
+            "start_line": 312,
+            "end_line": 316,
+            "size_lines": 5,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 109,
+            "end_line": 158,
+            "size_lines": 50,
+            "cyclomatic_complexity": 12
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 424,
+            "end_line": 426,
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 461,
+            "end_line": 463,
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "equals",
+          "complete": true,
+          "method_info": {
+            "start_line": 514,
+            "end_line": 516,
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getActualTypeArguments",
+          "complete": true,
+          "method_info": {
+            "start_line": 409,
+            "end_line": 411,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getGenericComponentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 456,
+            "end_line": 458,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getGenericSupertype",
+          "complete": true,
+          "method_info": {
+            "start_line": 159,
+            "end_line": 197,
+            "size_lines": 39,
+            "cyclomatic_complexity": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getLowerBounds",
+          "complete": true,
+          "method_info": {
+            "start_line": 509,
+            "end_line": 511,
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getParameterLowerBound",
+          "complete": true,
+          "method_info": {
+            "start_line": 347,
+            "end_line": 353,
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getParameterUpperBound",
+          "complete": true,
+          "method_info": {
+            "start_line": 334,
+            "end_line": 345,
+            "size_lines": 12,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 7,
+            "commit_count": 7,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getRawType",
+          "complete": true,
+          "method_info": {
+            "start_line": 414,
+            "end_line": 416,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getSupertype",
+          "complete": true,
+          "method_info": {
+            "start_line": 209,
+            "end_line": 213,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "getUpperBounds",
+          "complete": true,
+          "method_info": {
+            "start_line": 504,
+            "end_line": 506,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hasUnresolvableType",
+          "complete": true,
+          "method_info": {
+            "start_line": 355,
+            "end_line": 384,
+            "size_lines": 30,
+            "cyclomatic_complexity": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 429,
+            "end_line": 433,
+            "size_lines": 5,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 466,
+            "end_line": 468,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "hashCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 519,
+            "end_line": 522,
+            "size_lines": 4,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isAnnotationPresent",
+          "complete": true,
+          "method_info": {
+            "start_line": 319,
+            "end_line": 326,
+            "size_lines": 8,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "isUnit",
+          "complete": true,
+          "method_info": {
+            "start_line": 547,
+            "end_line": 557,
+            "size_lines": 11,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "methodError",
+          "complete": true,
+          "method_info": {
+            "start_line": 43,
+            "end_line": 45,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "parameterError",
+          "complete": true,
+          "method_info": {
+            "start_line": 66,
+            "end_line": 69,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 9,
+            "commit_count": 9,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.1111111111111111
+          }
+        },
+        {
+          "name": "resolve",
+          "complete": true,
+          "method_info": {
+            "start_line": 215,
+            "end_line": 311,
+            "size_lines": 97,
+            "cyclomatic_complexity": 17
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "throwIfFatal",
+          "complete": true,
+          "method_info": {
+            "start_line": 534,
+            "end_line": 546,
+            "size_lines": 13,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 436,
+            "end_line": 445,
+            "size_lines": 10,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 471,
+            "end_line": 473,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 525,
+            "end_line": 529,
+            "size_lines": 5,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "typeToString",
+          "complete": true,
+          "method_info": {
+            "start_line": 198,
+            "end_line": 200,
+            "size_lines": 3,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WireConverterFactory.java",
+      "path": "retrofit-converters/wire/src/main/java/retrofit2/converter/wire/WireConverterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "withStreaming",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 58,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WireRequestBodyConverter.java",
+      "path": "retrofit-converters/wire/src/main/java/retrofit2/converter/wire/WireRequestBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 38,
+            "end_line": 46,
+            "size_lines": 9,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WireResponseBodyConverter.java",
+      "path": "retrofit-converters/wire/src/main/java/retrofit2/converter/wire/WireResponseBodyConverter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "convert",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 40,
+            "size_lines": 8,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WireStreamingRequestBody.java",
+      "path": "retrofit-converters/wire/src/main/java/retrofit2/converter/wire/WireStreamingRequestBody.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 39,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 44,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
