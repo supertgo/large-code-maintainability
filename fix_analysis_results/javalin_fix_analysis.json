@@ -52,7 +52,8 @@
           "method_info": {
             "start_line": 71,
             "end_line": 73,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 5,
@@ -67,7 +68,8 @@
           "method_info": {
             "start_line": 38,
             "end_line": 40,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 8,
@@ -82,7 +84,8 @@
           "method_info": {
             "start_line": 136,
             "end_line": 138,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 12,
@@ -97,7 +100,8 @@
           "method_info": {
             "start_line": 85,
             "end_line": 88,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -112,7 +116,8 @@
           "method_info": {
             "start_line": 99,
             "end_line": 102,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 12,
@@ -127,7 +132,8 @@
           "method_info": {
             "start_line": 112,
             "end_line": 115,
-            "size_lines": 4
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 85,
@@ -142,7 +148,8 @@
           "method_info": {
             "start_line": 122,
             "end_line": 128,
-            "size_lines": 7
+            "size_lines": 7,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 23,
@@ -194,7 +201,8 @@
           "method_info": {
             "start_line": 58,
             "end_line": 84,
-            "size_lines": 27
+            "size_lines": 27,
+            "cyclomatic_complexity": 3
           },
           "codeshovel_analysis": {
             "total_changes_count": 4,
@@ -209,7 +217,8 @@
           "method_info": {
             "start_line": 103,
             "end_line": 112,
-            "size_lines": 10
+            "size_lines": 10,
+            "cyclomatic_complexity": 4
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -224,7 +233,8 @@
           "method_info": {
             "start_line": 85,
             "end_line": 102,
-            "size_lines": 18
+            "size_lines": 18,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 3,
@@ -246,7 +256,8 @@
           "method_info": {
             "start_line": 45,
             "end_line": 47,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 6,
@@ -261,7 +272,8 @@
           "method_info": {
             "start_line": 56,
             "end_line": 58,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 12,
@@ -276,7 +288,8 @@
           "method_info": {
             "start_line": 27,
             "end_line": 29,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 12,
@@ -291,7 +304,8 @@
           "method_info": {
             "start_line": 64,
             "end_line": 66,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 12,
@@ -306,7 +320,8 @@
           "method_info": {
             "start_line": 36,
             "end_line": 38,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 12,
@@ -321,7 +336,8 @@
           "method_info": {
             "start_line": 73,
             "end_line": 75,
-            "size_lines": 3
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
           },
           "codeshovel_analysis": {
             "total_changes_count": 1,
