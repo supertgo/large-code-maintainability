@@ -1,0 +1,1463 @@
+{
+  "name": "okhttp",
+  "complete": false,
+  "files": [
+    {
+      "name": "AccessHeaders.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/AccessHeaders.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 41,
+            "size_lines": 16,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "AsynchronousGet.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/AsynchronousGet.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 30,
+            "end_line": 58,
+            "size_lines": 29,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "Authenticate.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/Authenticate.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 44,
+            "end_line": 54,
+            "size_lines": 11,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CacheResponse.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CacheResponse.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 63,
+            "size_lines": 27,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CancelCall.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CancelCall.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 59,
+            "size_lines": 29,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CertificatePinning.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CertificatePinning.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 45,
+            "size_lines": 13,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CheckHandshake.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CheckHandshake.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 49,
+            "end_line": 59,
+            "size_lines": 11,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ClientAndServer.java",
+      "path": "samples/unixdomainsockets/src/main/java/okhttp3/unixdomainsockets/ClientAndServer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 57,
+            "size_lines": 26,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "ConfigureTimeouts.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/ConfigureTimeouts.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 43,
+            "size_lines": 9,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Crawler.java",
+      "path": "samples/crawler/src/main/java/okhttp3/sample/Crawler.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "drainQueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 70,
+            "end_line": 88,
+            "size_lines": 19,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "fetch",
+          "complete": true,
+          "method_info": {
+            "start_line": 89,
+            "end_line": 128,
+            "size_lines": 40,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 12,
+            "commit_count": 12,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.08333333333333333
+          }
+        },
+        {
+          "name": "parallelDrainQueue",
+          "complete": true,
+          "method_info": {
+            "start_line": 56,
+            "end_line": 69,
+            "size_lines": 14,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "CurrentDateHeader.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CurrentDateHeader.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 39,
+            "size_lines": 9,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CustomCipherSuites.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CustomCipherSuites.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "configureSocket",
+          "complete": true,
+          "method_info": {
+            "start_line": 150,
+            "end_line": 152,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "defaultSslSocketFactory",
+          "complete": true,
+          "method_info": {
+            "start_line": 78,
+            "end_line": 84,
+            "size_lines": 7,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "defaultTrustManager",
+          "complete": true,
+          "method_info": {
+            "start_line": 87,
+            "end_line": 97,
+            "size_lines": 11,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "javaNames",
+          "complete": true,
+          "method_info": {
+            "start_line": 99,
+            "end_line": 105,
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 155,
+            "end_line": 166,
+            "size_lines": 12,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CustomTrust.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/CustomTrust.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 145,
+            "end_line": 162,
+            "size_lines": 18,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "name": "GetExample.java",
+      "path": "samples/guide/src/main/java/okhttp3/guide/GetExample.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "HttpsServer.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/HttpsServer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 56,
+            "size_lines": 25,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "LoggingInterceptors.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/LoggingInterceptors.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 38,
+            "size_lines": 8,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "module-info.java",
+      "path": "mockwebserver-deprecated/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "mockwebserver-junit4/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-coroutines/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-logging-interceptor/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp/src/jvmMain/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-java-net-cookiejar/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-dnsoverhttps/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "mockwebserver-junit5/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-urlconnection/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "mockwebserver/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-sse/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-brotli/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "module-info.java",
+      "path": "okhttp-tls/src/main/java9/module-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "OAuthSession.java",
+      "path": "samples/slack/src/main/java/okhttp3/slack/OAuthSession.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "OAuthSessionFactory.java",
+      "path": "samples/slack/src/main/java/okhttp3/slack/OAuthSessionFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "newAuthorizeUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 57,
+            "end_line": 66,
+            "size_lines": 10,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "randomToken",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 72,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "redirectUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 74,
+            "end_line": 76,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "start",
+          "complete": true,
+          "method_info": {
+            "start_line": 49,
+            "end_line": 55,
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OkHttpContributors.java",
+      "path": "samples/simple-client/src/main/java/okhttp3/sample/OkHttpContributors.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "ParseResponseWithMoshi.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/ParseResponseWithMoshi.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 45,
+            "size_lines": 15,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PerCallSettings.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PerCallSettings.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 27,
+            "end_line": 56,
+            "size_lines": 30,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 6,
+            "commit_count": 6,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.16666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "name": "PostExample.java",
+      "path": "samples/guide/src/main/java/okhttp3/guide/PostExample.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "PostFile.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PostFile.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 45,
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PostForm.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PostForm.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 28,
+            "end_line": 42,
+            "size_lines": 15,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PostMultipart.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PostMultipart.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 59,
+            "size_lines": 23,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 10,
+            "commit_count": 10,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "PostStreaming.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PostStreaming.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "factor",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 52,
+            "size_lines": 7,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 45,
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PostStreamingWithPipe.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PostStreamingWithPipe.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "factor",
+          "complete": true,
+          "method_info": {
+            "start_line": 68,
+            "end_line": 74,
+            "size_lines": 7,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 34,
+            "end_line": 49,
+            "size_lines": 16,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "sink",
+          "complete": true,
+          "method_info": {
+            "start_line": 89,
+            "end_line": 91,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "streamPrimesToSinkAsynchronously",
+          "complete": true,
+          "method_info": {
+            "start_line": 51,
+            "end_line": 67,
+            "size_lines": 17,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PostString.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PostString.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 50,
+            "size_lines": 20,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PreemptiveAuth.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PreemptiveAuth.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 45,
+            "size_lines": 11,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PrintEvents.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PrintEvents.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "printEvent",
+          "complete": true,
+          "method_info": {
+            "start_line": 96,
+            "end_line": 99,
+            "size_lines": 4,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 41,
+            "end_line": 95,
+            "size_lines": 55,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PrintEventsNonConcurrent.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/PrintEventsNonConcurrent.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "printEvent",
+          "complete": true,
+          "method_info": {
+            "start_line": 67,
+            "end_line": 74,
+            "size_lines": 8,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 58,
+            "size_lines": 17,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Progress.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/Progress.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 107,
+            "size_lines": 76,
+            "cyclomatic_complexity": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 8,
+            "commit_count": 8,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "source",
+          "complete": true,
+          "method_info": {
+            "start_line": 108,
+            "end_line": 121,
+            "size_lines": 14,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RequestBodyCompression.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/RequestBodyCompression.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 48,
+            "end_line": 63,
+            "size_lines": 16,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 5,
+            "commit_count": 5,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RewriteResponseCacheControl.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/RewriteResponseCacheControl.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 46,
+            "end_line": 79,
+            "size_lines": 34,
+            "cyclomatic_complexity": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RtmSession.java",
+      "path": "samples/slack/src/main/java/okhttp3/slack/RtmSession.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "open",
+          "complete": true,
+          "method_info": {
+            "start_line": 35,
+            "end_line": 40,
+            "size_lines": 6,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "RtmStartResponse.java",
+      "path": "samples/slack/src/main/java/okhttp3/slack/RtmStartResponse.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "SampleServer.java",
+      "path": "samples/static-server/src/main/java/okhttp3/sample/SampleServer.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 92,
+            "end_line": 100,
+            "size_lines": 9,
+            "cyclomatic_complexity": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "directoryToResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 77,
+            "size_lines": 17,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "fileToBytes",
+          "complete": true,
+          "method_info": {
+            "start_line": 86,
+            "end_line": 90,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "fileToResponse",
+          "complete": true,
+          "method_info": {
+            "start_line": 79,
+            "end_line": 84,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 37,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SlackApi.java",
+      "path": "samples/slack/src/main/java/okhttp3/slack/SlackApi.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "authorizeUrl",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 73,
+            "size_lines": 13,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "exchangeCode",
+          "complete": true,
+          "method_info": {
+            "start_line": 76,
+            "end_line": 91,
+            "size_lines": 16,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "rtm",
+          "complete": true,
+          "method_info": {
+            "start_line": 109,
+            "end_line": 113,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        },
+        {
+          "name": "rtmStart",
+          "complete": true,
+          "method_info": {
+            "start_line": 94,
+            "end_line": 106,
+            "size_lines": 13,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SlackClient.java",
+      "path": "samples/slack/src/main/java/okhttp3/slack/SlackClient.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "requestOauthSession",
+          "complete": true,
+          "method_info": {
+            "start_line": 36,
+            "end_line": 63,
+            "size_lines": 28,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "startRtm",
+          "complete": true,
+          "method_info": {
+            "start_line": 64,
+            "end_line": 72,
+            "size_lines": 9,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SynchronousGet.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/SynchronousGet.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 27,
+            "end_line": 42,
+            "size_lines": 16,
+            "cyclomatic_complexity": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "name": "TunnelingUnixSocket.java",
+      "path": "samples/unixdomainsockets/src/main/java/okhttp3/unixdomainsockets/TunnelingUnixSocket.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "UnixDomainServerSocketFactory.java",
+      "path": "samples/unixdomainsockets/src/main/java/okhttp3/unixdomainsockets/UnixDomainServerSocketFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "UnixDomainSocketFactory.java",
+      "path": "samples/unixdomainsockets/src/main/java/okhttp3/unixdomainsockets/UnixDomainSocketFactory.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "UploadProgress.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/UploadProgress.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "close",
+          "complete": true,
+          "method_info": {
+            "start_line": 124,
+            "end_line": 130,
+            "size_lines": 7,
+            "cyclomatic_complexity": 2
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentLength",
+          "complete": true,
+          "method_info": {
+            "start_line": 100,
+            "end_line": 102,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "contentType",
+          "complete": true,
+          "method_info": {
+            "start_line": 95,
+            "end_line": 97,
+            "size_lines": 3,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 37,
+            "end_line": 94,
+            "size_lines": 58,
+            "cyclomatic_complexity": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "sink",
+          "complete": true,
+          "method_info": {
+            "start_line": 111,
+            "end_line": 116,
+            "size_lines": 6,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "write",
+          "complete": true,
+          "method_info": {
+            "start_line": 117,
+            "end_line": 121,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "writeTo",
+          "complete": true,
+          "method_info": {
+            "start_line": 105,
+            "end_line": 109,
+            "size_lines": 5,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WebSocketEcho.java",
+      "path": "samples/guide/src/main/java/okhttp3/recipes/WebSocketEcho.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 12,
+            "end_line": 24,
+            "size_lines": 13,
+            "cyclomatic_complexity": 1
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 13,
+            "commit_count": 13,
+            "fix_commit_count": 2,
+            "fix_ratio": 0.15384615384615385
+          }
+        }
+      ]
+    }
+  ]
+}
