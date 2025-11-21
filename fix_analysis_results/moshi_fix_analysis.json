@@ -1,0 +1,710 @@
+{
+  "name": "moshi",
+  "complete": false,
+  "files": [
+    {
+      "name": "BlackjackHand.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/models/BlackjackHand.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 30,
+            "end_line": 32,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ByteStrings.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/ByteStrings.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "fromJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 42,
+            "end_line": 45,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 34,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "toJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 48,
+            "end_line": 51,
+            "size_lines": 4
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Card.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/models/Card.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 28,
+            "end_line": 30,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CardAdapter.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/CardAdapter.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "CustomAdapterFactory.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/CustomAdapterFactory.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "fromJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 61,
+            "end_line": 69,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 45,
+            "size_lines": 13
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        },
+        {
+          "name": "toJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 72,
+            "end_line": 78,
+            "size_lines": 7
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 1,
+            "fix_ratio": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CustomAdapterWithDelegate.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/CustomAdapterWithDelegate.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 27,
+            "end_line": 36,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CustomFieldName.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/CustomFieldName.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 23,
+            "end_line": 31,
+            "size_lines": 9
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CustomQualifier.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/CustomQualifier.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 28,
+            "end_line": 42,
+            "size_lines": 15
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 54,
+            "end_line": 56,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CustomTypeAdapter.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/CustomTypeAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 23,
+            "end_line": 39,
+            "size_lines": 17
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "DefaultOnDataMismatchAdapter.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/DefaultOnDataMismatchAdapter.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "fromJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 39,
+            "end_line": 56,
+            "size_lines": 18
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 57,
+            "end_line": 59,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "FallbackEnum.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/FallbackEnum.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "fromJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 90,
+            "end_line": 95,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 98,
+            "end_line": 100,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 103,
+            "end_line": 105,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 124,
+            "end_line": 126,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "FromJsonWithoutStrings.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/FromJsonWithoutStrings.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 24,
+            "end_line": 42,
+            "size_lines": 19
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 59,
+            "end_line": 68,
+            "size_lines": 10
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 4,
+            "commit_count": 4,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "IncludeNullsForAnnotatedTypes.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/IncludeNullsForAnnotatedTypes.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 31,
+            "end_line": 47,
+            "size_lines": 17
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "IncludeNullsForOneType.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/IncludeNullsForOneType.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 28,
+            "end_line": 40,
+            "size_lines": 13
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MultipleFormats.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/MultipleFormats.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 33,
+            "end_line": 48,
+            "size_lines": 16
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "package-info.java",
+      "path": "moshi/src/main/java/com/squareup/moshi/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "package-info.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/package-info.java",
+      "complete": true,
+      "methods": []
+    },
+    {
+      "name": "Player.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/models/Player.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 30,
+            "end_line": 32,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ReadAndWriteRfc3339Dates.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/ReadAndWriteRfc3339Dates.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "newDate",
+          "complete": true,
+          "method_info": {
+            "start_line": 53,
+            "end_line": 58,
+            "size_lines": 6
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 29,
+            "end_line": 47,
+            "size_lines": 19
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ReadJson.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/ReadJson.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 23,
+            "end_line": 48,
+            "size_lines": 26
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ReadJsonList.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/ReadJsonList.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 26,
+            "end_line": 51,
+            "size_lines": 26
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 3,
+            "commit_count": 3,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RecoverFromTypeMismatch.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/RecoverFromTypeMismatch.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 25,
+            "end_line": 37,
+            "size_lines": 13
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Suit.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/models/Suit.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 25,
+            "end_line": 27,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tournament.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/models/Tournament.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "toString",
+          "complete": true,
+          "method_info": {
+            "start_line": 32,
+            "end_line": 34,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Unwrap.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/Unwrap.java",
+      "complete": true,
+      "methods": [
+        {
+          "name": "fromJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 92,
+            "end_line": 94,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 1,
+            "commit_count": 1,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        },
+        {
+          "name": "toJson",
+          "complete": true,
+          "method_info": {
+            "start_line": 97,
+            "end_line": 99,
+            "size_lines": 3
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 1,
+            "fix_ratio": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "WriteJson.java",
+      "path": "examples/src/main/java/com/squareup/moshi/recipes/WriteJson.java",
+      "complete": false,
+      "methods": [
+        {
+          "name": "run",
+          "complete": true,
+          "method_info": {
+            "start_line": 29,
+            "end_line": 39,
+            "size_lines": 11
+          },
+          "codeshovel_analysis": {
+            "total_changes_count": 2,
+            "commit_count": 2,
+            "fix_commit_count": 0,
+            "fix_ratio": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
