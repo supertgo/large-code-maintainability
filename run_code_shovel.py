@@ -6,6 +6,7 @@ import json
 import logging
 import subprocess
 import os
+from quality_metrics_extension import CodeQualityAnalyzer
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -138,6 +139,9 @@ def get_code_shovel_data(repository: Path, file_path: Path, method_name: str, st
     return None
 
 def run_codeshovel(repository: Path, result_path: Path):
+    # Criar analisador de qualidade para calcular complexidade ciclomática
+    quality_analyzer = CodeQualityAnalyzer(str(repository.parent))
+    
     with open(result_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -151,7 +155,11 @@ def run_codeshovel(repository: Path, result_path: Path):
                 methods_completed += 1
                 continue
 
-            codeshovel_data = get_code_shovel_data(repository, file["path"], method["name"], method["method_info"]["start_line"])
+            method_info = method.get("method_info", {})
+            start_line = method_info.get("start_line", 0)
+            end_line = method_info.get("end_line", 0)
+
+            codeshovel_data = get_code_shovel_data(repository, file["path"], method["name"], start_line)
             if codeshovel_data is not None:
                 method["complete"] = True
                 methods_completed += 1
@@ -163,6 +171,20 @@ def run_codeshovel(repository: Path, result_path: Path):
                     all_changes = list(
                         codeshovel_data["changeHistoryDetails"].values()
                     )
+
+                # Calcular complexidade ciclomática
+                try:
+                    source_code = quality_analyzer.get_method_source_code(
+                        repository / file["path"], start_line, end_line
+                    )
+                    cyclomatic_complexity = quality_analyzer.calculate_cyclomatic_complexity(source_code)
+                    # Atualizar method_info com a complexidade calculada
+                    method_info["cyclomatic_complexity"] = cyclomatic_complexity
+                    method["method_info"] = method_info
+                except Exception as e:
+                    logger.warning(f"Erro ao calcular complexidade para {method['name']}: {e}")
+                    method_info["cyclomatic_complexity"] = 1
+                    method["method_info"] = method_info
 
                 codeshovel_info = CodeShovelMethodInfo(
                     commit_count = total_commits,

@@ -130,25 +130,55 @@ class CodeQualityAnalyzer:
         Calcula complexidade ciclomática
         CC = 1 + número de pontos de decisão
         """
+        if not source_code or not source_code.strip():
+            return 1
+
         complexity = 1  # Complexidade base
 
-        # Palavras-chave que aumentam complexidade
-        decision_keywords = [
-            r"\bif\b",
-            r"\belse\s+if\b",
-            r"\bwhile\b",
-            r"\bfor\b",
-            r"\bswitch\b",
-            r"\bcase\b",
-            r"\bcatch\b",
-            r"\b\?\s*:",
-            r"\&\&",
-            r"\|\|",
-        ]
+        # Remover strings literais primeiro (para evitar matches dentro de strings)
+        # Remove strings com aspas duplas
+        source_code_no_strings = re.sub(r'"[^"]*"', '""', source_code)
+        # Remove strings com aspas simples (para chars)
+        source_code_no_strings = re.sub(r"'[^']*'", "''", source_code_no_strings)
 
-        for keyword_pattern in decision_keywords:
-            matches = re.findall(keyword_pattern, source_code, re.IGNORECASE)
-            complexity += len(matches)
+        # Remover comentários de linha
+        source_code_no_comments = re.sub(r'//.*?$', '', source_code_no_strings, flags=re.MULTILINE)
+        # Remover comentários de bloco
+        source_code_clean = re.sub(r'/\*.*?\*/', '', source_code_no_comments, flags=re.DOTALL)
+
+        # Contar if (sem else if primeiro para evitar duplicação)
+        # Contar else if primeiro
+        else_if_matches = re.findall(r'\belse\s+if\s*\(', source_code_clean, re.IGNORECASE)
+        else_if_count = len(else_if_matches)
+        
+        # Remover else if temporariamente para contar apenas if normais
+        source_temp = re.sub(r'\belse\s+if\s*\(', '', source_code_clean, flags=re.IGNORECASE)
+        if_matches = re.findall(r'\bif\s*\(', source_temp, re.IGNORECASE)
+        complexity += len(if_matches)
+
+        # Contar loops e estruturas de controle
+        complexity += len(re.findall(r'\bwhile\s*\(', source_code_clean, re.IGNORECASE))
+        complexity += len(re.findall(r'\bfor\s*\(', source_code_clean, re.IGNORECASE))
+        complexity += len(re.findall(r'\bswitch\s*\(', source_code_clean, re.IGNORECASE))
+
+        # Contar cases no switch (cada case adiciona 1, exceto default)
+        case_matches = re.findall(r'\bcase\s+', source_code_clean, re.IGNORECASE)
+        complexity += len(case_matches)
+
+        # Contar catch blocks
+        catch_matches = re.findall(r'\bcatch\s*\(', source_code_clean, re.IGNORECASE)
+        complexity += len(catch_matches)
+
+        # Operador ternário (?:)
+        ternary_matches = re.findall(r'\?[^:]*:', source_code_clean)
+        complexity += len(ternary_matches)
+
+        # Operadores lógicos (&& e ||) - contar apenas fora de strings/comentários
+        and_matches = re.findall(r'&&', source_code_clean)
+        complexity += len(and_matches)
+        
+        or_matches = re.findall(r'\|\|', source_code_clean)
+        complexity += len(or_matches)
 
         return complexity
 
